@@ -39,7 +39,7 @@ class Palace_Law_Calc_Settings {
 	public function __construct ( $parent ) {
 		$this->parent = $parent;
 
-		$this->base = 'wpt_';
+		$this->base = 'plc_';
 
 		// Initialise settings
 		add_action( 'init', array( $this, 'init_settings' ), 11 );
@@ -67,7 +67,7 @@ class Palace_Law_Calc_Settings {
 	 * @return void
 	 */
 	public function add_menu_item () {
-		$page = add_options_page( __( 'Plugin Settings', 'palace-law-calc' ) , __( 'Plugin Settings', 'palace-law-calc' ) , 'manage_options' , $this->parent->_token . '_settings' ,  array( $this, 'settings_page' ) );
+		$page = add_options_page( __( 'Palace Law Calc Settings', 'palace-law-calc' ) , __( 'Palace Law Calc', 'palace-law-calc' ) , 'manage_options' , $this->parent->_token . '_settings' ,  array( $this, 'settings_page' ) );
 		add_action( 'admin_print_styles-' . $page, array( $this, 'settings_assets' ) );
 	}
 
@@ -107,6 +107,22 @@ class Palace_Law_Calc_Settings {
 	 */
 	private function settings_fields () {
 
+        $settings['standard'] = array(
+			'title'					=> __( 'Settings', 'palace-law-calc' ),
+			'description'			=> __( 'Settings to configure your Palace Law Workers Comp Calculator Plugin.', 'palace-law-calc' ),
+			'fields'				=> array(
+				array(
+					'id' 			=> 'leads_email',
+					'label'			=> __( 'Leads Email' , 'palace-law-calc' ),
+					'description'	=> __( 'Email which receives the leads', 'palace-law-calc' ),
+					'type'			=> 'text',
+					'default'		=> '',
+					'placeholder'	=> __( 'recipient@example.com', 'palace-law-calc' )
+				),
+			)
+		);
+
+        /*
 		$settings['standard'] = array(
 			'title'					=> __( 'Standard', 'palace-law-calc' ),
 			'description'			=> __( 'These are fairly standard form input fields.', 'palace-law-calc' ),
@@ -214,6 +230,7 @@ class Palace_Law_Calc_Settings {
 				)
 			)
 		);
+         */
 
 		$settings = apply_filters( $this->parent->_token . '_settings_fields', $settings );
 
@@ -278,7 +295,7 @@ class Palace_Law_Calc_Settings {
 
 		// Build page HTML
 		$html = '<div class="wrap" id="' . $this->parent->_token . '_settings">' . "\n";
-			$html .= '<h2>' . __( 'Plugin Settings' , 'palace-law-calc' ) . '</h2>' . "\n";
+			$html .= '<h2>' . __( 'Palace Law Calc Settings' , 'palace-law-calc' ) . '</h2>' . "\n";
 
 			$tab = '';
 			if ( isset( $_GET['tab'] ) && $_GET['tab'] ) {

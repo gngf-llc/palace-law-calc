@@ -107,6 +107,10 @@ class Palace_Law_Calc {
 		add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueue_scripts' ), 10, 1 );
 		add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueue_styles' ), 10, 1 );
 
+        // Specify Ajax actions
+        add_action( 'wp_ajax_nopriv_get_injury_rating_options', array( $this, 'get_injury_rating_options') ); #non-logged in user
+        add_action( 'wp_ajax_get_injury_rating_options', array( $this, 'get_injury_rating_options') ); #logged in user
+
 		// Load API for generic admin functions
 		if ( is_admin() ) {
 			$this->admin = new Palace_Law_Calc_Admin_API();
@@ -160,6 +164,7 @@ class Palace_Law_Calc {
 	public function enqueue_styles () {
 		wp_register_style( $this->_token . '-frontend', esc_url( $this->assets_url ) . 'css/frontend.css', array(), $this->_version );
 		wp_enqueue_style( $this->_token . '-frontend' );
+        wp_enqueue_style( 'plc_style', plugins_url( '/templates/plc_style.css', __FILE__ ) );
 	} // End enqueue_styles ()
 
 	/**
@@ -171,6 +176,12 @@ class Palace_Law_Calc {
 	public function enqueue_scripts () {
 		wp_register_script( $this->_token . '-frontend', esc_url( $this->assets_url ) . 'js/frontend' . $this->script_suffix . '.js', array( 'jquery' ), $this->_version );
 		wp_enqueue_script( $this->_token . '-frontend' );
+		wp_enqueue_script( 'plc_script', plugins_url( '/templates/plc_script.js', __FILE__), array('jquery'), '1.0', true );
+        // AJAX url
+        wp_localize_script( 'plc_script', 'plc_ajax_url', array(
+            'ajax_url' => admin_url( 'admin-ajax.php' )
+        ));
+
 	} // End enqueue_scripts ()
 
 	/**
@@ -293,33 +304,6 @@ class Palace_Law_Calc {
     }
 
     /**
-	 * Load the template css file
-	 * @access  public
-	 * @since   1.0.0
-	 * @return  css
-	 */
-    public function load_template_css()
-    {
-        echo '<style type="text/css">'."\n";
-            include(dirname(__FILE__).'/templates/plc_style.css');
-        echo '</style>'."\n";
-    }
-
-    /**
-	 * Load the template js file
-	 * @access  public
-	 * @since   1.0.0
-	 * @return  css
-	 */
-    public function load_template_js()
-    {
-        echo '<script type="text/javascript">'."\n";
-            include(dirname(__FILE__).'/templates/plc_script.js');
-        echo '</script>'."\n";
-        echo '<noscript><p>Please enable javascript</p></noscript>';
-    }
-
-    /**
 	 * Load the calculator page template html
 	 * @access  public
 	 * @since   1.0.0
@@ -361,17 +345,14 @@ class Palace_Law_Calc {
     public function setup_steps_wizard()
     {
         ob_start();
-            $this->load_template_css();
-            $this->load_template_js();
-
             if(isset($_POST['plc_submit']) && $_POST['plc_current_step'] == 'calc')
             {
-                $params = $this->results_page_submit_logic();
+                $params = $this->calc_page_submit_logic();
                 $this->load_results_template($params);
             }
             elseif(isset($_POST['plc_submit']) && $_POST['plc_current_step'] == 'results')
             {
-                //$this->thankyou_page_submit_logic();
+                $params = $this->results_page_submit_logic();
                 $this->load_thankyou_template();
             }
             else
@@ -400,91 +381,122 @@ class Palace_Law_Calc {
         $params['months'] = $months;
 
         #array of years
-        for($i=2000; $i<=date("Y"); $i++)
+        for($i=2010; $i<=date("Y"); $i++)
             $years[] = $i;
         $params['years'] = $years;
 
         #array of injuries
-        $params['injuries'] = Array('leg','arm','eye');
+        $injuries_list = Array('leg' => 'rating', 'arm' => 'percent', 'eye' => 'rating', 'foot' => 'percent');
+        foreach($injuries_list as $bodypart => $ratingtype)
+            $injury_options[] = "<option data-ratingtype=\"$ratingtype\">$bodypart</option>\n";
+        $params['injuries'] = $injury_options;
 
         #array of ratings
-        $params['ratings'] = Array(1,2,3,4,5,6);
+        $params['ratings'] = range(1,6);
 
         return $params;
     }
 
     /**
-	 * Process the form data and prepare for display on the results page
+	 * Process the form data from the calc page and prepare for display on the results page
+	 * @access  public
+	 * @since   1.0.0
+	 * @return  html & params
+	 */
+    public function calc_page_submit_logic()
+    {
+        if(!isset($_POST['plc_submit']))
+            return false;
+
+        echo "<pre>".print_r($_POST,true)."</pre>";
+        $params['value'] = "7,000";
+
+        return $params;
+    }
+
+    /**
+	 * Process the form data from the results page and prepare for display on the thank you page
 	 * @access  public
 	 * @since   1.0.0
 	 * @return  html
 	 */
     public function results_page_submit_logic()
     {
-        if(!isset($_POST['plc_submit']))
-            return false;
+        if(isset($_POST['plc_submit']))
+        {
+            //sanitize form values
+            $plc_first_name = sanitize_text_field( $_POST['plc_first_name'] );
+            $plc_last_name = sanitize_text_field( $_POST['plc_last_name'] );
+            $plc_email = sanitize_email( $_POST['plc_email'] );
+            $plc_phone = sanitize_text_field( $_POST['plc_phone'] );
+            $plc_message = esc_textarea( stripslashes( $_POST['plc_message'] ));
 
-echo "<pre>".print_r($_POST,true)."</pre>";
-        $params['value'] = "7,000";
+            $plc_phone = preg_replace('/\D/','',$plc_phone);
+            $plc_referrer = $_SERVER['HTTP_REFERER'];
+            $lead = compact('plc_first_name','plc_last_name','plc_email','plc_phone','plc_message','plc_referrer');
+            if($this->submit_lead($lead))
+            {
+                //echo "<h3 class='plc_success'>".get_option('plc_successful_submit_message')."</h3>";
+                unset($_POST);
+            }
+            else
+            {
+                echo "<h3 class='plc_failure'>Unfortunately an error has occured. Please try again later.</h3>";
+            }
+        }
+    }
+    /**
+	 * Used by Ajax call, it takes a body part and returns its rating and rating type
+	 * @access  public
+	 * @since   1.0.0
+	 * @return html
+	 */
+    public function get_injury_rating_options()
+    {
+        $injury_id = sanitize_text_field($_POST['injury_id']);
+        $a = Array('rating','percent');
+        $type = $a[mt_rand(0, count($a) - 1)];
+        $ratings = range(1,6);
 
-        return $params;
-        //if(isset($_POST['lf_submit']))
-        //{
-            ////sanitize form values
-            //$lf_first_name = sanitize_text_field( $_POST["lf_first_name"] );
-            //$lf_last_name = sanitize_text_field( $_POST["lf_last_name"] );
-            //$lf_email = sanitize_email( $_POST["lf_email"] );
-            //$lf_phone = sanitize_text_field( $_POST["lf_phone"] );
-            //$lf_message = esc_textarea( stripslashes( $_POST["lf_message"] ));
-            //$lf_honeypot = sanitize_text_field( $_POST["leave_this_blank_url"] );
-            //$lf_honeypot_time = sanitize_text_field( $_POST["leave_this_alone"] );
+        if($type == 'rating'):
+            ?>
+            <label class="label_rating" for="rating">Rating:</label>
+            <select name="plc_ratings[]" class="rating_select" required>
+                <option value="" disabled selected>Choose a Rating</option>
+                <?php foreach($ratings as $rating): ?>
+                    <option value="rating-<?php echo $rating; ?>"><?php echo $rating; ?></option>
+                <?php endforeach; ?>
+            </select>
+            <?php
+        elseif($type == 'percent'):
+            ?>
+            <label class="label_rating" for="rating">% Total Body Injury:</label>
+            <select name="plc_ratings[]" class="percentinjury_select" required>
+                <option value="" disabled selected>Choose a Percentage</option>
+                <?php //foreach($rating as $percent): ?>
+                <?php for($percent=10;$percent<=100;$percent+=10): ?>
+                    <option value="percent-<?php echo $percent; ?>"><?php echo $percent; ?>%</option>
+                <?php //endforeach; ?>
+                <?php endfor; ?>
+            </select>
+            <?php
+        endif;
 
-            ////manual validation
-            //if(empty($lf_first_name))
-                //$errors['first_name'] = "<li>First Name is invalid</li>";
-            //if(empty($lf_last_name))
-                //$errors['first_name'] = "<li>Last Name is invalid</li>";
-            //if(empty($lf_email))
-                //$errors['email'] = "<li>Email is invalid</li>";
-            //if(empty($lf_message))
-                //$errors['message'] = "<li>Message is invalid</li>";
-            //if(!empty($lf_phone) && strlen(preg_replace('/\D/','',$lf_phone)) == 0) #allow blank but not garbage
-                //$errors['phone'] = "<li>Phone is invalid</li>";
-
-            //if(!empty($errors))
-            //{
-                //$html = '<ul class="lf_errors">';
-                //foreach($errors as $key => $value)
-                   //$html .= $value;
-                //$html .= '</ul>';
-
-                //echo $html;
-                //return false;
-            //}
-            //elseif($this->check_honeypot(compact('lf_honeypot','lf_honeypot_time')))
-            //{
-                //$this->log_error("Bot Detected; submission denied; lead dump: ".print_r(compact('lf_first_name','lf_last_name','lf_email','lf_phone','lf_message','lf_referrer','lf_honeypot','lf_honeypot_time'),true));
-
-                //#pretend it was successful
-                //echo "<h3 class='lf_success'>invalid</h3>";
-                //unset($_POST);
-            //}
-            //else
-            //{
-                //$lf_phone = preg_replace('/\D/','',$lf_phone);
-                //$lf_referrer = $_SERVER['HTTP_REFERER'];
-                //$lead = compact('lf_first_name','lf_last_name','lf_email','lf_phone','lf_message','lf_referrer');
-                //if($this->submit_lead($lead))
-                //{
-                    //echo "<h3 class='lf_success'>".get_option('lf_successful_submit_message')."</h3>";
-                    //unset($_POST);
-                //}
-                //else
-                //{
-                    //echo "<h3 class='lf_failure'>Unfortunately an error has occured. Please try again later.</h3>";
-                //}
-            //}
-        //}
+        die(); #required
     }
 
+    /**
+	 * Submit lead to recipient
+	 * @access  private
+	 * @since   1.0.6
+	 * @return  boolean
+	 */
+    private function submit_lead($lead)
+    {
+        $headers = "From: PL Calc <".get_option('plc_leads_email').">" . "\r\n";
+        $message = "<pre>".print_r($lead,true)."</pre>";
+        wp_mail( get_option('plc_leads_email'), 'PL Calc Lead', $message, $headers);
+
+        return true;
+    }
 }
