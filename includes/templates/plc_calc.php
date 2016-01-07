@@ -12,7 +12,7 @@
                 <?php endforeach; ?>
             </select>
 
-            <select name="plc_year" class="year_select" required>
+            <select name="plc_year" id="year_select" required>
                 <?php foreach($params['years'] as $year): ?>
                     <option><?php echo $year; ?></option>
                 <?php endforeach; ?>

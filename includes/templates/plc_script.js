@@ -28,7 +28,9 @@ jQuery(function ($) {
 			type : 'post',
 			data : {
 				action : 'get_injury_rating_options',
-				injury_id : 'blar'
+				body_part : $(this).val(),
+				year : $('#year_select').val(),
+				month : $('#month_select').val()
 			},
 			success : function( response ) {
 				$(this).parent().siblings('.rating_select_block').html( response );

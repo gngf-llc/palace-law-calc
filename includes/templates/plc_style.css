@@ -4,3 +4,6 @@
 
 #plc_container .injury_select_block { display: inline-block; }
 #plc_container .rating_select_block { display: inline-block; }
+
+#plc_container .injury_select_block select { width: 200px; }
+#plc_container .rating_select_block select { width: 200px; }

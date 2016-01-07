@@ -95,6 +95,7 @@ class Palace_Law_Calc {
 		$this->script_suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
 		register_activation_hook( $this->file, array( $this, 'install' ) );
+        register_deactivation_hook( $this->file, array( $this, 'uninstall' ) );
 
         // Register shortcodes
         add_shortcode('palace-law-calc', array($this, 'setup_steps_wizard'));
@@ -274,7 +275,18 @@ class Palace_Law_Calc {
 	 */
 	public function install () {
 		$this->_log_version_number();
+        $this->load_sql_table();
 	} // End install ()
+
+    /**
+	 * Uninstalll. Runs on deactivation.
+	 * @access  public
+	 * @since   1.0.0
+	 * @return  void
+	 */
+	public function uninstall () {
+        $this->remove_sql_table();
+	} // End uninstall ()
 
 	/**
 	 * Log the plugin version number.
@@ -286,13 +298,60 @@ class Palace_Law_Calc {
 		update_option( $this->_token . '_version', $this->_version );
 	} // End _log_version_number ()
 
+    /**
+	 * Load injury SQL data
+	 * @access  public
+	 * @since   1.0.0
+	 * @return  void
+	 */
+    public function load_sql_table()
+    {
+        global $wpdb;
+
+        $table = $wpdb->prefix."plc_calc_data";
+        $query = "CREATE TABLE $table (
+            begin_date DATE,
+            end_date DATE,
+            body_part VARCHAR(100),
+            rating_type VARCHAR(8),
+            category TINYINT(1),
+            percent TINYINT(3),
+            amount DECIMAL(10,2)
+        ) ENGINE=MyISAM DEFAULT CHARSET=utf8;";
+
+        $wpdb->query($query);
+
+        //load csv file
+        $lines = file(plugins_url('/injury_data.tsv', __FILE__ ));
+        $columns = array_shift($lines);
+        $columns = explode("\t",rtrim($columns));
+        foreach($lines as $line_num => $line)
+        {
+            $values = explode("\t",rtrim($line));
+            $data = array_combine($columns,$values);
+            $wpdb->insert($table, $data);
+        }
+    }
+
+    /**
+	 * Remove injury SQL data
+	 * @access  public
+	 * @since   1.0.0
+	 * @return  void
+	 */
+    public function remove_sql_table()
+    {
+        global $wpdb;
+        $query = "DROP TABLE IF EXISTS ".$wpdb->prefix."plc_calc_data";
+        $wpdb->query($query);
+    }
+
 	/**
 	 * Log errors
 	 * @access  public
 	 * @since   1.0.0
 	 * @return  void
 	 */
-
     public static function log_error($error)
     {
         #file usually located at /wp-content/debug.log
@@ -371,6 +430,9 @@ class Palace_Law_Calc {
 	 */
     public function calc_page_parameters()
     {
+        global $wpdb;
+        $table = $wpdb->prefix."plc_calc_data";
+
         #array of months
         for($i=1; $i<=12; $i++)
         {
@@ -386,9 +448,11 @@ class Palace_Law_Calc {
         $params['years'] = $years;
 
         #array of injuries
-        $injuries_list = Array('leg' => 'rating', 'arm' => 'percent', 'eye' => 'rating', 'foot' => 'percent');
-        foreach($injuries_list as $bodypart => $ratingtype)
-            $injury_options[] = "<option data-ratingtype=\"$ratingtype\">$bodypart</option>\n";
+        $query = "SELECT DISTINCT body_part FROM $table";
+        $injuries_list = $wpdb->get_results($query, ARRAY_A);
+
+        foreach($injuries_list as $list)
+            $injury_options[] = "<option>{$list['body_part']}</option>\n";
         $params['injuries'] = $injury_options;
 
         #array of ratings
@@ -408,8 +472,38 @@ class Palace_Law_Calc {
         if(!isset($_POST['plc_submit']))
             return false;
 
-        echo "<pre>".print_r($_POST,true)."</pre>";
-        $params['value'] = "7,000";
+        global $wpdb;
+        $table = $wpdb->prefix."plc_calc_data";
+
+        #santize input
+        $injuries_array = isset( $_POST['plc_injuries'] ) ? (array) $_POST['plc_injuries'] : array();
+        $injuries_array = array_map( 'esc_attr', $injuries_array );
+        $ratings_array = isset( $_POST['plc_ratings'] ) ? (array) $_POST['plc_ratings'] : array();
+        $ratings_array = array_map( 'esc_attr', $ratings_array );
+        $month = sanitize_text_field($_POST['plc_month']);
+        $year = sanitize_text_field($_POST['plc_year']);
+
+        $total_amount = 0;
+        foreach($injuries_array as $i => $injury)
+        {
+            $rating_string = explode('-',$ratings_array[$i]); #ie. category-3; percent-15; fixed
+            $type = $rating_string[0];
+
+            if($type != 'fixed')
+                $val = $rating_string[1];
+
+            if($type == 'category')
+                $query = $wpdb->prepare("SELECT amount FROM $table WHERE body_part = %s AND rating_type = %s AND category = %s AND %s BETWEEN begin_date AND end_date",$injury,$type,$val,"$year-$month-01");
+            elseif($type == 'percent')
+                $query = $wpdb->prepare("SELECT amount FROM $table WHERE body_part = %s AND rating_type = %s AND percent = %s AND %s BETWEEN begin_date AND end_date",$injury,$type,$val,"$year-$month-01");
+            elseif($type == 'fixed')
+                $query = $wpdb->prepare("SELECT amount FROM $table WHERE body_part = %s AND rating_type = %s AND %s BETWEEN begin_date AND end_date",$injury,$type,"$year-$month-01");
+
+            $results = $wpdb->get_row($query, ARRAY_A);
+            $total_amount += $results['amount'];
+        }
+
+        $params['value'] = number_format($total_amount,2,'.',',');
 
         return $params;
     }
@@ -445,6 +539,7 @@ class Palace_Law_Calc {
             }
         }
     }
+
     /**
 	 * Used by Ajax call, it takes a body part and returns its rating and rating type
 	 * @access  public
@@ -453,31 +548,44 @@ class Palace_Law_Calc {
 	 */
     public function get_injury_rating_options()
     {
-        $injury_id = sanitize_text_field($_POST['injury_id']);
-        $a = Array('rating','percent');
-        $type = $a[mt_rand(0, count($a) - 1)];
-        $ratings = range(1,6);
+        global $wpdb;
+        $table = $wpdb->prefix."plc_calc_data";
+        $body_part = sanitize_text_field($_POST['body_part']);
+        $month = sanitize_text_field($_POST['month']);
+        $year = sanitize_text_field($_POST['year']);
 
-        if($type == 'rating'):
+        $query = $wpdb->prepare("SELECT rating_type, category, percent FROM $table WHERE body_part = %s AND %s BETWEEN begin_date AND end_date GROUP BY rating_type, category, percent",$body_part,"$year-$month-01");
+        $results = $wpdb->get_results($query, ARRAY_A);
+
+        $type = $results[0]['rating_type'];
+
+        if($type == 'category'):
             ?>
-            <label class="label_rating" for="rating">Rating:</label>
+            <label class="label_rating">Rating:</label>
             <select name="plc_ratings[]" class="rating_select" required>
-                <option value="" disabled selected>Choose a Rating</option>
-                <?php foreach($ratings as $rating): ?>
-                    <option value="rating-<?php echo $rating; ?>"><?php echo $rating; ?></option>
+                <option value="" disabled selected>Choose a Category</option>
+                <?php foreach($results as $rating): ?>
+                    <option value="<?php echo $type.'-'.$rating[$type]; ?>"><?php echo $rating[$type]; ?></option>
                 <?php endforeach; ?>
             </select>
             <?php
         elseif($type == 'percent'):
             ?>
-            <label class="label_rating" for="rating">% Total Body Injury:</label>
+            <label class="label_rating">%TBI:</label>
             <select name="plc_ratings[]" class="percentinjury_select" required>
-                <option value="" disabled selected>Choose a Percentage</option>
-                <?php //foreach($rating as $percent): ?>
-                <?php for($percent=10;$percent<=100;$percent+=10): ?>
-                    <option value="percent-<?php echo $percent; ?>"><?php echo $percent; ?>%</option>
-                <?php //endforeach; ?>
-                <?php endfor; ?>
+                <option value="" disabled selected>Choose a %TBI</option>
+                <?php foreach($results as $rating): ?>
+                    <option value="<?php echo $type.'-'.$rating[$type]; ?>"><?php echo $rating[$type]; ?></option>
+                <?php endforeach; ?>
+            </select>
+            <?php
+        elseif($type == 'fixed'):
+            ?>
+            <label class="label_rating">Rating:</label>
+            <select name="plc_ratings[]" class="fixed_select" required>
+                <?php foreach($results as $rating): ?>
+                    <option value="<?php echo $type; ?>">Fixed</option>
+                <?php endforeach; ?>
             </select>
             <?php
         endif;
