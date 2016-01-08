@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Palace Law Calc
- * Version: 1.0
+ * Version: 1.0.1
  * Plugin URI: http://www.one-400.com/
  * Description: Calculator to allow users to get an idea of thier workers comp payout
  * Author: One400
@@ -35,7 +35,7 @@ require_once( 'includes/lib/class-palace-law-calc-taxonomy.php' );
  * @return object Palace_Law_Calc
  */
 function Palace_Law_Calc () {
-	$instance = Palace_Law_Calc::instance( __FILE__, '1.0.0' );
+	$instance = Palace_Law_Calc::instance( __FILE__, '1.0.1' );
 
 	if ( is_null( $instance->settings ) ) {
 		$instance->settings = Palace_Law_Calc_Settings::instance( $instance );

@@ -301,7 +301,7 @@ class Palace_Law_Calc {
     /**
 	 * Load injury SQL data
 	 * @access  public
-	 * @since   1.0.0
+	 * @since   1.0.1
 	 * @return  void
 	 */
     public function load_sql_table()
@@ -315,7 +315,6 @@ class Palace_Law_Calc {
             body_part VARCHAR(100),
             rating_type VARCHAR(8),
             category TINYINT(1),
-            percent TINYINT(3),
             amount DECIMAL(10,2)
         ) ENGINE=MyISAM DEFAULT CHARSET=utf8;";
 
@@ -464,7 +463,7 @@ class Palace_Law_Calc {
     /**
 	 * Process the form data from the calc page and prepare for display on the results page
 	 * @access  public
-	 * @since   1.0.0
+	 * @since   1.0.1
 	 * @return  html & params
 	 */
     public function calc_page_submit_logic()
@@ -488,18 +487,15 @@ class Palace_Law_Calc {
         {
             $rating_string = explode('-',$ratings_array[$i]); #ie. category-3; percent-15; fixed
             $type = $rating_string[0];
-
-            if($type != 'fixed')
-                $val = $rating_string[1];
+            $val = $rating_string[1];
 
             if($type == 'category')
                 $query = $wpdb->prepare("SELECT amount FROM $table WHERE body_part = %s AND rating_type = %s AND category = %s AND %s BETWEEN begin_date AND end_date",$injury,$type,$val,"$year-$month-01");
             elseif($type == 'percent')
-                $query = $wpdb->prepare("SELECT amount FROM $table WHERE body_part = %s AND rating_type = %s AND percent = %s AND %s BETWEEN begin_date AND end_date",$injury,$type,$val,"$year-$month-01");
-            elseif($type == 'fixed')
-                $query = $wpdb->prepare("SELECT amount FROM $table WHERE body_part = %s AND rating_type = %s AND %s BETWEEN begin_date AND end_date",$injury,$type,"$year-$month-01");
+                $query = $wpdb->prepare("SELECT amount*($val/100) AS amount FROM $table WHERE body_part = %s AND rating_type = %s AND %s BETWEEN begin_date AND end_date",$injury,$type,"$year-$month-01");
 
             $results = $wpdb->get_row($query, ARRAY_A);
+
             $total_amount += $results['amount'];
         }
 
@@ -543,7 +539,7 @@ class Palace_Law_Calc {
     /**
 	 * Used by Ajax call, it takes a body part and returns its rating and rating type
 	 * @access  public
-	 * @since   1.0.0
+	 * @since   1.0.1
 	 * @return html
 	 */
     public function get_injury_rating_options()
@@ -554,7 +550,7 @@ class Palace_Law_Calc {
         $month = sanitize_text_field($_POST['month']);
         $year = sanitize_text_field($_POST['year']);
 
-        $query = $wpdb->prepare("SELECT rating_type, category, percent FROM $table WHERE body_part = %s AND %s BETWEEN begin_date AND end_date GROUP BY rating_type, category, percent",$body_part,"$year-$month-01");
+        $query = $wpdb->prepare("SELECT rating_type, category FROM $table WHERE body_part = %s AND %s BETWEEN begin_date AND end_date GROUP BY rating_type, category",$body_part,"$year-$month-01");
         $results = $wpdb->get_results($query, ARRAY_A);
 
         $type = $results[0]['rating_type'];
@@ -574,18 +570,9 @@ class Palace_Law_Calc {
             <label class="label_rating">%TBI:</label>
             <select name="plc_ratings[]" class="percentinjury_select" required>
                 <option value="" disabled selected>Choose a %TBI</option>
-                <?php foreach($results as $rating): ?>
-                    <option value="<?php echo $type.'-'.$rating[$type]; ?>"><?php echo $rating[$type]; ?></option>
-                <?php endforeach; ?>
-            </select>
-            <?php
-        elseif($type == 'fixed'):
-            ?>
-            <label class="label_rating">Rating:</label>
-            <select name="plc_ratings[]" class="fixed_select" required>
-                <?php foreach($results as $rating): ?>
-                    <option value="<?php echo $type; ?>">Fixed</option>
-                <?php endforeach; ?>
+                <?php for($i=1; $i<=100; $i++): ?>
+                    <option value="<?php echo $type.'-'.$i; ?>"><?php echo $i; ?>%</option>
+                <?php endfor; ?>
             </select>
             <?php
         endif;
@@ -596,7 +583,7 @@ class Palace_Law_Calc {
     /**
 	 * Submit lead to recipient
 	 * @access  private
-	 * @since   1.0.6
+	 * @since   1.0.0
 	 * @return  boolean
 	 */
     private function submit_lead($lead)
