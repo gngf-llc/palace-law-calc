@@ -1,4 +1,4 @@
-<div id="plc_container">
+<div id="plc_container" class="plc_calc_page">
     <h3>Learn What Your Works Comp Case Could Be Worth</h3>
     <p>If you are not sure what your rating is, you can ask your workers compensation assigned physician or call our offices for assistance</p>
 

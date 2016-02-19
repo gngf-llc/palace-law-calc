@@ -1,4 +1,4 @@
-<div id="plc_container">
+<div id="plc_container" class="plc_results_page">
     <div>
         <strong>Based on your input, your case may be worth $<?php echo $params['value']; ?></strong>
         <p>It's important to note that your case's value is highly depended on many subjective factors. An experienced workers compensation attorney like those at Palace Law can help you maximize the benefits that are owed to you.</p>
