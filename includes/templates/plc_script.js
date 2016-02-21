@@ -38,6 +38,12 @@ jQuery(function ($) {
 		});
 	});
 
+	$('.step_3_toggle').click(function(event) {
+		event.preventDefault();
+		$(this).hide();
+		$('#step_3').slideDown('slow');
+	});
+
 
 });
 

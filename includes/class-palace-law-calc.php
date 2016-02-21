@@ -384,20 +384,9 @@ class Palace_Law_Calc {
     }
 
     /**
-	 * Load the thankyou page template html
-	 * @access  public
-	 * @since   1.0.0
-	 * @return  html
-	 */
-    public function load_thankyou_template()
-    {
-        include(dirname(__FILE__).'/templates/plc_thankyou.php');
-    }
-
-    /**
 	 * Setup the contact form html and submit logic
 	 * @access  public
-	 * @since   1.0.0
+	 * @since   1.0.2
 	 * @return  html
 	 */
     public function setup_steps_wizard()
@@ -407,11 +396,6 @@ class Palace_Law_Calc {
             {
                 $params = $this->calc_page_submit_logic();
                 $this->load_results_template($params);
-            }
-            elseif(isset($_POST['plc_submit']) && $_POST['plc_current_step'] == 'results')
-            {
-                $params = $this->results_page_submit_logic();
-                $this->load_thankyou_template();
             }
             else
             {
@@ -463,7 +447,7 @@ class Palace_Law_Calc {
     /**
 	 * Process the form data from the calc page and prepare for display on the results page
 	 * @access  public
-	 * @since   1.0.1
+	 * @since   1.0.2
 	 * @return  html & params
 	 */
     public function calc_page_submit_logic()
@@ -481,6 +465,9 @@ class Palace_Law_Calc {
         $ratings_array = array_map( 'esc_attr', $ratings_array );
         $month = sanitize_text_field($_POST['plc_month']);
         $year = sanitize_text_field($_POST['plc_year']);
+        $plc_name = sanitize_text_field( $_POST['plc_name'] );
+        $plc_email = sanitize_email( $_POST['plc_email'] );
+        $plc_referrer = $_SERVER['HTTP_REFERER'];
 
         $total_amount = 0;
         foreach($injuries_array as $i => $injury)
@@ -499,47 +486,18 @@ class Palace_Law_Calc {
             $total_amount += $results['amount'];
         }
 
+        #submit lead
+        $lead = compact('plc_name','plc_email','plc_referrer');
+        $this->submit_lead($lead);
+
         $params['value'] = number_format($total_amount,2,'.',',');
-
         return $params;
-    }
-
-    /**
-	 * Process the form data from the results page and prepare for display on the thank you page
-	 * @access  public
-	 * @since   1.0.0
-	 * @return  html
-	 */
-    public function results_page_submit_logic()
-    {
-        if(isset($_POST['plc_submit']))
-        {
-            //sanitize form values
-            $plc_first_name = sanitize_text_field( $_POST['plc_first_name'] );
-            $plc_last_name = sanitize_text_field( $_POST['plc_last_name'] );
-            $plc_email = sanitize_email( $_POST['plc_email'] );
-            $plc_phone = sanitize_text_field( $_POST['plc_phone'] );
-            $plc_message = esc_textarea( stripslashes( $_POST['plc_message'] ));
-
-            $plc_phone = preg_replace('/\D/','',$plc_phone);
-            $plc_referrer = $_SERVER['HTTP_REFERER'];
-            $lead = compact('plc_first_name','plc_last_name','plc_email','plc_phone','plc_message','plc_referrer');
-            if($this->submit_lead($lead))
-            {
-                //echo "<h3 class='plc_success'>".get_option('plc_successful_submit_message')."</h3>";
-                unset($_POST);
-            }
-            else
-            {
-                echo "<h3 class='plc_failure'>Unfortunately an error has occured. Please try again later.</h3>";
-            }
-        }
     }
 
     /**
 	 * Used by Ajax call, it takes a body part and returns its rating and rating type
 	 * @access  public
-	 * @since   1.0.1
+	 * @since   1.0.2
 	 * @return html
 	 */
     public function get_injury_rating_options()
@@ -557,7 +515,7 @@ class Palace_Law_Calc {
 
         if($type == 'category'):
             ?>
-            <label class="label_rating">Rating:</label>
+            <label class="label_rating"></label>
             <select name="plc_ratings[]" class="rating_select" required>
                 <option value="" disabled selected>Choose a Category</option>
                 <?php foreach($results as $rating): ?>
@@ -567,7 +525,7 @@ class Palace_Law_Calc {
             <?php
         elseif($type == 'percent'):
             ?>
-            <label class="label_rating">%TBI:</label>
+            <label class="label_rating"></label>
             <select name="plc_ratings[]" class="percentinjury_select" required>
                 <option value="" disabled selected>Choose a %TBI</option>
                 <?php for($i=1; $i<=100; $i++): ?>

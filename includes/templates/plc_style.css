@@ -7,3 +7,5 @@
 
 #plc_container .injury_select_block select { width: 200px; }
 #plc_container .rating_select_block select { width: 200px; }
+
+#plc_container #step_3 { display: none; }
