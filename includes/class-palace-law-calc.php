@@ -7,79 +7,53 @@ class Palace_Law_Calc {
 	/**
 	 * The single instance of Palace_Law_Calc.
 	 * @var 	object
-	 * @access  private
-	 * @since 	1.0.0
 	 */
 	private static $_instance = null;
 
 	/**
 	 * Settings class object
 	 * @var     object
-	 * @access  public
-	 * @since   1.0.0
 	 */
 	public $settings = null;
 
 	/**
 	 * The version number.
 	 * @var     string
-	 * @access  public
-	 * @since   1.0.0
 	 */
 	public $_version;
 
 	/**
 	 * The token.
 	 * @var     string
-	 * @access  public
-	 * @since   1.0.0
 	 */
 	public $_token;
 
 	/**
 	 * The main plugin file.
 	 * @var     string
-	 * @access  public
-	 * @since   1.0.0
-	 */
-	public $file;
-
-	/**
-	 * The main plugin directory.
-	 * @var     string
-	 * @access  public
-	 * @since   1.0.0
 	 */
 	public $dir;
 
 	/**
 	 * The plugin assets directory.
 	 * @var     string
-	 * @access  public
-	 * @since   1.0.0
 	 */
 	public $assets_dir;
 
 	/**
 	 * The plugin assets URL.
 	 * @var     string
-	 * @access  public
-	 * @since   1.0.0
 	 */
 	public $assets_url;
 
 	/**
 	 * Suffix for Javascripts.
 	 * @var     string
-	 * @access  public
-	 * @since   1.0.0
 	 */
 	public $script_suffix;
 
 	/**
 	 * Constructor function.
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  void
 	 */
 	public function __construct ( $file = '', $version = '1.0.0' ) {
@@ -158,8 +132,6 @@ class Palace_Law_Calc {
 
 	/**
 	 * Load frontend CSS.
-	 * @access  public
-	 * @since   1.0.0
 	 * @return void
 	 */
 	public function enqueue_styles () {
@@ -170,8 +142,6 @@ class Palace_Law_Calc {
 
 	/**
 	 * Load frontend Javascript.
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  void
 	 */
 	public function enqueue_scripts () {
@@ -187,8 +157,6 @@ class Palace_Law_Calc {
 
 	/**
 	 * Load admin CSS.
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  void
 	 */
 	public function admin_enqueue_styles ( $hook = '' ) {
@@ -198,8 +166,6 @@ class Palace_Law_Calc {
 
 	/**
 	 * Load admin Javascript.
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  void
 	 */
 	public function admin_enqueue_scripts ( $hook = '' ) {
@@ -209,8 +175,6 @@ class Palace_Law_Calc {
 
 	/**
 	 * Load plugin localisation
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  void
 	 */
 	public function load_localisation () {
@@ -219,8 +183,6 @@ class Palace_Law_Calc {
 
 	/**
 	 * Load plugin textdomain
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  void
 	 */
 	public function load_plugin_textdomain () {
@@ -269,8 +231,6 @@ class Palace_Law_Calc {
 
 	/**
 	 * Installation. Runs on activation.
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  void
 	 */
 	public function install () {
@@ -280,8 +240,6 @@ class Palace_Law_Calc {
 
     /**
 	 * Uninstalll. Runs on deactivation.
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  void
 	 */
 	public function uninstall () {
@@ -290,8 +248,6 @@ class Palace_Law_Calc {
 
 	/**
 	 * Log the plugin version number.
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  void
 	 */
 	private function _log_version_number () {
@@ -300,8 +256,6 @@ class Palace_Law_Calc {
 
     /**
 	 * Load injury SQL data
-	 * @access  public
-	 * @since   1.0.1
 	 * @return  void
 	 */
     public function load_sql_table()
@@ -334,8 +288,6 @@ class Palace_Law_Calc {
 
     /**
 	 * Remove injury SQL data
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  void
 	 */
     public function remove_sql_table()
@@ -347,8 +299,6 @@ class Palace_Law_Calc {
 
 	/**
 	 * Log errors
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  void
 	 */
     public static function log_error($error)
@@ -363,8 +313,6 @@ class Palace_Law_Calc {
 
     /**
 	 * Load the calculator page template html
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  html
 	 */
     public function load_calc_template($params=Array())
@@ -374,8 +322,6 @@ class Palace_Law_Calc {
 
     /**
 	 * Load the results page template html
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  html
 	 */
     public function load_results_template($params=Array())
@@ -385,8 +331,6 @@ class Palace_Law_Calc {
 
     /**
 	 * Setup the contact form html and submit logic
-	 * @access  public
-	 * @since   1.0.2
 	 * @return  html
 	 */
     public function setup_steps_wizard()
@@ -407,8 +351,6 @@ class Palace_Law_Calc {
 
     /**
 	 * Provide logic and variables for the calc template page
-	 * @access  public
-	 * @since   1.0.0
 	 * @return  Array('months' => Array, 'years' => Array, 'injuries' => Array, 'ratings' => Array)
 	 */
     public function calc_page_parameters()
@@ -446,8 +388,6 @@ class Palace_Law_Calc {
 
     /**
 	 * Process the form data from the calc page and prepare for display on the results page
-	 * @access  public
-	 * @since   1.0.2
 	 * @return  html & params
 	 */
     public function calc_page_submit_logic()
@@ -496,8 +436,6 @@ class Palace_Law_Calc {
 
     /**
 	 * Used by Ajax call, it takes a body part and returns its rating and rating type
-	 * @access  public
-	 * @since   1.0.2
 	 * @return html
 	 */
     public function get_injury_rating_options()
@@ -540,8 +478,6 @@ class Palace_Law_Calc {
 
     /**
 	 * Submit lead to recipient
-	 * @access  private
-	 * @since   1.0.0
 	 * @return  boolean
 	 */
     private function submit_lead($lead)
