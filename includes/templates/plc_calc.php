@@ -1,10 +1,10 @@
 <div id="plc_container" class="plc_calc_page">
-    <h3>Learn What Your Workers' Comp Case Could Be Worth</h3>
+    <h3>Learn what your workers' compensation case could be worth.</h3>
     <p>In just 3 easy steps, you can figure out how much you can receive from your worker's compensation case.</p>
 
-    <form method="post" action="<?php echo esc_url($_SERVER['REQUEST_URI']); ?>">
+	<form method="post" action="<?php echo esc_url($_SERVER['REQUEST_URI']); ?>#calc">
         <strong>Step 1</strong>
-        <p>What month and year did your injury occur?</p>
+        <p>When did your injury occur?</p>
         <div class="timeframe_block">
             <select name="plc_month" id="month_select" required>
                 <?php foreach($params['months'] as $num => $name): ?>
@@ -21,19 +21,16 @@
         <br />
 
         <strong>Step 2</strong>
-        <p>List your injuries and corresponding rating below:</p>
+        <p>Select your injuries from the list below. Click "Add Injury" to include multiple injuries.</p>
         <div class="injury_list">
         </div>
-        <a href="#" id="add_injury">+ Add a body part</a>
-        <br />
-        <br />
-
-        <strong>Step 3</strong>
+        <a href="#" id="add_injury">+ Add Injury</a>
         <p class="buttons step_3_toggle">
-            <input id="saveForm" class="button_text" type="submit" name="plc_submit" value="Get My Results" />
+            <input id="saveForm" class="button_text" type="submit" name="plc_submit" value="Calculate My Case Worth" />
         </p>
 
         <div id="step_3">
+	    <div class="stap-3"><strong>Step 3</strong></div>
             <p>
                 <label class="description" for="plc_name">Name *</label>
                 <input id="plc_last_name" name="plc_name" class="" type="text" maxlength="255" value="<?php echo (isset($_POST['plc_name']) ? esc_attr($_POST['plc_name']) : '' ); ?>" required='required' />
@@ -43,7 +40,7 @@
                 <input id="plc_email" name="plc_email" class="" type="email" maxlength="255" placeholder="user@example.com" value="<?php echo (isset($_POST['plc_email']) ? esc_attr($_POST['plc_email']) : '' ); ?>" required='required' />
             </p>
             <p class="buttons">
-                <input type='hidden' name='plc_current_step' value='calc' />
+                <input type='hidden' name='plc_current_step' value='calc' id='newurl' />
                 <input id="saveForm" class="button_text" type="submit" name="plc_submit" value="Show My Results" />
             </p>
         </div>

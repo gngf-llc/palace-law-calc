@@ -407,7 +407,7 @@ class Palace_Law_Calc {
         $year = sanitize_text_field($_POST['plc_year']);
         $plc_name = sanitize_text_field( $_POST['plc_name'] );
         $plc_email = sanitize_email( $_POST['plc_email'] );
-        $plc_referrer = $_SERVER['HTTP_REFERER'];
+        $plc_referrer = $_SERVER[''];
 
         $total_amount = 0;
         foreach($injuries_array as $i => $injury)
@@ -455,7 +455,7 @@ class Palace_Law_Calc {
             ?>
             <label class="label_rating"></label>
             <select name="plc_ratings[]" class="rating_select" required>
-                <option value="" disabled selected>Choose a Category</option>
+                <option value="" disabled selected>Category</option>
                 <?php foreach($results as $rating): ?>
                     <option value="<?php echo $type.'-'.$rating[$type]; ?>"><?php echo $rating[$type]; ?></option>
                 <?php endforeach; ?>
@@ -465,7 +465,7 @@ class Palace_Law_Calc {
             ?>
             <label class="label_rating"></label>
             <select name="plc_ratings[]" class="percentinjury_select" required>
-                <option value="" disabled selected>Choose a %TBI</option>
+                <option value="" disabled selected>% Impairment</option>
                 <?php for($i=1; $i<=100; $i++): ?>
                     <option value="<?php echo $type.'-'.$i; ?>"><?php echo $i; ?>%</option>
                 <?php endfor; ?>
