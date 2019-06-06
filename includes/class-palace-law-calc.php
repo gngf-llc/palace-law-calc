@@ -368,9 +368,16 @@ class Palace_Law_Calc {
         $params['months'] = $months;
 
         #array of years
-        for($i=2010; $i<=date("Y"); $i++)
-            $years[] = $i;
-        $params['years'] = $years;
+		$query = "SELECT DISTINCT YEAR(begin_date) AS year FROM $table ORDER BY begin_date ASC LIMIT 1";
+		$result = $wpdb->get_results($query, ARRAY_N);
+		$first_year = (int)$result[0][0];
+		$query = "SELECT DISTINCT YEAR(end_date) AS year FROM $table ORDER BY end_date DESC LIMIT 1";
+		$result = $wpdb->get_results($query, ARRAY_N);
+		$last_year = (int)$result[0][0];
+
+		for($y = $first_year; $y <= $last_year; $y++)
+			$years[] = $y;
+		$params['years'] = $years;
 
         #array of injuries
         $query = "SELECT DISTINCT body_part FROM $table";
