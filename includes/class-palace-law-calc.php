@@ -263,6 +263,7 @@ class Palace_Law_Calc {
         global $wpdb;
 
         $table = $wpdb->prefix."plc_calc_data";
+		$wpdb->query("DROP TABLE IF EXISTS `$table`;");
         $query = "CREATE TABLE $table (
             begin_date DATE,
             end_date DATE,

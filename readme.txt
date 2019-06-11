@@ -2,7 +2,7 @@
 Contributors: One400
 Tags: wordpress, plugin, template
 Requires at least: 3.9
-Tested up to: 4.0
+Tested up to: 5.2.1
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -21,26 +21,14 @@ Installing "Palace Law Calc" can be done either by searching for "Palace Law Cal
 1. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
-== Screenshots ==
+== Updating Injury Data
 
-1. Description of first screenshot named screenshot-1
-2. Description of second screenshot named screenshot-2
-3. Description of third screenshot named screenshot-3
+Injury data is stored in `includes/injury_data.tsv` and the database is refreshed from it whenever the plugin is activated.
 
-== Frequently Asked Questions ==
 
-= What is the plugin template for? =
+Edit the spreadsheet here and then export as `injury_data.tsv`
+https://docs.google.com/spreadsheets/d/1Z6AYfNLiETNTjRgwe02iw-AF3fo62_w-q4uL90v4zFc/edit?usp=sharing
 
-This plugin template is designed to help you get started with any new WordPress plugin.
+Ref:
+http://lni.wa.gov/ClaimsIns/Claims/Benefits/Disability/PpdAwardScheds.asp
 
-== Changelog ==
-
-= 1.0 =
-* 2012-12-13
-* Initial release
-
-== Upgrade Notice ==
-
-= 1.0 =
-* 2012-12-13
-* Initial release
