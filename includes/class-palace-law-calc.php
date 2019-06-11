@@ -415,7 +415,8 @@ class Palace_Law_Calc {
         $year = sanitize_text_field($_POST['plc_year']);
         $plc_name = sanitize_text_field( $_POST['plc_name'] );
         $plc_email = sanitize_email( $_POST['plc_email'] );
-        $plc_referrer = $_SERVER[''];
+        // $plc_referrer = $_SERVER['HTTP_REFERER'];
+        $plc_referrer = '';
 
         $total_amount = 0;
         foreach($injuries_array as $i => $injury)
