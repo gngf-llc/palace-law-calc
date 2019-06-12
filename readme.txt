@@ -32,3 +32,5 @@ https://docs.google.com/spreadsheets/d/1Z6AYfNLiETNTjRgwe02iw-AF3fo62_w-q4uL90v4
 Ref:
 http://lni.wa.gov/ClaimsIns/Claims/Benefits/Disability/PpdAwardScheds.asp
 
+== GitHub Repository ==
+https://github.com/ONE400/palace-law-calc
