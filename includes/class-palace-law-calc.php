@@ -85,6 +85,8 @@ class Palace_Law_Calc {
         // Specify Ajax actions
         add_action( 'wp_ajax_nopriv_get_injury_rating_options', array( $this, 'get_injury_rating_options') ); #non-logged in user
         add_action( 'wp_ajax_get_injury_rating_options', array( $this, 'get_injury_rating_options') ); #logged in user
+        add_action( 'wp_ajax_nopriv_check_valid_month', array( $this, 'check_valid_month') ); #non-logged in user
+        add_action( 'wp_ajax_check_valid_month', array( $this, 'check_valid_month') ); #logged in user
 
 		// Load API for generic admin functions
 		if ( is_admin() ) {
@@ -442,6 +444,23 @@ class Palace_Law_Calc {
         $params['value'] = number_format($total_amount,2,'.',',');
         return $params;
     }
+
+    /**
+	 * Used by Ajax call, it takes a year and month and returns true or false depending on if we have data for that month
+	 * @return bool
+	 */
+	public function check_valid_month()
+	{
+        global $wpdb;
+        $table = $wpdb->prefix."plc_calc_data";
+        $month = sanitize_text_field($_POST['month']);
+        $year = sanitize_text_field($_POST['year']);
+
+        $query = $wpdb->prepare("SELECT COUNT(*) AS count FROM $table WHERE %s BETWEEN begin_date AND end_date","$year-$month-01");
+		$results = $wpdb->get_results($query, ARRAY_A);
+		echo !!(int)$results[0]['count'] ? 'true': 'false';
+		die(); #required
+	}
 
     /**
 	 * Used by Ajax call, it takes a body part and returns its rating and rating type

@@ -2,13 +2,19 @@
     <h3>Learn what your workers' compensation case could be worth.</h3>
     <p>In just 3 easy steps, you can figure out how much you can receive from your worker's compensation case.</p>
 
+	<p id="errors"></p>
 	<form method="post" action="<?php echo esc_url($_SERVER['REQUEST_URI']); ?>#calc">
         <strong>Step 1</strong>
         <p>When did your injury occur?</p>
         <div class="timeframe_block">
             <select name="plc_month" id="month_select" required>
                 <?php foreach($params['months'] as $num => $name): ?>
-                    <option value="<?php echo $num; ?>"><?php echo $name; ?></option>
+					<?php
+					# NOTE defaulting to month 7 since thats when the
+					# disability data starts and we dont want to default
+					# to a month/year with no data
+					?>
+					<option value="<?php echo $num; ?>" <?php echo ($num == 07) ? 'selected': '' ?>><?php echo $name; ?></option>
                 <?php endforeach; ?>
             </select>
 
