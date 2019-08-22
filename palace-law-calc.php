@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Palace Law Calc
- * Version: 1.0.4
+ * Version: 1.0.5
  * Plugin URI: http://www.one-400.com/
  * Description: Calculator to allow users to get an idea of thier workers comp payout
  * Author: One400
