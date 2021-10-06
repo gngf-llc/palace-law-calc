@@ -1096,3 +1096,103 @@ begin_date	end_date	body_part	rating_type	category	amount
 2019-07-01	2020-06-30	Eye - Loss of an eye	percent		50573.91
 2019-07-01	2020-06-30	Eye - Loss of vision in an eye	percent		42144.96
 2019-07-01	2020-06-30	Miscellaneous unspecified disabilities	percent		210724.95
+2020-07-01	2021-06-30	Neck	category	1	0
+2020-07-01	2021-06-30	Neck	category	2	21422.3
+2020-07-01	2021-06-30	Neck	category	3	42844.6
+2020-07-01	2021-06-30	Neck	category	4	53555.75
+2020-07-01	2021-06-30	Neck	category	5	74978.04
+2020-07-01	2021-06-30	Mid back	category	1	0
+2020-07-01	2021-06-30	Mid back	category	2	21422.3
+2020-07-01	2021-06-30	Mid back	category	3	42844.6
+2020-07-01	2021-06-30	Low back	category	1	0
+2020-07-01	2021-06-30	Low back	category	2	10711.15
+2020-07-01	2021-06-30	Low back	category	3	21422.3
+2020-07-01	2021-06-30	Low back	category	4	32133.45
+2020-07-01	2021-06-30	Low back	category	5	53555.75
+2020-07-01	2021-06-30	Low back	category	6	85689.19
+2020-07-01	2021-06-30	Low back	category	7	128533.79
+2020-07-01	2021-06-30	Low back	category	8	160667.23
+2020-07-01	2021-06-30	Mental health	category	1	0
+2020-07-01	2021-06-30	Mental health	category	2	21422.3
+2020-07-01	2021-06-30	Mental health	category	3	53555.75
+2020-07-01	2021-06-30	Mental health	category	4	96400.34
+2020-07-01	2021-06-30	Mental health	category	5	149956.09
+2020-07-01	2021-06-30	Leg - Above the Knee	percent		115680.48
+2020-07-01	2021-06-30	Leg - Below the knee joint	percent		102827.25
+2020-07-01	2021-06-30	Ankle	percent		89973.78
+2020-07-01	2021-06-30	Foot	percent		44986.92
+2020-07-01	2021-06-30	Arm - At or above shoulder	percent		128533.86
+2020-07-01	2021-06-30	Arm - From shoulder to elbow	percent		122107.14
+2020-07-01	2021-06-30	Arm - From elbow down	percent		115680.48
+2020-07-01	2021-06-30	Hand	percent		
+2020-07-01	2021-06-30	Hearing - Both ears	percent		102827.25
+2020-07-01	2021-06-30	Hearing - One ear	percent		17137.74
+2020-07-01	2021-06-30	Pelvis	category	1	0
+2020-07-01	2021-06-30	Pelvis	category	2	4284.46
+2020-07-01	2021-06-30	Pelvis	category	3	10711.15
+2020-07-01	2021-06-30	Pelvis	category	4	10711.15
+2020-07-01	2021-06-30	Pelvis	category	5	10711.15
+2020-07-01	2021-06-30	Pelvis	category	6	10711.15
+2020-07-01	2021-06-30	Pelvis	category	7	21422.3
+2020-07-01	2021-06-30	Pelvis	category	8	21422.3
+2020-07-01	2021-06-30	Pelvis	category	9	32133.45
+2020-07-01	2021-06-30	Heart	category	1	0
+2020-07-01	2021-06-30	Heart	category	2	21422.3
+2020-07-01	2021-06-30	Heart	category	3	42844.6
+2020-07-01	2021-06-30	Heart	category	4	74978.04
+2020-07-01	2021-06-30	Heart	category	5	107111.49
+2020-07-01	2021-06-30	Heart	category	6	139244.94
+2020-07-01	2021-06-30	Lungs	category	1	0
+2020-07-01	2021-06-30	Lungs	category	2	32133.45
+2020-07-01	2021-06-30	Lungs	category	3	53555.75
+2020-07-01	2021-06-30	Lungs	category	4	85689.19
+2020-07-01	2021-06-30	Lungs	category	5	139244.94
+2020-07-01	2021-06-30	Lungs	category	6	160667.23
+2020-07-01	2021-06-30	Loss of taste and smell	category	1	6426.69
+2020-07-01	2021-06-30	Loss of taste and smell	category	2	6426.69
+2020-07-01	2021-06-30	Speech	category	1	0
+2020-07-01	2021-06-30	Speech	category	2	10711.15
+2020-07-01	2021-06-30	Speech	category	3	21422.3
+2020-07-01	2021-06-30	Speech	category	4	42844.6
+2020-07-01	2021-06-30	Speech	category	5	64266.89
+2020-07-01	2021-06-30	Speech	category	6	74978.04
+2020-07-01	2021-06-30	Skin	category	1	0
+2020-07-01	2021-06-30	Skin	category	2	10711.15
+2020-07-01	2021-06-30	Skin	category	3	21422.3
+2020-07-01	2021-06-30	Skin	category	4	53555.75
+2020-07-01	2021-06-30	Skin	category	5	85689.19
+2020-07-01	2021-06-30	Skin	category	6	128533.79
+2020-07-01	2021-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
+2020-07-01	2021-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	10711.15
+2020-07-01	2021-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	21422.3
+2020-07-01	2021-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	74978.04
+2020-07-01	2021-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	128533.79
+2020-07-01	2021-06-30	Lower digestive tract	category	1	0
+2020-07-01	2021-06-30	Lower digestive tract	category	2	10711.15
+2020-07-01	2021-06-30	Lower digestive tract	category	3	32133.45
+2020-07-01	2021-06-30	Lower digestive tract	category	4	64266.89
+2020-07-01	2021-06-30	Anal function	category	1	0
+2020-07-01	2021-06-30	Anal function	category	2	10711.15
+2020-07-01	2021-06-30	Anal function	category	3	32133.45
+2020-07-01	2021-06-30	Anal function	category	4	53555.75
+2020-07-01	2021-06-30	Liver	category	1	0
+2020-07-01	2021-06-30	Liver	category	2	10711.15
+2020-07-01	2021-06-30	Liver	category	3	42844.6
+2020-07-01	2021-06-30	Liver	category	4	85689.19
+2020-07-01	2021-06-30	Liver	category	5	128533.79
+2020-07-01	2021-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	32133.45
+2020-07-01	2021-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	21422.3
+2020-07-01	2021-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	42844.6
+2020-07-01	2021-06-30	Bladder function	category	1	0
+2020-07-01	2021-06-30	Bladder function	category	2	21422.3
+2020-07-01	2021-06-30	Bladder function	category	3	42844.6
+2020-07-01	2021-06-30	Bladder function	category	4	64266.89
+2020-07-01	2021-06-30	Bladder function	category	5	107111.49
+2020-07-01	2021-06-30	Anatomical or functional loss of testes	category	1	0
+2020-07-01	2021-06-30	Anatomical or functional loss of testes	category	2	10711.15
+2020-07-01	2021-06-30	Anatomical or functional loss of testes	category	3	21422.3
+2020-07-01	2021-06-30	Anatomical or functional loss of testes	category	4	53555.75
+2020-07-01	2021-06-30	Anatomical or functional loss of testes	category	5	74978.04
+2020-07-01	2021-06-30	Eye - Loss of an eye	percent		51413.43
+2020-07-01	2021-06-30	Eye - Loss of vision in an eye	percent		42844.56
+2020-07-01	2021-06-30	Miscellaneous unspecified disabilities	percent		214222.98
