@@ -1,1298 +1,1398 @@
 begin_date	end_date	body_part	rating_type	category	amount
-2009-07-01	2010-06-30	Neck	category	1	0
-2009-07-01	2010-06-30	Neck	category	2	18138.63
-2009-07-01	2010-06-30	Neck	category	3	36277.23
-2009-07-01	2010-06-30	Neck	category	4	45346.56
-2009-07-01	2010-06-30	Neck	category	5	63485.16
-2009-07-01	2010-06-30	Mid back	category	1	0
-2009-07-01	2010-06-30	Mid back	category	2	18138.63
-2009-07-01	2010-06-30	Mid back	category	3	36277.23
-2009-07-01	2010-06-30	Low back	category	1	0
-2009-07-01	2010-06-30	Low back	category	2	9069.3
-2009-07-01	2010-06-30	Low back	category	3	18138.63
-2009-07-01	2010-06-30	Low back	category	4	27207.93
-2009-07-01	2010-06-30	Low back	category	5	45346.56
-2009-07-01	2010-06-30	Low back	category	6	72554.46
-2009-07-01	2010-06-30	Low back	category	7	108831.72
-2009-07-01	2010-06-30	Low back	category	8	136039.65
-2009-07-01	2010-06-30	Mental health	category	1	0
-2009-07-01	2010-06-30	Mental health	category	2	18138.63
-2009-07-01	2010-06-30	Mental health	category	3	45346.56
-2009-07-01	2010-06-30	Mental health	category	4	81623.79
-2009-07-01	2010-06-30	Mental health	category	5	129970.32
-2009-07-01	2010-06-30	Leg - Above the Knee	percent		108831.78
-2009-07-01	2010-06-30	Leg - Below the knee joint	percent		87065.49
-2009-07-01	2010-06-30	Ankle	percent		76182.24
-2009-07-01	2010-06-30	Foot	percent		38091.18
-2009-07-01	2010-06-30	Arm - At or above shoulder	percent		108831.78
-2009-07-01	2010-06-30	Arm - From shoulder to elbow	percent		103390.11
-2009-07-01	2010-06-30	Arm - From elbow down	percent		97948.53
-2009-07-01	2010-06-30	Hand	percent		58769.04
-2009-07-01	2010-06-30	Hearing - Both ears	percent		101148.18
-2009-07-01	2010-06-30	Hearing - One ear	percent		16857.9
-2009-07-01	2010-06-30	Pelvis	category	1	0
-2009-07-01	2010-06-30	Pelvis	category	2	3627.72
-2009-07-01	2010-06-30	Pelvis	category	3	9069.3
-2009-07-01	2010-06-30	Pelvis	category	4	9069.3
-2009-07-01	2010-06-30	Pelvis	category	5	9069.3
-2009-07-01	2010-06-30	Pelvis	category	6	9069.3
-2009-07-01	2010-06-30	Pelvis	category	7	18138.63
-2009-07-01	2010-06-30	Pelvis	category	8	18138.63
-2009-07-01	2010-06-30	Pelvis	category	9	27207.93
-2009-07-01	2010-06-30	Heart	category	1	0
-2009-07-01	2010-06-30	Heart	category	2	18138.63
-2009-07-01	2010-06-30	Heart	category	3	36277.23
-2009-07-01	2010-06-30	Heart	category	4	63485.16
-2009-07-01	2010-06-30	Heart	category	5	90693.09
-2009-07-01	2010-06-30	Heart	category	6	117901.02
-2009-07-01	2010-06-30	Lungs	category	1	0
-2009-07-01	2010-06-30	Lungs	category	2	27207.93
-2009-07-01	2010-06-30	Lungs	category	3	45346.56
-2009-07-01	2010-06-30	Lungs	category	4	72554.46
-2009-07-01	2010-06-30	Lungs	category	5	117901.02
-2009-07-01	2010-06-30	Lungs	category	6	136039.65
-2009-07-01	2010-06-30	Loss of taste and smell	category	1	5441.58
-2009-07-01	2010-06-30	Loss of taste and smell	category	2	5441.58
-2009-07-01	2010-06-30	Speech	category	1	0
-2009-07-01	2010-06-30	Speech	category	2	9069.3
-2009-07-01	2010-06-30	Speech	category	3	18138.63
-2009-07-01	2010-06-30	Speech	category	4	36277.23
-2009-07-01	2010-06-30	Speech	category	5	54415.86
-2009-07-01	2010-06-30	Speech	category	6	63485.16
-2009-07-01	2010-06-30	Skin	category	1	0
-2009-07-01	2010-06-30	Skin	category	2	9069.3
-2009-07-01	2010-06-30	Skin	category	3	18138.63
-2009-07-01	2010-06-30	Skin	category	4	45346.56
-2009-07-01	2010-06-30	Skin	category	5	72554.46
-2009-07-01	2010-06-30	Skin	category	6	108831.72
-2009-07-01	2010-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2009-07-01	2010-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	9069.3
-2009-07-01	2010-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	18138.63
-2009-07-01	2010-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	63485.16
-2009-07-01	2010-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	108831.72
-2009-07-01	2010-06-30	Lower digestive tract	category	1	0
-2009-07-01	2010-06-30	Lower digestive tract	category	2	9069.3
-2009-07-01	2010-06-30	Lower digestive tract	category	3	27207.93
-2009-07-01	2010-06-30	Lower digestive tract	category	4	54415.86
-2009-07-01	2010-06-30	Anal function	category	1	0
-2009-07-01	2010-06-30	Anal function	category	2	9069.3
-2009-07-01	2010-06-30	Anal function	category	3	27207.93
-2009-07-01	2010-06-30	Anal function	category	4	45346.56
-2009-07-01	2010-06-30	Liver	category	1	0
-2009-07-01	2010-06-30	Liver	category	2	9069.3
-2009-07-01	2010-06-30	Liver	category	3	36277.23
-2009-07-01	2010-06-30	Liver	category	4	72554.46
-2009-07-01	2010-06-30	Liver	category	5	108831.72
-2009-07-01	2010-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	27207.93
-2009-07-01	2010-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	18138.63
-2009-07-01	2010-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	36277.23
-2009-07-01	2010-06-30	Bladder function	category	1	0
-2009-07-01	2010-06-30	Bladder function	category	2	18138.63
-2009-07-01	2010-06-30	Bladder function	category	3	36277.23
-2009-07-01	2010-06-30	Bladder function	category	4	54415.86
-2009-07-01	2010-06-30	Bladder function	category	5	90693.09
-2009-07-01	2010-06-30	Anatomical or functional loss of testes	category	1	0
-2009-07-01	2010-06-30	Anatomical or functional loss of testes	category	2	9069.3
-2009-07-01	2010-06-30	Anatomical or functional loss of testes	category	3	18138.63
-2009-07-01	2010-06-30	Anatomical or functional loss of testes	category	4	45346.56
-2009-07-01	2010-06-30	Anatomical or functional loss of testes	category	5	63485.16
-2009-07-01	2010-06-30	Eye - Loss of an eye	percent		43532.61
-2009-07-01	2010-06-30	Eye - Loss of vision in an eye	percent		36277.23
-2009-07-01	2010-06-30	Miscellaneous unspecified disabilities	percent		181396.18
-2010-07-01	2011-06-30	Neck	category	1	0
-2010-07-01	2011-06-30	Neck	category	2	18017.1
-2010-07-01	2011-06-30	Neck	category	3	36034.17
-2010-07-01	2011-06-30	Neck	category	4	45042.72
-2010-07-01	2011-06-30	Neck	category	5	63059.82
-2010-07-01	2011-06-30	Mid back	category	1	0
-2010-07-01	2011-06-30	Mid back	category	2	18017.1
-2010-07-01	2011-06-30	Mid back	category	3	36034.17
-2010-07-01	2011-06-30	Low back	category	1	0
-2010-07-01	2011-06-30	Low back	category	2	9008.55
-2010-07-01	2011-06-30	Low back	category	3	18017.1
-2010-07-01	2011-06-30	Low back	category	4	27025.62
-2010-07-01	2011-06-30	Low back	category	5	45042.72
-2010-07-01	2011-06-30	Low back	category	6	72068.34
-2010-07-01	2011-06-30	Low back	category	7	108102.54
-2010-07-01	2011-06-30	Low back	category	8	135128.16
-2010-07-01	2011-06-30	Mental health	category	1	0
-2010-07-01	2011-06-30	Mental health	category	2	18017.1
-2010-07-01	2011-06-30	Mental health	category	3	45042.72
-2010-07-01	2011-06-30	Mental health	category	4	81076.89
-2010-07-01	2011-06-30	Mental health	category	5	126119.61
-2010-07-01	2011-06-30	Leg - Above the Knee	percent		108102.6
-2010-07-01	2011-06-30	Leg - Below the knee joint	percent		86482.14
-2010-07-01	2011-06-30	Ankle	percent		75671.82
-2010-07-01	2011-06-30	Foot	percent		37835.97
-2010-07-01	2011-06-30	Arm - At or above shoulder	percent		108102.6
-2010-07-01	2011-06-30	Arm - From shoulder to elbow	percent		102697.41
-2010-07-01	2011-06-30	Arm - From elbow down	percent		97292.28
-2010-07-01	2011-06-30	Hand	percent		58375.29
-2010-07-01	2011-06-30	Hearing - Both ears	percent		86482.14
-2010-07-01	2011-06-30	Hearing - One ear	percent		14413.59
-2010-07-01	2011-06-30	Pelvis	category	1	0
-2010-07-01	2011-06-30	Pelvis	category	2	3603.42
-2010-07-01	2011-06-30	Pelvis	category	3	9008.55
-2010-07-01	2011-06-30	Pelvis	category	4	9008.55
-2010-07-01	2011-06-30	Pelvis	category	5	9008.55
-2010-07-01	2011-06-30	Pelvis	category	6	9008.55
-2010-07-01	2011-06-30	Pelvis	category	7	18017.1
-2010-07-01	2011-06-30	Pelvis	category	8	18017.1
-2010-07-01	2011-06-30	Pelvis	category	9	27025.62
-2010-07-01	2011-06-30	Heart	category	1	0
-2010-07-01	2011-06-30	Heart	category	2	18017.1
-2010-07-01	2011-06-30	Heart	category	3	36034.17
-2010-07-01	2011-06-30	Heart	category	4	63059.82
-2010-07-01	2011-06-30	Heart	category	5	90085.44
-2010-07-01	2011-06-30	Heart	category	6	117111.06
-2010-07-01	2011-06-30	Lungs	category	1	0
-2010-07-01	2011-06-30	Lungs	category	2	27025.62
-2010-07-01	2011-06-30	Lungs	category	3	45042.72
-2010-07-01	2011-06-30	Lungs	category	4	72068.34
-2010-07-01	2011-06-30	Lungs	category	5	117111.06
-2010-07-01	2011-06-30	Lungs	category	6	135128.16
-2010-07-01	2011-06-30	Loss of taste and smell	category	1	5405.13
-2010-07-01	2011-06-30	Loss of taste and smell	category	2	5405.13
-2010-07-01	2011-06-30	Speech	category	1	0
-2010-07-01	2011-06-30	Speech	category	2	9008.55
-2010-07-01	2011-06-30	Speech	category	3	18017.1
-2010-07-01	2011-06-30	Speech	category	4	36034.17
-2010-07-01	2011-06-30	Speech	category	5	54051.27
-2010-07-01	2011-06-30	Speech	category	6	63059.82
-2010-07-01	2011-06-30	Skin	category	1	0
-2010-07-01	2011-06-30	Skin	category	2	9008.55
-2010-07-01	2011-06-30	Skin	category	3	18017.1
-2010-07-01	2011-06-30	Skin	category	4	45042.72
-2010-07-01	2011-06-30	Skin	category	5	72068.34
-2010-07-01	2011-06-30	Skin	category	6	108102.54
-2010-07-01	2011-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2010-07-01	2011-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	9008.55
-2010-07-01	2011-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	18017.1
-2010-07-01	2011-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	63059.82
-2010-07-01	2011-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	108102.54
-2010-07-01	2011-06-30	Lower digestive tract	category	1	0
-2010-07-01	2011-06-30	Lower digestive tract	category	2	9008.55
-2010-07-01	2011-06-30	Lower digestive tract	category	3	27025.62
-2010-07-01	2011-06-30	Lower digestive tract	category	4	54051.27
-2010-07-01	2011-06-30	Anal function	category	1	0
-2010-07-01	2011-06-30	Anal function	category	2	9008.55
-2010-07-01	2011-06-30	Anal function	category	3	27025.62
-2010-07-01	2011-06-30	Anal function	category	4	45042.72
-2010-07-01	2011-06-30	Liver	category	1	0
-2010-07-01	2011-06-30	Liver	category	2	9008.55
-2010-07-01	2011-06-30	Liver	category	3	36034.17
-2010-07-01	2011-06-30	Liver	category	4	72068.34
-2010-07-01	2011-06-30	Liver	category	5	108102.54
-2010-07-01	2011-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	27025.62
-2010-07-01	2011-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	18017.1
-2010-07-01	2011-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	36034.17
-2010-07-01	2011-06-30	Bladder function	category	1	0
-2010-07-01	2011-06-30	Bladder function	category	2	18017.1
-2010-07-01	2011-06-30	Bladder function	category	3	36034.17
-2010-07-01	2011-06-30	Bladder function	category	4	54051.27
-2010-07-01	2011-06-30	Bladder function	category	5	90085.44
-2010-07-01	2011-06-30	Anatomical or functional loss of testes	category	1	0
-2010-07-01	2011-06-30	Anatomical or functional loss of testes	category	2	9008.55
-2010-07-01	2011-06-30	Anatomical or functional loss of testes	category	3	18017.1
-2010-07-01	2011-06-30	Anatomical or functional loss of testes	category	4	45042.72
-2010-07-01	2011-06-30	Anatomical or functional loss of testes	category	5	63059.82
-2010-07-01	2011-06-30	Eye - Loss of an eye	percent		43240.95
-2010-07-01	2011-06-30	Eye - Loss of vision in an eye	percent		36034.17
-2010-07-01	2011-06-30	Miscellaneous unspecified disabilities	percent		180170.88
-2011-07-01	2012-06-30	Neck	category	1	0
-2011-07-01	2012-06-30	Neck	category	2	18390.03
-2011-07-01	2012-06-30	Neck	category	3	36780.09
-2011-07-01	2012-06-30	Neck	category	4	45975.12
-2011-07-01	2012-06-30	Neck	category	5	64365.15
-2011-07-01	2012-06-30	Mid back	category	1	0
-2011-07-01	2012-06-30	Mid back	category	2	18390.03
-2011-07-01	2012-06-30	Mid back	category	3	36780.09
-2011-07-01	2012-06-30	Low back	category	1	0
-2011-07-01	2012-06-30	Low back	category	2	9195.03
-2011-07-01	2012-06-30	Low back	category	3	18390.03
-2011-07-01	2012-06-30	Low back	category	4	27585.06
-2011-07-01	2012-06-30	Low back	category	5	45975.12
-2011-07-01	2012-06-30	Low back	category	6	73560.18
-2011-07-01	2012-06-30	Low back	category	7	110340.24
-2011-07-01	2012-06-30	Low back	category	8	137925.33
-2011-07-01	2012-06-30	Mental health	category	1	0
-2011-07-01	2012-06-30	Mental health	category	2	18390.03
-2011-07-01	2012-06-30	Mental health	category	3	45975.12
-2011-07-01	2012-06-30	Mental health	category	4	82755.18
-2011-07-01	2012-06-30	Mental health	category	5	128730.3
-2011-07-01	2012-06-30	Leg - Above the Knee	percent		110340.33
-2011-07-01	2012-06-30	Leg - Below the knee joint	percent		88272.33
-2011-07-01	2012-06-30	Ankle	percent		77238.23
-2011-07-01	2012-06-30	Foot	percent		38619.18
-2011-07-01	2012-06-30	Arm - At or above shoulder	percent		110340.33
-2011-07-01	2012-06-30	Arm - From shoulder to elbow	percent		104823.24
-2011-07-01	2012-06-30	Arm - From elbow down	percent		99306.24
-2011-07-01	2012-06-30	Hand	percent		59583.66
-2011-07-01	2012-06-30	Hearing - Both ears	percent		88272.33
-2011-07-01	2012-06-30	Hearing - One ear	percent		14711.94
-2011-07-01	2012-06-30	Pelvis	category	1	0
-2011-07-01	2012-06-30	Pelvis	category	2	3678
-2011-07-01	2012-06-30	Pelvis	category	3	9195.03
-2011-07-01	2012-06-30	Pelvis	category	4	9195.03
-2011-07-01	2012-06-30	Pelvis	category	5	9195.03
-2011-07-01	2012-06-30	Pelvis	category	6	9195.03
-2011-07-01	2012-06-30	Pelvis	category	7	18390.03
-2011-07-01	2012-06-30	Pelvis	category	8	18390.03
-2011-07-01	2012-06-30	Pelvis	category	9	27585.06
-2011-07-01	2012-06-30	Heart	category	1	0
-2011-07-01	2012-06-30	Heart	category	2	18390.03
-2011-07-01	2012-06-30	Heart	category	3	36780.09
-2011-07-01	2012-06-30	Heart	category	4	64365.15
-2011-07-01	2012-06-30	Heart	category	5	91950.21
-2011-07-01	2012-06-30	Heart	category	6	119535.27
-2011-07-01	2012-06-30	Lungs	category	2	27585.06
-2011-07-01	2012-06-30	Lungs	category	3	45975.12
-2011-07-01	2012-06-30	Lungs	category	4	73560.18
-2011-07-01	2012-06-30	Lungs	category	5	119535.27
-2011-07-01	2012-06-30	Lungs	category	6	137925.33
-2011-07-01	2012-06-30	Loss of taste and smell	category	1	5517
-2011-07-01	2012-06-30	Loss of taste and smell	category	2	5517
-2011-07-01	2012-06-30	Speech	category	1	0
-2011-07-01	2012-06-30	Speech	category	2	9195.03
-2011-07-01	2012-06-30	Speech	category	3	18390.03
-2011-07-01	2012-06-30	Speech	category	4	36780.09
-2011-07-01	2012-06-30	Speech	category	5	55170.12
-2011-07-01	2012-06-30	Speech	category	6	64365.15
-2011-07-01	2012-06-30	Skin	category	1	0
-2011-07-01	2012-06-30	Skin	category	2	9195.03
-2011-07-01	2012-06-30	Skin	category	3	18390.03
-2011-07-01	2012-06-30	Skin	category	4	45975.12
-2011-07-01	2012-06-30	Skin	category	5	73560.18
-2011-07-01	2012-06-30	Skin	category	6	110340.24
-2011-07-01	2012-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2011-07-01	2012-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	9195.03
-2011-07-01	2012-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	18390.03
-2011-07-01	2012-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	64365.15
-2011-07-01	2012-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	110340.24
-2011-07-01	2012-06-30	Lower digestive tract	category	1	0
-2011-07-01	2012-06-30	Lower digestive tract	category	2	9195.03
-2011-07-01	2012-06-30	Lower digestive tract	category	3	27585.06
-2011-07-01	2012-06-30	Lower digestive tract	category	4	55170.12
-2011-07-01	2012-06-30	Anal function	category	1	0
-2011-07-01	2012-06-30	Anal function	category	2	9195.03
-2011-07-01	2012-06-30	Anal function	category	3	27585.06
-2011-07-01	2012-06-30	Anal function	category	4	45975.12
-2011-07-01	2012-06-30	Liver	category	1	0
-2011-07-01	2012-06-30	Liver	category	2	9195.03
-2011-07-01	2012-06-30	Liver	category	3	36780.09
-2011-07-01	2012-06-30	Liver	category	4	73560.18
-2011-07-01	2012-06-30	Liver	category	5	110340.24
-2011-07-01	2012-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	27585.06
-2011-07-01	2012-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	18390.03
-2011-07-01	2012-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	36780.09
-2011-07-01	2012-06-30	Bladder function	category	1	0
-2011-07-01	2012-06-30	Bladder function	category	2	18390.03
-2011-07-01	2012-06-30	Bladder function	category	3	36780.09
-2011-07-01	2012-06-30	Bladder function	category	4	55170.12
-2011-07-01	2012-06-30	Bladder function	category	5	91950.21
-2011-07-01	2012-06-30	Anatomical or functional loss of testes	category	1	0
-2011-07-01	2012-06-30	Anatomical or functional loss of testes	category	2	9195.03
-2011-07-01	2012-06-30	Anatomical or functional loss of testes	category	3	18390.03
-2011-07-01	2012-06-30	Anatomical or functional loss of testes	category	4	45975.12
-2011-07-01	2012-06-30	Anatomical or functional loss of testes	category	5	64365.15
-2011-07-01	2012-06-30	Eye - Loss of an eye	percent		44136.03
-2011-07-01	2012-06-30	Eye - Loss of vision in an eye	percent		36780.09
-2011-07-01	2012-06-30	Miscellaneous unspecified disabilities	percent		183900.42
-2012-07-01	2013-06-30	Neck	category	1	0
-2012-07-01	2013-06-30	Neck	category	2	19044.72
-2012-07-01	2013-06-30	Neck	category	3	38089.44
-2012-07-01	2013-06-30	Neck	category	4	47611.83
-2012-07-01	2013-06-30	Neck	category	5	66656.55
-2012-07-01	2013-06-30	Mid back	category	1	0
-2012-07-01	2013-06-30	Mid back	category	2	18390.03
-2012-07-01	2013-06-30	Mid back	category	3	38089.44
-2012-07-01	2013-06-30	Low back	category	1	0
-2012-07-01	2013-06-30	Low back	category	2	9522.36
-2012-07-01	2013-06-30	Low back	category	3	19044.72
-2012-07-01	2013-06-30	Low back	category	4	28567.08
-2012-07-01	2013-06-30	Low back	category	5	47611.83
-2012-07-01	2013-06-30	Low back	category	6	76178.91
-2012-07-01	2013-06-30	Low back	category	7	114268.35
-2012-07-01	2013-06-30	Low back	category	8	142835.46
-2012-07-01	2013-06-30	Mental health	category	1	0
-2012-07-01	2013-06-30	Mental health	category	2	19044.72
-2012-07-01	2013-06-30	Mental health	category	3	47611.83
-2012-07-01	2013-06-30	Mental health	category	4	85701.27
-2012-07-01	2013-06-30	Mental health	category	5	133313.07
-2012-07-01	2013-06-30	Leg - Above the Knee	percent		114268.44
-2012-07-01	2013-06-30	Leg - Below the knee joint	percent		91414.83
-2012-07-01	2013-06-30	Ankle	percent		79987.82
-2012-07-01	2013-06-30	Foot	percent		39994.02
-2012-07-01	2013-06-30	Arm - At or above shoulder	percent		114268.44
-2012-07-01	2013-06-30	Arm - From shoulder to elbow	percent		108554.94
-2012-07-01	2013-06-30	Arm - From elbow down	percent		102841.53
-2012-07-01	2013-06-30	Hand	percent		61704.84
-2012-07-01	2013-06-30	Hearing - Both ears	percent		91414.83
-2012-07-01	2013-06-30	Hearing - One ear	percent		15235.68
-2012-07-01	2013-06-30	Pelvis	category	1	0
-2012-07-01	2013-06-30	Pelvis	category	2	3808.95
-2012-07-01	2013-06-30	Pelvis	category	3	9522.36
-2012-07-01	2013-06-30	Pelvis	category	4	9522.36
-2012-07-01	2013-06-30	Pelvis	category	5	9522.36
-2012-07-01	2013-06-30	Pelvis	category	6	9522.36
-2012-07-01	2013-06-30	Pelvis	category	7	19044.72
-2012-07-01	2013-06-30	Pelvis	category	8	19044.72
-2012-07-01	2013-06-30	Pelvis	category	9	28567.08
-2012-07-01	2013-06-30	Heart	category	1	0
-2012-07-01	2013-06-30	Heart	category	2	19044.72
-2012-07-01	2013-06-30	Heart	category	3	38089.44
-2012-07-01	2013-06-30	Heart	category	4	66656.55
-2012-07-01	2013-06-30	Heart	category	5	95223.63
-2012-07-01	2013-06-30	Heart	category	6	123709.71
-2012-07-01	2013-06-30	Lungs	category	1	0
-2012-07-01	2013-06-30	Lungs	category	2	28567.08
-2012-07-01	2013-06-30	Lungs	category	3	47611.83
-2012-07-01	2013-06-30	Lungs	category	4	76178.91
-2012-07-01	2013-06-30	Lungs	category	5	123790.71
-2012-07-01	2013-06-30	Lungs	category	6	142835.46
-2012-07-01	2013-06-30	Loss of taste and smell	category	1	5713.41
-2012-07-01	2013-06-30	Loss of taste and smell	category	2	5713.41
-2012-07-01	2013-06-30	Speech	category	1	0
-2012-07-01	2013-06-30	Speech	category	2	9522.36
-2012-07-01	2013-06-30	Speech	category	3	19044.72
-2012-07-01	2013-06-30	Speech	category	4	38089.44
-2012-07-01	2013-06-30	Speech	category	5	57134.19
-2012-07-01	2013-06-30	Speech	category	6	66656.55
-2012-07-01	2013-06-30	Skin	category	1	0
-2012-07-01	2013-06-30	Skin	category	2	9522.36
-2012-07-01	2013-06-30	Skin	category	3	19044.72
-2012-07-01	2013-06-30	Skin	category	4	47611.83
-2012-07-01	2013-06-30	Skin	category	5	76178.91
-2012-07-01	2013-06-30	Skin	category	6	114268.35
-2012-07-01	2013-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2012-07-01	2013-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	9522.36
-2012-07-01	2013-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	19044.72
-2012-07-01	2013-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	66656.55
-2012-07-01	2013-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	114268.35
-2012-07-01	2013-06-30	Lower digestive tract	category	2	9522.36
-2012-07-01	2013-06-30	Lower digestive tract	category	3	28567.08
-2012-07-01	2013-06-30	Lower digestive tract	category	4	57134.19
-2012-07-01	2013-06-30	Anal function	category	1	0
-2012-07-01	2013-06-30	Anal function	category	2	9522.36
-2012-07-01	2013-06-30	Anal function	category	3	28567.08
-2012-07-01	2013-06-30	Anal function	category	4	47611.83
-2012-07-01	2013-06-30	Liver	category	1	0
-2012-07-01	2013-06-30	Liver	category	2	9522.36
-2012-07-01	2013-06-30	Liver	category	3	38089.44
-2012-07-01	2013-06-30	Liver	category	4	76178.91
-2012-07-01	2013-06-30	Liver	category	5	114268.35
-2012-07-01	2013-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	28567.08
-2012-07-01	2013-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	19044.72
-2012-07-01	2013-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	38089.44
-2012-07-01	2013-06-30	Bladder function	category	1	0
-2012-07-01	2013-06-30	Bladder function	category	2	19044.72
-2012-07-01	2013-06-30	Bladder function	category	3	38089.44
-2012-07-01	2013-06-30	Bladder function	category	4	57134.19
-2012-07-01	2013-06-30	Bladder function	category	5	95.223.63
-2012-07-01	2013-06-30	Anatomical or functional loss of testes	category	1	0
-2012-07-01	2013-06-30	Anatomical or functional loss of testes	category	2	9522.36
-2012-07-01	2013-06-30	Anatomical or functional loss of testes	category	3	19044.72
-2012-07-01	2013-06-30	Anatomical or functional loss of testes	category	4	47611.83
-2012-07-01	2013-06-30	Anatomical or functional loss of testes	category	5	66656.55
-2012-07-01	2013-06-30	Eye - Loss of an eye	percent		45707.28
-2012-07-01	2013-06-30	Eye - Loss of vision in an eye	percent		38089.47
-2012-07-01	2013-06-30	Miscellaneous unspecified disabilities	percent		190447.26
-2013-07-01	2014-06-30	Neck	category	1	0
-2013-07-01	2014-06-30	Neck	category	2	19444.68
-2013-07-01	2014-06-30	Neck	category	3	38889.33
-2013-07-01	2014-06-30	Neck	category	4	48611.67
-2013-07-01	2014-06-30	Neck	category	5	68056.32
-2013-07-01	2014-06-30	Mid back	category	1	0
-2013-07-01	2014-06-30	Mid back	category	2	19444.68
-2013-07-01	2014-06-30	Mid back	category	3	38889.33
-2013-07-01	2014-06-30	Low back	category	1	0
-2013-07-01	2014-06-30	Low back	category	2	9722.34
-2013-07-01	2014-06-30	Low back	category	3	19444.68
-2013-07-01	2014-06-30	Low back	category	4	29166.99
-2013-07-01	2014-06-30	Low back	category	5	48611.67
-2013-07-01	2014-06-30	Low back	category	6	77778.66
-2013-07-01	2014-06-30	Low back	category	7	116667.99
-2013-07-01	2014-06-30	Low back	category	8	145834.98
-2013-07-01	2014-06-30	Mental health	category	1	0
-2013-07-01	2014-06-30	Mental health	category	2	19444.68
-2013-07-01	2014-06-30	Mental health	category	3	48611.67
-2013-07-01	2014-06-30	Mental health	category	4	87501
-2013-07-01	2014-06-30	Mental health	category	5	136112.67
-2013-07-01	2014-06-30	Leg - Above the Knee	percent		116668.08
-2013-07-01	2014-06-30	Leg - Below the knee joint	percent		93334.53
-2013-07-01	2014-06-30	Ankle	percent		81667.68
-2013-07-01	2014-06-30	Foot	percent		40833.9
-2013-07-01	2014-06-30	Arm - At or above shoulder	percent		116668.08
-2013-07-01	2014-06-30	Arm - From shoulder to elbow	percent		110834.58
-2013-07-01	2014-06-30	Arm - From elbow down	percent		105001.2
-2013-07-01	2014-06-30	Hand	percent		63000.63
-2013-07-01	2014-06-30	Hearing - Both ears	percent		93334.53
-2013-07-01	2014-06-30	Hearing - One ear	percent		15555.63
-2013-07-01	2014-06-30	Pelvis	category	1	0
-2013-07-01	2014-06-30	Pelvis	category	2	3888.93
-2013-07-01	2014-06-30	Pelvis	category	3	9722.34
-2013-07-01	2014-06-30	Pelvis	category	4	9722.34
-2013-07-01	2014-06-30	Pelvis	category	5	9722.34
-2013-07-01	2014-06-30	Pelvis	category	6	9722.34
-2013-07-01	2014-06-30	Pelvis	category	7	19444.68
-2013-07-01	2014-06-30	Pelvis	category	8	19444.68
-2013-07-01	2014-06-30	Pelvis	category	9	29166.98
-2013-07-01	2014-06-30	Heart	category	1	0
-2013-07-01	2014-06-30	Heart	category	2	19444.68
-2013-07-01	2014-06-30	Heart	category	3	38889.33
-2013-07-01	2014-06-30	Heart	category	4	68056.32
-2013-07-01	2014-06-30	Heart	category	5	97223.34
-2013-07-01	2014-06-30	Heart	category	6	126390.33
-2013-07-01	2014-06-30	Lungs	category	1	0
-2013-07-01	2014-06-30	Lungs	category	2	29166.98
-2013-07-01	2014-06-30	Lungs	category	3	48611.67
-2013-07-01	2014-06-30	Lungs	category	4	77778.66
-2013-07-01	2014-06-30	Lungs	category	5	126390.33
-2013-07-01	2014-06-30	Lungs	category	6	145834.98
-2013-07-01	2014-06-30	Loss of taste and smell	category	1	5833.41
-2013-07-01	2014-06-30	Loss of taste and smell	category	2	5833.41
-2013-07-01	2014-06-30	Speech	category	1	0
-2013-07-01	2014-06-30	Speech	category	2	9722.34
-2013-07-01	2014-06-30	Speech	category	3	19444.68
-2013-07-01	2014-06-30	Speech	category	4	38889.33
-2013-07-01	2014-06-30	Speech	category	5	58334.01
-2013-07-01	2014-06-30	Speech	category	6	68056.32
-2013-07-01	2014-06-30	Skin	category	1	0
-2013-07-01	2014-06-30	Skin	category	2	9722.34
-2013-07-01	2014-06-30	Skin	category	3	19444.68
-2013-07-01	2014-06-30	Skin	category	4	48611.67
-2013-07-01	2014-06-30	Skin	category	5	77778.66
-2013-07-01	2014-06-30	Skin	category	6	116667.99
-2013-07-01	2014-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2013-07-01	2014-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	9722.34
-2013-07-01	2014-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	19444.68
-2013-07-01	2014-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	68056.32
-2013-07-01	2014-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	116667.99
-2013-07-01	2014-06-30	Lower digestive tract	category	1	0
-2013-07-01	2014-06-30	Lower digestive tract	category	2	9722.34
-2013-07-01	2014-06-30	Lower digestive tract	category	3	29166.99
-2013-07-01	2014-06-30	Lower digestive tract	category	4	58334.01
-2013-07-01	2014-06-30	Anal function	category	1	0
-2013-07-01	2014-06-30	Anal function	category	2	9722.34
-2013-07-01	2014-06-30	Anal function	category	3	29166.99
-2013-07-01	2014-06-30	Anal function	category	4	48611.67
-2013-07-01	2014-06-30	Liver	category	1	0
-2013-07-01	2014-06-30	Liver	category	2	9722.34
-2013-07-01	2014-06-30	Liver	category	3	38889.33
-2013-07-01	2014-06-30	Liver	category	4	77778.66
-2013-07-01	2014-06-30	Liver	category	5	116667.99
-2013-07-01	2014-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	29166.99
-2013-07-01	2014-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	19444.68
-2013-07-01	2014-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	38889.33
-2013-07-01	2014-06-30	Bladder function	category	1	0
-2013-07-01	2014-06-30	Bladder function	category	2	19444.68
-2013-07-01	2014-06-30	Bladder function	category	3	38889.33
-2013-07-01	2014-06-30	Bladder function	category	4	58334.01
-2013-07-01	2014-06-30	Bladder function	category	5	97223.34
-2013-07-01	2014-06-30	Anatomical or functional loss of testes	category	1	0
-2013-07-01	2014-06-30	Anatomical or functional loss of testes	category	2	9722.34
-2013-07-01	2014-06-30	Anatomical or functional loss of testes	category	3	19444.68
-2013-07-01	2014-06-30	Anatomical or functional loss of testes	category	4	48611.67
-2013-07-01	2014-06-30	Anatomical or functional loss of testes	category	5	68056.32
-2013-07-01	2014-06-30	Eye - Loss of an eye	percent		46667.13
-2013-07-01	2014-06-30	Eye - Loss of vision in an eye	percent		38889.36
-2013-07-01	2014-06-30	Miscellaneous unspecified disabilities	percent		194446.65
-2014-07-01	2015-06-30	Neck	category	1	0
-2014-07-01	2015-06-30	Neck	category	2	19711.05
-2014-07-01	2015-06-30	Neck	category	3	39422.1
-2014-07-01	2015-06-30	Neck	category	4	49277.64
-2014-07-01	2015-06-30	Neck	category	5	68988.69
-2014-07-01	2015-06-30	Mid back	category	1	0
-2014-07-01	2015-06-30	Mid back	category	2	19711.05
-2014-07-01	2015-06-30	Mid back	category	3	39422.1
-2014-07-01	2015-06-30	Low back	category	1	0
-2014-07-01	2015-06-30	Low back	category	2	9855.54
-2014-07-01	2015-06-30	Low back	category	3	19711.05
-2014-07-01	2015-06-30	Low back	category	4	29566.59
-2014-07-01	2015-06-30	Low back	category	5	49277.64
-2014-07-01	2015-06-30	Low back	category	6	78844.23
-2014-07-01	2015-06-30	Low back	category	7	118266.33
-2014-07-01	2015-06-30	Low back	category	8	147832.92
-2014-07-01	2015-06-30	Mental health	category	1	0
-2014-07-01	2015-06-30	Mental health	category	2	19711.05
-2014-07-01	2015-06-30	Mental health	category	3	49277.64
-2014-07-01	2015-06-30	Mental health	category	4	88699.74
-2014-07-01	2015-06-30	Mental health	category	5	137977.38
-2014-07-01	2015-06-30	Leg - Above the Knee	percent		118266.42
-2014-07-01	2015-06-30	Leg - Below the knee joint	percent		94613.22
-2014-07-01	2015-06-30	Ankle	percent		82786.53
-2014-07-01	2015-06-30	Foot	percent		41393.31
-2014-07-01	2015-06-30	Arm - At or above shoulder	percent		118266.42
-2014-07-01	2015-06-30	Arm - From shoulder to elbow	percent		112353
-2014-07-01	2015-06-30	Arm - From elbow down	percent		106439.73
-2014-07-01	2015-06-30	Hand	percent		63863.73
-2014-07-01	2015-06-30	Hearing - Both ears	percent		94613.22
-2014-07-01	2015-06-30	Hearing - One ear	percent		15768.75
-2014-07-01	2015-06-30	Pelvis	category	1	0
-2014-07-01	2015-06-30	Pelvis	category	2	3942.21
-2014-07-01	2015-06-30	Pelvis	category	3	9855.54
-2014-07-01	2015-06-30	Pelvis	category	4	9855.54
-2014-07-01	2015-06-30	Pelvis	category	5	9855.54
-2014-07-01	2015-06-30	Pelvis	category	6	9855.54
-2014-07-01	2015-06-30	Pelvis	category	7	19711.05
-2014-07-01	2015-06-30	Pelvis	category	8	19711.05
-2014-07-01	2015-06-30	Pelvis	category	9	29566.59
-2014-07-01	2015-06-30	Heart	category	1	0
-2014-07-01	2015-06-30	Heart	category	2	19711.05
-2014-07-01	2015-06-30	Heart	category	3	39422.1
-2014-07-01	2015-06-30	Heart	category	4	68988.69
-2014-07-01	2015-06-30	Heart	category	5	98555.28
-2014-07-01	2015-06-30	Heart	category	6	128121.87
-2014-07-01	2015-06-30	Lungs	category	2	29566.59
-2014-07-01	2015-06-30	Lungs	category	3	49277.64
-2014-07-01	2015-06-30	Lungs	category	4	78844.23
-2014-07-01	2015-06-30	Lungs	category	5	128121.87
-2014-07-01	2015-06-30	Lungs	category	6	147832.92
-2014-07-01	2015-06-30	Loss of taste and smell	category	1	5913.33
-2014-07-01	2015-06-30	Loss of taste and smell	category	2	5913.33
-2014-07-01	2015-06-30	Speech	category	1	0
-2014-07-01	2015-06-30	Speech	category	2	9855.54
-2014-07-01	2015-06-30	Speech	category	3	19711.05
-2014-07-01	2015-06-30	Speech	category	4	39422.1
-2014-07-01	2015-06-30	Speech	category	5	59133.18
-2014-07-01	2015-06-30	Speech	category	6	68988.69
-2014-07-01	2015-06-30	Skin	category	1	0
-2014-07-01	2015-06-30	Skin	category	2	9855.54
-2014-07-01	2015-06-30	Skin	category	3	19711.05
-2014-07-01	2015-06-30	Skin	category	4	49277.64
-2014-07-01	2015-06-30	Skin	category	5	78844.23
-2014-07-01	2015-06-30	Skin	category	6	118266.33
-2014-07-01	2015-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2014-07-01	2015-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	9855.54
-2014-07-01	2015-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	19711.05
-2014-07-01	2015-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	68988.69
-2014-07-01	2015-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	118266.33
-2014-07-01	2015-06-30	Lower digestive tract	category	1	0
-2014-07-01	2015-06-30	Lower digestive tract	category	2	9855.54
-2014-07-01	2015-06-30	Lower digestive tract	category	3	29566.59
-2014-07-01	2015-06-30	Lower digestive tract	category	4	59133.18
-2014-07-01	2015-06-30	Anal function	category	1	0
-2014-07-01	2015-06-30	Anal function	category	2	9855.54
-2014-07-01	2015-06-30	Anal function	category	3	29566.59
-2014-07-01	2015-06-30	Anal function	category	4	49277.64
-2014-07-01	2015-06-30	Liver	category	1	0
-2014-07-01	2015-06-30	Liver	category	2	9855.54
-2014-07-01	2015-06-30	Liver	category	3	39422.1
-2014-07-01	2015-06-30	Liver	category	4	78844.23
-2014-07-01	2015-06-30	Liver	category	5	118266.33
-2014-07-01	2015-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	29566.59
-2014-07-01	2015-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	19711.05
-2014-07-01	2015-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	39422.1
-2014-07-01	2015-06-30	Bladder function	category	1	0
-2014-07-01	2015-06-30	Bladder function	category	2	19711.05
-2014-07-01	2015-06-30	Bladder function	category	3	39422.1
-2014-07-01	2015-06-30	Bladder function	category	4	59133.18
-2014-07-01	2015-06-30	Bladder function	category	5	98555.28
-2014-07-01	2015-06-30	Anatomical or functional loss of testes	category	1	0
-2014-07-01	2015-06-30	Anatomical or functional loss of testes	category	2	9855.54
-2014-07-01	2015-06-30	Anatomical or functional loss of testes	category	3	19711.05
-2014-07-01	2015-06-30	Anatomical or functional loss of testes	category	4	49277.64
-2014-07-01	2015-06-30	Anatomical or functional loss of testes	category	5	68988.69
-2014-07-01	2015-06-30	Eye - Loss of an eye	percent		47306.46
-2014-07-01	2015-06-30	Eye - Loss of vision in an eye	percent		39422.13
-2014-07-01	2015-06-30	Miscellaneous unspecified disabilities	percent		197110.56
-2015-07-01	2016-06-30	Neck	category	1	0
-2015-07-01	2016-06-30	Neck	category	2	20006.73
-2015-07-01	2016-06-30	Neck	category	3	40013.43
-2015-07-01	2016-06-30	Neck	category	4	50016.81
-2015-07-01	2016-06-30	Neck	category	5	70023.51
-2015-07-01	2016-06-30	Mid back	category	1	0
-2015-07-01	2016-06-30	Mid back	category	2	20006.73
-2015-07-01	2016-06-30	Mid back	category	3	40013.43
-2015-07-01	2016-06-30	Low back	category	1	0
-2015-07-01	2016-06-30	Low back	category	2	10003.35
-2015-07-01	2016-06-30	Low back	category	3	20006.73
-2015-07-01	2016-06-30	Low back	category	4	30010.08
-2015-07-01	2016-06-30	Low back	category	5	50016.81
-2015-07-01	2016-06-30	Low back	category	6	80026.89
-2015-07-01	2016-06-30	Low back	category	7	120040.32
-2015-07-01	2016-06-30	Low back	category	8	150050.4
-2015-07-01	2016-06-30	Mental health	category	1	0
-2015-07-01	2016-06-30	Mental health	category	2	20006.73
-2015-07-01	2016-06-30	Mental health	category	3	50016.81
-2015-07-01	2016-06-30	Mental health	category	4	90030.24
-2015-07-01	2016-06-30	Mental health	category	5	140047.05
-2015-07-01	2016-06-30	Leg - Above the Knee	percent		120040.41
-2015-07-01	2016-06-30	Leg - Below the knee joint	percent		96032.43
-2015-07-01	2016-06-30	Ankle	percent		84028.32
-2015-07-01	2016-06-30	Foot	percent		42014.22
-2015-07-01	2016-06-30	Arm - At or above shoulder	percent		120040.41
-2015-07-01	2016-06-30	Arm - From shoulder to elbow	percent		114038.31
-2015-07-01	2016-06-30	Arm - From elbow down	percent		108036.33
-2015-07-01	2016-06-30	Hand	percent		64821.69
-2015-07-01	2016-06-30	Hearing - Both ears	percent		96032.43
-2015-07-01	2016-06-30	Hearing - One ear	percent		16005.27
-2015-07-01	2016-06-30	Pelvis	category	1	0
-2015-07-01	2016-06-30	Pelvis	category	2	4001.34
-2015-07-01	2016-06-30	Pelvis	category	3	10003.35
-2015-07-01	2016-06-30	Pelvis	category	4	10003.35
-2015-07-01	2016-06-30	Pelvis	category	5	10003.35
-2015-07-01	2016-06-30	Pelvis	category	6	10003.35
-2015-07-01	2016-06-30	Pelvis	category	7	20006.73
-2015-07-01	2016-06-30	Pelvis	category	8	20006.73
-2015-07-01	2016-06-30	Pelvis	category	9	30010.08
-2015-07-01	2016-06-30	Heart	category	1	0
-2015-07-01	2016-06-30	Heart	category	2	20006.73
-2015-07-01	2016-06-30	Heart	category	3	40013.43
-2015-07-01	2016-06-30	Heart	category	4	70023.51
-2015-07-01	2016-06-30	Heart	category	5	100033.62
-2015-07-01	2016-06-30	Heart	category	6	130043.7
-2015-07-01	2016-06-30	Lungs	category	1	0
-2015-07-01	2016-06-30	Lungs	category	2	30010.08
-2015-07-01	2016-06-30	Lungs	category	3	50016.81
-2015-07-01	2016-06-30	Lungs	category	4	80026.89
-2015-07-01	2016-06-30	Lungs	category	5	130043.7
-2015-07-01	2016-06-30	Lungs	category	6	150050.4
-2015-07-01	2016-06-30	Loss of taste and smell	category	1	5833.41
-2015-07-01	2016-06-30	Loss of taste and smell	category	2	5833.41
-2015-07-01	2016-06-30	Speech	category	1	0
-2015-07-01	2016-06-30	Speech	category	2	10003.35
-2015-07-01	2016-06-30	Speech	category	3	20006.73
-2015-07-01	2016-06-30	Speech	category	4	40013.43
-2015-07-01	2016-06-30	Speech	category	5	60020.16
-2015-07-01	2016-06-30	Speech	category	6	70023.51
-2015-07-01	2016-06-30	Skin	category	1	0
-2015-07-01	2016-06-30	Skin	category	2	10003.35
-2015-07-01	2016-06-30	Skin	category	3	20006.73
-2015-07-01	2016-06-30	Skin	category	4	50016.81
-2015-07-01	2016-06-30	Skin	category	5	80026.89
-2015-07-01	2016-06-30	Skin	category	6	120040.32
-2015-07-01	2016-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2015-07-01	2016-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	10003.35
-2015-07-01	2016-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	20006.73
-2015-07-01	2016-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	70023.51
-2015-07-01	2016-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	120040.32
-2015-07-01	2016-06-30	Lower digestive tract	category	1	0
-2015-07-01	2016-06-30	Lower digestive tract	category	2	10003.35
-2015-07-01	2016-06-30	Lower digestive tract	category	3	30010.08
-2015-07-01	2016-06-30	Lower digestive tract	category	4	60020.16
-2015-07-01	2016-06-30	Anal function	category	1	0
-2015-07-01	2016-06-30	Anal function	category	2	10003.35
-2015-07-01	2016-06-30	Anal function	category	3	30010.08
-2015-07-01	2016-06-30	Anal function	category	4	50026.81
-2015-07-01	2016-06-30	Liver	category	1	0
-2015-07-01	2016-06-30	Liver	category	2	10003.35
-2015-07-01	2016-06-30	Liver	category	3	40013.43
-2015-07-01	2016-06-30	Liver	category	4	80026.89
-2015-07-01	2016-06-30	Liver	category	5	120040.32
-2015-07-01	2016-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	30010.08
-2015-07-01	2016-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	20006.73
-2015-07-01	2016-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	40013.43
-2015-07-01	2016-06-30	Bladder function	category	1	0
-2015-07-01	2016-06-30	Bladder function	category	2	20006.73
-2015-07-01	2016-06-30	Bladder function	category	3	40013.43
-2015-07-01	2016-06-30	Bladder function	category	4	60020.16
-2015-07-01	2016-06-30	Bladder function	category	5	100033.62
-2015-07-01	2016-06-30	Anatomical or functional loss of testes	category	1	0
-2015-07-01	2016-06-30	Anatomical or functional loss of testes	category	2	10003.35
-2015-07-01	2016-06-30	Anatomical or functional loss of testes	category	3	20005.73
-2015-07-01	2016-06-30	Anatomical or functional loss of testes	category	4	50016.81
-2015-07-01	2016-06-30	Anatomical or functional loss of testes	category	5	70023.51
-2015-07-01	2016-06-30	Eye - Loss of an eye	percent		48016.05
-2015-07-01	2016-06-30	Eye - Loss of vision in an eye	percent		40013.46
-2015-07-01	2016-06-30	Miscellaneous unspecified disabilities	percent		200067.21
-2016-07-01	2017-06-30	Neck	category	1	0
-2016-07-01	2017-06-30	Neck	category	2	19924.68
-2016-07-01	2017-06-30	Neck	category	3	39849.39
-2016-07-01	2017-06-30	Neck	category	4	49811.73
-2016-07-01	2017-06-30	Neck	category	5	69736.41
-2016-07-01	2017-06-30	Mid back	category	1	0
-2016-07-01	2017-06-30	Mid back	category	2	19924.68
-2016-07-01	2017-06-30	Mid back	category	3	39849.39
-2016-07-01	2017-06-30	Low back	category	1	0
-2016-07-01	2017-06-30	Low back	category	2	9962.34
-2016-07-01	2017-06-30	Low back	category	3	19924.68
-2016-07-01	2017-06-30	Low back	category	4	29997.05
-2016-07-01	2017-06-30	Low back	category	5	48811.73
-2016-07-01	2017-06-30	Low back	category	6	79698.78
-2016-07-01	2017-06-30	Low back	category	7	119548.14
-2016-07-01	2017-06-30	Low back	category	8	149435.19
-2016-07-01	2017-06-30	Mental health	category	1	0
-2016-07-01	2017-06-30	Mental health	category	2	19924.68
-2016-07-01	2017-06-30	Mental health	category	3	49811.73
-2016-07-01	2017-06-30	Mental health	category	4	89661.12
-2016-07-01	2017-06-30	Mental health	category	5	139472.85
-2016-07-01	2017-06-30	Leg - Above the Knee	percent		119548.23
-2016-07-01	2017-06-30	Leg - Below the knee joint	percent		95638.71
-2016-07-01	2017-06-30	Ankle	percent		83683.8
-2016-07-01	2017-06-30	Foot	percent		41841.96
-2016-07-01	2017-06-30	Arm - At or above shoulder	percent		119548.23
-2016-07-01	2017-06-30	Arm - From shoulder to elbow	percent		113570.76
-2016-07-01	2017-06-30	Arm - From elbow down	percent		107593.38
-2016-07-01	2017-06-30	Hand	percent		64555.92
-2016-07-01	2017-06-30	Hearing - Both ears	percent		95638.71
-2016-07-01	2017-06-30	Hearing - One ear	percent		15939.66
-2016-07-01	2017-06-30	Pelvis	category	1	0
-2016-07-01	2017-06-30	Pelvis	category	2	3984.93
-2016-07-01	2017-06-30	Pelvis	category	3	9962.34
-2016-07-01	2017-06-30	Pelvis	category	4	9963.34
-2016-07-01	2017-06-30	Pelvis	category	5	9964.34
-2016-07-01	2017-06-30	Pelvis	category	6	9965.34
-2016-07-01	2017-06-30	Pelvis	category	7	19924.68
-2016-07-01	2017-06-30	Pelvis	category	8	19925.68
-2016-07-01	2017-06-30	Pelvis	category	9	29887.05
-2016-07-01	2017-06-30	Heart	category	1	0
-2016-07-01	2017-06-30	Heart	category	2	19924.68
-2016-07-01	2017-06-30	Heart	category	3	39848.39
-2016-07-01	2017-06-30	Heart	category	4	69736.41
-2016-07-01	2017-06-30	Heart	category	5	99623.46
-2016-07-01	2017-06-30	Heart	category	6	129510.51
-2016-07-01	2017-06-30	Lungs	category	1	0
-2016-07-01	2017-06-30	Lungs	category	2	29887.05
-2016-07-01	2017-06-30	Lungs	category	3	49811.73
-2016-07-01	2017-06-30	Lungs	category	4	79698.78
-2016-07-01	2017-06-30	Lungs	category	5	129510.51
-2016-07-01	2017-06-30	Lungs	category	6	149435.19
-2016-07-01	2017-06-30	Loss of taste and smell	category	1	5977.41
-2016-07-01	2017-06-30	Loss of taste and smell	category	2	5977.41
-2016-07-01	2017-06-30	Speech	category	1	0
-2016-07-01	2017-06-30	Speech	category	2	9962.34
-2016-07-01	2017-06-30	Speech	category	3	19924.68
-2016-07-01	2017-06-30	Speech	category	4	39849.39
-2016-07-01	2017-06-30	Speech	category	5	59774.07
-2016-07-01	2017-06-30	Speech	category	6	69736.41
-2016-07-01	2017-06-30	Skin	category	1	0
-2016-07-01	2017-06-30	Skin	category	2	9962.34
-2016-07-01	2017-06-30	Skin	category	3	19924.68
-2016-07-01	2017-06-30	Skin	category	4	49811.73
-2016-07-01	2017-06-30	Skin	category	5	79698.78
-2016-07-01	2017-06-30	Skin	category	6	119548.14
-2016-07-01	2017-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2016-07-01	2017-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	9962.34
-2016-07-01	2017-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	19924.68
-2016-07-01	2017-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	69736.41
-2016-07-01	2017-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	119548.14
-2016-07-01	2017-06-30	Lower digestive tract	category	1	0
-2016-07-01	2017-06-30	Lower digestive tract	category	2	9962.34
-2016-07-01	2017-06-30	Lower digestive tract	category	3	29887.05
-2016-07-01	2017-06-30	Lower digestive tract	category	4	59774.07
-2016-07-01	2017-06-30	Anal function	category	1	0
-2016-07-01	2017-06-30	Anal function	category	2	9962.34
-2016-07-01	2017-06-30	Anal function	category	3	29887.05
-2016-07-01	2017-06-30	Anal function	category	4	49811.73
-2016-07-01	2017-06-30	Liver	category	1	0
-2016-07-01	2017-06-30	Liver	category	2	9962.34
-2016-07-01	2017-06-30	Liver	category	3	39849.39
-2016-07-01	2017-06-30	Liver	category	4	79698.78
-2016-07-01	2017-06-30	Liver	category	5	119548.14
-2016-07-01	2017-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	29887.05
-2016-07-01	2017-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	19924.68
-2016-07-01	2017-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	39849.39
-2016-07-01	2017-06-30	Bladder function	category	1	0
-2016-07-01	2017-06-30	Bladder function	category	2	19924.68
-2016-07-01	2017-06-30	Bladder function	category	3	39849.39
-2016-07-01	2017-06-30	Bladder function	category	4	59774.07
-2016-07-01	2017-06-30	Bladder function	category	5	99623.46
-2016-07-01	2017-06-30	Anatomical or functional loss of testes	category	1	0
-2016-07-01	2017-06-30	Anatomical or functional loss of testes	category	2	9962.34
-2016-07-01	2017-06-30	Anatomical or functional loss of testes	category	3	19924.68
-2016-07-01	2017-06-30	Anatomical or functional loss of testes	category	4	49811.73
-2016-07-01	2017-06-30	Anatomical or functional loss of testes	category	5	69736.41
-2016-07-01	2017-06-30	Eye - Loss of an eye	percent		47819.19
-2016-07-01	2017-06-30	Eye - Loss of vision in an eye	percent		39849.39
-2016-07-01	2017-06-30	Miscellaneous unspecified disabilities	percent		199246.92
-2017-07-01	2018-06-30	Neck	category	1	0
-2017-07-01	2018-06-30	Neck	category	2	20119.95
-2017-07-01	2018-06-30	Neck	category	3	40239.9
-2017-07-01	2018-06-30	Neck	category	4	50299.89
-2017-07-01	2018-06-30	Neck	category	5	70419.84
-2017-07-01	2018-06-30	Mid back	category	1	0
-2017-07-01	2018-06-30	Mid back	category	2	20119.95
-2017-07-01	2018-06-30	Mid back	category	3	40239.9
-2017-07-01	2018-06-30	Low back	category	1	0
-2017-07-01	2018-06-30	Low back	category	2	10059.99
-2017-07-01	2018-06-30	Low back	category	3	20119.95
-2017-07-01	2018-06-30	Low back	category	4	30179.94
-2017-07-01	2018-06-30	Low back	category	5	50299.89
-2017-07-01	2018-06-30	Low back	category	6	80479.8
-2017-07-01	2018-06-30	Low back	category	7	120719.73
-2017-07-01	2018-06-30	Low back	category	8	150899.64
-2017-07-01	2018-06-30	Mental health	category	1	0
-2017-07-01	2018-06-30	Mental health	category	2	20119.95
-2017-07-01	2018-06-30	Mental health	category	3	50299.89
-2017-07-01	2018-06-30	Mental health	category	4	90539.79
-2017-07-01	2018-06-30	Mental health	category	5	140839.68
-2017-07-01	2018-06-30	Leg - Above the Knee	percent		120719.79
-2017-07-01	2018-06-30	Leg - Below the knee joint	percent		96575.97
-2017-07-01	2018-06-30	Ankle	percent		84503.91
-2017-07-01	2018-06-30	Foot	percent		42252
-2017-07-01	2018-06-30	Arm - At or above shoulder	percent		120719.79
-2017-07-01	2018-06-30	Arm - From shoulder to elbow	percent		114683.76
-2017-07-01	2018-06-30	Arm - From elbow down	percent		108647.79
-2017-07-01	2018-06-30	Hand	percent		65188.56
-2017-07-01	2018-06-30	Hearing - Both ears	percent		96575.97
-2017-07-01	2018-06-30	Hearing - One ear	percent		16095.87
-2017-07-01	2018-06-30	Pelvis	category	1	0
-2017-07-01	2018-06-30	Pelvis	category	2	4023.99
-2017-07-01	2018-06-30	Pelvis	category	3	10059.99
-2017-07-01	2018-06-30	Pelvis	category	4	10059.99
-2017-07-01	2018-06-30	Pelvis	category	5	10059.99
-2017-07-01	2018-06-30	Pelvis	category	6	10059.99
-2017-07-01	2018-06-30	Pelvis	category	7	20119.95
-2017-07-01	2018-06-30	Pelvis	category	8	20119.95
-2017-07-01	2018-06-30	Pelvis	category	9	30179.94
-2017-07-01	2018-06-30	Heart	category	1	0
-2017-07-01	2018-06-30	Heart	category	2	20119.95
-2017-07-01	2018-06-30	Heart	category	3	40239.9
-2017-07-01	2018-06-30	Heart	category	4	70419.84
-2017-07-01	2018-06-30	Heart	category	5	100599.78
-2017-07-01	2018-06-30	Heart	category	6	130779.69
-2017-07-01	2018-06-30	Lungs	category	1	0
-2017-07-01	2018-06-30	Lungs	category	2	30179.94
-2017-07-01	2018-06-30	Lungs	category	3	50299.89
-2017-07-01	2018-06-30	Lungs	category	4	80479.8
-2017-07-01	2018-06-30	Lungs	category	5	130779.69
-2017-07-01	2018-06-30	Lungs	category	6	150899.64
-2017-07-01	2018-06-30	Loss of taste and smell	category	1	6036
-2017-07-01	2018-06-30	Loss of taste and smell	category	2	6036
-2017-07-01	2018-06-30	Speech	category	1	0
-2017-07-01	2018-06-30	Speech	category	2	10059.99
-2017-07-01	2018-06-30	Speech	category	3	20119.95
-2017-07-01	2018-06-30	Speech	category	4	40239.9
-2017-07-01	2018-06-30	Speech	category	5	60359.85
-2017-07-01	2018-06-30	Speech	category	6	70419.84
-2017-07-01	2018-06-30	Skin	category	1	0
-2017-07-01	2018-06-30	Skin	category	2	10059.99
-2017-07-01	2018-06-30	Skin	category	3	20119.95
-2017-07-01	2018-06-30	Skin	category	4	50299.89
-2017-07-01	2018-06-30	Skin	category	5	80479.8
-2017-07-01	2018-06-30	Skin	category	6	120719.73
-2017-07-01	2018-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2017-07-01	2018-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	10059.99
-2017-07-01	2018-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	20119.95
-2017-07-01	2018-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	70419.84
-2017-07-01	2018-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	120719.73
-2017-07-01	2018-06-30	Lower digestive tract	category	1	0
-2017-07-01	2018-06-30	Lower digestive tract	category	2	10059.99
-2017-07-01	2018-06-30	Lower digestive tract	category	3	30179.94
-2017-07-01	2018-06-30	Lower digestive tract	category	4	60359.85
-2017-07-01	2018-06-30	Anal function	category	1	0
-2017-07-01	2018-06-30	Anal function	category	2	10059.99
-2017-07-01	2018-06-30	Anal function	category	3	30179.94
-2017-07-01	2018-06-30	Anal function	category	4	50299.89
-2017-07-01	2018-06-30	Liver	category	1	0
-2017-07-01	2018-06-30	Liver	category	2	10059.99
-2017-07-01	2018-06-30	Liver	category	3	40239.9
-2017-07-01	2018-06-30	Liver	category	4	80479.8
-2017-07-01	2018-06-30	Liver	category	5	120719.73
-2017-07-01	2018-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	30179.94
-2017-07-01	2018-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	20119.95
-2017-07-01	2018-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	40239.9
-2017-07-01	2018-06-30	Bladder function	category	1	0
-2017-07-01	2018-06-30	Bladder function	category	2	20119.95
-2017-07-01	2018-06-30	Bladder function	category	3	40239.9
-2017-07-01	2018-06-30	Bladder function	category	4	60359.85
-2017-07-01	2018-06-30	Bladder function	category	5	100599.78
-2017-07-01	2018-06-30	Anatomical or functional loss of testes	category	1	0
-2017-07-01	2018-06-30	Anatomical or functional loss of testes	category	2	10059.99
-2017-07-01	2018-06-30	Anatomical or functional loss of testes	category	3	20119.95
-2017-07-01	2018-06-30	Anatomical or functional loss of testes	category	4	50299.89
-2017-07-01	2018-06-30	Anatomical or functional loss of testes	category	5	70419.84
-2017-07-01	2018-06-30	Eye - Loss of an eye	percent		48287.82
-2017-07-01	2018-06-30	Eye - Loss of vision in an eye	percent		40239.9
-2017-07-01	2018-06-30	Miscellaneous unspecified disabilities	percent		201199.53
-2018-07-01	2019-06-30	Neck	category	1	0
-2018-07-01	2019-06-30	Neck	category	2	20548.51
-2018-07-01	2019-06-30	Neck	category	3	41097.02
-2018-07-01	2019-06-30	Neck	category	4	51371.27
-2018-07-01	2019-06-30	Neck	category	5	71919.78
-2018-07-01	2019-06-30	Mid back	category	1	0
-2018-07-01	2019-06-30	Mid back	category	2	20548.51
-2018-07-01	2019-06-30	Mid back	category	3	41097.02
-2018-07-01	2019-06-30	Low back	category	1	0
-2018-07-01	2019-06-30	Low back	category	2	10274.25
-2018-07-01	2019-06-30	Low back	category	3	20548.51
-2018-07-01	2019-06-30	Low back	category	4	30822.76
-2018-07-01	2019-06-30	Low back	category	5	51371.27
-2018-07-01	2019-06-30	Low back	category	6	82194.04
-2018-07-01	2019-06-30	Low back	category	7	123291.05
-2018-07-01	2019-06-30	Low back	category	8	154113.82
-2018-07-01	2019-06-30	Mental health	category	1	0
-2018-07-01	2019-06-30	Mental health	category	2	20548.51
-2018-07-01	2019-06-30	Mental health	category	3	51371.27
-2018-07-01	2019-06-30	Mental health	category	4	92468.29
-2018-07-01	2019-06-30	Mental health	category	5	143839.56
-2018-07-01	2019-06-30	Leg - Above the Knee	percent		123291.12
-2018-07-01	2019-06-30	Leg - Below the knee joint	percent		98633.04
-2018-07-01	2019-06-30	Ankle	percent		86303.85
-2018-07-01	2019-06-30	Foot	percent		43151.97
-2018-07-01	2019-06-30	Arm - At or above shoulder	percent		123291.12
-2018-07-01	2019-06-30	Arm - From shoulder to elbow	percent		117126.51
-2018-07-01	2019-06-30	Arm - From elbow down	percent		110961.99
-2018-07-01	2019-06-30	Hand	percent		66577.08
-2018-07-01	2019-06-30	Hearing - Both ears	percent		98633.04
-2018-07-01	2019-06-30	Hearing - One ear	percent		16438.71
-2018-07-01	2019-06-30	Pelvis	category	1	0
-2018-07-01	2019-06-30	Pelvis	category	2	4109.7
-2018-07-01	2019-06-30	Pelvis	category	3	10274.25
-2018-07-01	2019-06-30	Pelvis	category	4	10274.25
-2018-07-01	2019-06-30	Pelvis	category	5	10274.25
-2018-07-01	2019-06-30	Pelvis	category	6	10274.25
-2018-07-01	2019-06-30	Pelvis	category	7	20548.51
-2018-07-01	2019-06-30	Pelvis	category	8	20548.51
-2018-07-01	2019-06-30	Pelvis	category	9	30822.76
-2018-07-01	2019-06-30	Heart	category	1	0
-2018-07-01	2019-06-30	Heart	category	2	20548.51
-2018-07-01	2019-06-30	Heart	category	3	41097.02
-2018-07-01	2019-06-30	Heart	category	4	71919.78
-2018-07-01	2019-06-30	Heart	category	5	102742.55
-2018-07-01	2019-06-30	Heart	category	6	133565.31
-2018-07-01	2019-06-30	Lungs	category	1	0
-2018-07-01	2019-06-30	Lungs	category	2	30822.76
-2018-07-01	2019-06-30	Lungs	category	3	51371.27
-2018-07-01	2019-06-30	Lungs	category	4	82194.04
-2018-07-01	2019-06-30	Lungs	category	5	133565.31
-2018-07-01	2019-06-30	Lungs	category	6	154113.82
-2018-07-01	2019-06-30	Loss of taste and smell	category	1	6164.55
-2018-07-01	2019-06-30	Loss of taste and smell	category	2	6164.55
-2018-07-01	2019-06-30	Speech	category	1	0
-2018-07-01	2019-06-30	Speech	category	2	10274.25
-2018-07-01	2019-06-30	Speech	category	3	20548.51
-2018-07-01	2019-06-30	Speech	category	4	41097.02
-2018-07-01	2019-06-30	Speech	category	5	61645.53
-2018-07-01	2019-06-30	Speech	category	6	71919.78
-2018-07-01	2019-06-30	Skin	category	1	0
-2018-07-01	2019-06-30	Skin	category	2	10274.25
-2018-07-01	2019-06-30	Skin	category	3	20548.51
-2018-07-01	2019-06-30	Skin	category	4	51371.27
-2018-07-01	2019-06-30	Skin	category	5	82194.04
-2018-07-01	2019-06-30	Skin	category	6	123291.05
-2018-07-01	2019-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2018-07-01	2019-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	10274.25
-2018-07-01	2019-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	20548.51
-2018-07-01	2019-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	71919.78
-2018-07-01	2019-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	123291.05
-2018-07-01	2019-06-30	Lower digestive tract	category	1	0
-2018-07-01	2019-06-30	Lower digestive tract	category	2	10274.25
-2018-07-01	2019-06-30	Lower digestive tract	category	3	30822.76
-2018-07-01	2019-06-30	Lower digestive tract	category	4	61645.53
-2018-07-01	2019-06-30	Anal function	category	1	0
-2018-07-01	2019-06-30	Anal function	category	2	10274.25
-2018-07-01	2019-06-30	Anal function	category	3	30822.76
-2018-07-01	2019-06-30	Anal function	category	4	51371.27
-2018-07-01	2019-06-30	Liver	category	1	0
-2018-07-01	2019-06-30	Liver	category	2	10274.25
-2018-07-01	2019-06-30	Liver	category	3	41097.02
-2018-07-01	2019-06-30	Liver	category	4	82194.04
-2018-07-01	2019-06-30	Liver	category	5	123291.05
-2018-07-01	2019-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	30822.76
-2018-07-01	2019-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	20548.51
-2018-07-01	2019-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	41097.02
-2018-07-01	2019-06-30	Bladder function	category	1	0
-2018-07-01	2019-06-30	Bladder function	category	2	20548.51
-2018-07-01	2019-06-30	Bladder function	category	3	41097.02
-2018-07-01	2019-06-30	Bladder function	category	4	61645.53
-2018-07-01	2019-06-30	Bladder function	category	5	102742.55
-2018-07-01	2019-06-30	Anatomical or functional loss of testes	category	1	0
-2018-07-01	2019-06-30	Anatomical or functional loss of testes	category	2	10274.25
-2018-07-01	2019-06-30	Anatomical or functional loss of testes	category	3	20548.51
-2018-07-01	2019-06-30	Anatomical or functional loss of testes	category	4	51371.27
-2018-07-01	2019-06-30	Anatomical or functional loss of testes	category	5	71919.78
-2018-07-01	2019-06-30	Eye - Loss of an eye	percent		49316.34
-2018-07-01	2019-06-30	Eye - Loss of vision in an eye	percent		41097
-2018-07-01	2019-06-30	Miscellaneous unspecified disabilities	percent		205485.09
-2019-07-01	2020-06-30	Neck	category	1	0
-2019-07-01	2020-06-30	Neck	category	2	21072.5
-2019-07-01	2020-06-30	Neck	category	3	42144.99
-2019-07-01	2020-06-30	Neck	category	4	52681.24
-2019-07-01	2020-06-30	Neck	category	5	73753.73
-2019-07-01	2020-06-30	Mid back	category	1	0
-2019-07-01	2020-06-30	Mid back	category	2	21072.5
-2019-07-01	2020-06-30	Mid back	category	3	42144.99
-2019-07-01	2020-06-30	Low back	category	1	0
-2019-07-01	2020-06-30	Low back	category	2	10536.25
-2019-07-01	2020-06-30	Low back	category	3	21072.5
-2019-07-01	2020-06-30	Low back	category	4	31608.74
-2019-07-01	2020-06-30	Low back	category	5	52681.24
-2019-07-01	2020-06-30	Low back	category	6	84289.98
-2019-07-01	2020-06-30	Low back	category	7	126434.97
-2019-07-01	2020-06-30	Low back	category	8	158043.71
-2019-07-01	2020-06-30	Mental health	category	1	0
-2019-07-01	2020-06-30	Mental health	category	2	21072.5
-2019-07-01	2020-06-30	Mental health	category	3	52681.24
-2019-07-01	2020-06-30	Mental health	category	4	94826.23
-2019-07-01	2020-06-30	Mental health	category	5	147507.47
-2019-07-01	2020-06-30	Leg - Above the Knee	percent		126435.03
-2019-07-01	2020-06-30	Leg - Below the knee joint	percent		101148.18
-2019-07-01	2020-06-30	Ankle	percent		88504.59
-2019-07-01	2020-06-30	Foot	percent		44252.34
-2019-07-01	2020-06-30	Arm - At or above shoulder	percent		126435.03
-2019-07-01	2020-06-30	Arm - From shoulder to elbow	percent		120113.25
-2019-07-01	2020-06-30	Arm - From elbow down	percent		113791.53
-2019-07-01	2020-06-30	Hand	percent		68274.81
-2019-07-01	2020-06-30	Hearing - Both ears	percent		98633.04
-2019-07-01	2020-06-30	Hearing - One ear	percent		16438.71
-2019-07-01	2020-06-30	Pelvis	category	1	0
-2019-07-01	2020-06-30	Pelvis	category	2	4214.5
-2019-07-01	2020-06-30	Pelvis	category	3	10536.25
-2019-07-01	2020-06-30	Pelvis	category	4	10536.25
-2019-07-01	2020-06-30	Pelvis	category	5	10536.25
-2019-07-01	2020-06-30	Pelvis	category	6	10536.25
-2019-07-01	2020-06-30	Pelvis	category	7	21072.5
-2019-07-01	2020-06-30	Pelvis	category	8	21072.5
-2019-07-01	2020-06-30	Pelvis	category	9	31608.74
-2019-07-01	2020-06-30	Heart	category	1	0
-2019-07-01	2020-06-30	Heart	category	2	21072.5
-2019-07-01	2020-06-30	Heart	category	3	42144.99
-2019-07-01	2020-06-30	Heart	category	4	73753.73
-2019-07-01	2020-06-30	Heart	category	5	105362.48
-2019-07-01	2020-06-30	Heart	category	6	136971.22
-2019-07-01	2020-06-30	Lungs	category	1	0
-2019-07-01	2020-06-30	Lungs	category	2	31608.74
-2019-07-01	2020-06-30	Lungs	category	3	52681.24
-2019-07-01	2020-06-30	Lungs	category	4	84289.98
-2019-07-01	2020-06-30	Lungs	category	5	136971.22
-2019-07-01	2020-06-30	Lungs	category	6	158043.71
-2019-07-01	2020-06-30	Loss of taste and smell	category	1	6321.75
-2019-07-01	2020-06-30	Loss of taste and smell	category	2	6321.75
-2019-07-01	2020-06-30	Speech	category	1	0
-2019-07-01	2020-06-30	Speech	category	2	10536.25
-2019-07-01	2020-06-30	Speech	category	3	21072.5
-2019-07-01	2020-06-30	Speech	category	4	42144.99
-2019-07-01	2020-06-30	Speech	category	5	63217.49
-2019-07-01	2020-06-30	Speech	category	6	73753.73
-2019-07-01	2020-06-30	Skin	category	1	0
-2019-07-01	2020-06-30	Skin	category	2	10536.25
-2019-07-01	2020-06-30	Skin	category	3	21072.5
-2019-07-01	2020-06-30	Skin	category	4	52681.24
-2019-07-01	2020-06-30	Skin	category	5	84289.98
-2019-07-01	2020-06-30	Skin	category	6	126434.97
-2019-07-01	2020-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2019-07-01	2020-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	10536.25
-2019-07-01	2020-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	21072.5
-2019-07-01	2020-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	73753.73
-2019-07-01	2020-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	126434.97
-2019-07-01	2020-06-30	Lower digestive tract	category	1	0
-2019-07-01	2020-06-30	Lower digestive tract	category	2	10536.25
-2019-07-01	2020-06-30	Lower digestive tract	category	3	31608.74
-2019-07-01	2020-06-30	Lower digestive tract	category	4	63217.49
-2019-07-01	2020-06-30	Anal function	category	1	0
-2019-07-01	2020-06-30	Anal function	category	2	10274.25
-2019-07-01	2020-06-30	Anal function	category	3	30822.76
-2019-07-01	2020-06-30	Anal function	category	4	51371.27
-2019-07-01	2020-06-30	Liver	category	1	0
-2019-07-01	2020-06-30	Liver	category	2	10536.25
-2019-07-01	2020-06-30	Liver	category	3	42144.99
-2019-07-01	2020-06-30	Liver	category	4	84289.98
-2019-07-01	2020-06-30	Liver	category	5	126434.97
-2019-07-01	2020-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	31608.74
-2019-07-01	2020-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	21072.5
-2019-07-01	2020-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	42144.99
-2019-07-01	2020-06-30	Bladder function	category	1	0
-2019-07-01	2020-06-30	Bladder function	category	2	21072.5
-2019-07-01	2020-06-30	Bladder function	category	3	42144.99
-2019-07-01	2020-06-30	Bladder function	category	4	63217.49
-2019-07-01	2020-06-30	Bladder function	category	5	105362.48
-2019-07-01	2020-06-30	Anatomical or functional loss of testes	category	1	0
-2019-07-01	2020-06-30	Anatomical or functional loss of testes	category	2	10536.25
-2019-07-01	2020-06-30	Anatomical or functional loss of testes	category	3	21072.5
-2019-07-01	2020-06-30	Anatomical or functional loss of testes	category	4	52681.24
-2019-07-01	2020-06-30	Anatomical or functional loss of testes	category	5	73753.73
-2019-07-01	2020-06-30	Eye - Loss of an eye	percent		50573.91
-2019-07-01	2020-06-30	Eye - Loss of vision in an eye	percent		42144.96
-2019-07-01	2020-06-30	Miscellaneous unspecified disabilities	percent		210724.95
-2020-07-01	2021-06-30	Neck	category	1	0
-2020-07-01	2021-06-30	Neck	category	2	21422.3
-2020-07-01	2021-06-30	Neck	category	3	42844.6
-2020-07-01	2021-06-30	Neck	category	4	53555.75
-2020-07-01	2021-06-30	Neck	category	5	74978.04
-2020-07-01	2021-06-30	Mid back	category	1	0
-2020-07-01	2021-06-30	Mid back	category	2	21422.3
-2020-07-01	2021-06-30	Mid back	category	3	42844.6
-2020-07-01	2021-06-30	Low back	category	1	0
-2020-07-01	2021-06-30	Low back	category	2	10711.15
-2020-07-01	2021-06-30	Low back	category	3	21422.3
-2020-07-01	2021-06-30	Low back	category	4	32133.45
-2020-07-01	2021-06-30	Low back	category	5	53555.75
-2020-07-01	2021-06-30	Low back	category	6	85689.19
-2020-07-01	2021-06-30	Low back	category	7	128533.79
-2020-07-01	2021-06-30	Low back	category	8	160667.23
-2020-07-01	2021-06-30	Mental health	category	1	0
-2020-07-01	2021-06-30	Mental health	category	2	21422.3
-2020-07-01	2021-06-30	Mental health	category	3	53555.75
-2020-07-01	2021-06-30	Mental health	category	4	96400.34
-2020-07-01	2021-06-30	Mental health	category	5	149956.09
-2020-07-01	2021-06-30	Leg - Above the Knee	percent		115680.48
-2020-07-01	2021-06-30	Leg - Below the knee joint	percent		102827.25
-2020-07-01	2021-06-30	Ankle	percent		89973.78
-2020-07-01	2021-06-30	Foot	percent		44986.92
-2020-07-01	2021-06-30	Arm - At or above shoulder	percent		128533.86
-2020-07-01	2021-06-30	Arm - From shoulder to elbow	percent		122107.14
-2020-07-01	2021-06-30	Arm - From elbow down	percent		115680.48
-2020-07-01	2021-06-30	Hand	percent		
-2020-07-01	2021-06-30	Hearing - Both ears	percent		102827.25
-2020-07-01	2021-06-30	Hearing - One ear	percent		17137.74
-2020-07-01	2021-06-30	Pelvis	category	1	0
-2020-07-01	2021-06-30	Pelvis	category	2	4284.46
-2020-07-01	2021-06-30	Pelvis	category	3	10711.15
-2020-07-01	2021-06-30	Pelvis	category	4	10711.15
-2020-07-01	2021-06-30	Pelvis	category	5	10711.15
-2020-07-01	2021-06-30	Pelvis	category	6	10711.15
-2020-07-01	2021-06-30	Pelvis	category	7	21422.3
-2020-07-01	2021-06-30	Pelvis	category	8	21422.3
-2020-07-01	2021-06-30	Pelvis	category	9	32133.45
-2020-07-01	2021-06-30	Heart	category	1	0
-2020-07-01	2021-06-30	Heart	category	2	21422.3
-2020-07-01	2021-06-30	Heart	category	3	42844.6
-2020-07-01	2021-06-30	Heart	category	4	74978.04
-2020-07-01	2021-06-30	Heart	category	5	107111.49
-2020-07-01	2021-06-30	Heart	category	6	139244.94
-2020-07-01	2021-06-30	Lungs	category	1	0
-2020-07-01	2021-06-30	Lungs	category	2	32133.45
-2020-07-01	2021-06-30	Lungs	category	3	53555.75
-2020-07-01	2021-06-30	Lungs	category	4	85689.19
-2020-07-01	2021-06-30	Lungs	category	5	139244.94
-2020-07-01	2021-06-30	Lungs	category	6	160667.23
-2020-07-01	2021-06-30	Loss of taste and smell	category	1	6426.69
-2020-07-01	2021-06-30	Loss of taste and smell	category	2	6426.69
-2020-07-01	2021-06-30	Speech	category	1	0
-2020-07-01	2021-06-30	Speech	category	2	10711.15
-2020-07-01	2021-06-30	Speech	category	3	21422.3
-2020-07-01	2021-06-30	Speech	category	4	42844.6
-2020-07-01	2021-06-30	Speech	category	5	64266.89
-2020-07-01	2021-06-30	Speech	category	6	74978.04
-2020-07-01	2021-06-30	Skin	category	1	0
-2020-07-01	2021-06-30	Skin	category	2	10711.15
-2020-07-01	2021-06-30	Skin	category	3	21422.3
-2020-07-01	2021-06-30	Skin	category	4	53555.75
-2020-07-01	2021-06-30	Skin	category	5	85689.19
-2020-07-01	2021-06-30	Skin	category	6	128533.79
-2020-07-01	2021-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2020-07-01	2021-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	10711.15
-2020-07-01	2021-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	21422.3
-2020-07-01	2021-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	74978.04
-2020-07-01	2021-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	128533.79
-2020-07-01	2021-06-30	Lower digestive tract	category	1	0
-2020-07-01	2021-06-30	Lower digestive tract	category	2	10711.15
-2020-07-01	2021-06-30	Lower digestive tract	category	3	32133.45
-2020-07-01	2021-06-30	Lower digestive tract	category	4	64266.89
-2020-07-01	2021-06-30	Anal function	category	1	0
-2020-07-01	2021-06-30	Anal function	category	2	10711.15
-2020-07-01	2021-06-30	Anal function	category	3	32133.45
-2020-07-01	2021-06-30	Anal function	category	4	53555.75
-2020-07-01	2021-06-30	Liver	category	1	0
-2020-07-01	2021-06-30	Liver	category	2	10711.15
-2020-07-01	2021-06-30	Liver	category	3	42844.6
-2020-07-01	2021-06-30	Liver	category	4	85689.19
-2020-07-01	2021-06-30	Liver	category	5	128533.79
-2020-07-01	2021-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	32133.45
-2020-07-01	2021-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	21422.3
-2020-07-01	2021-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	42844.6
-2020-07-01	2021-06-30	Bladder function	category	1	0
-2020-07-01	2021-06-30	Bladder function	category	2	21422.3
-2020-07-01	2021-06-30	Bladder function	category	3	42844.6
-2020-07-01	2021-06-30	Bladder function	category	4	64266.89
-2020-07-01	2021-06-30	Bladder function	category	5	107111.49
-2020-07-01	2021-06-30	Anatomical or functional loss of testes	category	1	0
-2020-07-01	2021-06-30	Anatomical or functional loss of testes	category	2	10711.15
-2020-07-01	2021-06-30	Anatomical or functional loss of testes	category	3	21422.3
-2020-07-01	2021-06-30	Anatomical or functional loss of testes	category	4	53555.75
-2020-07-01	2021-06-30	Anatomical or functional loss of testes	category	5	74978.04
-2020-07-01	2021-06-30	Eye - Loss of an eye	percent		51413.43
-2020-07-01	2021-06-30	Eye - Loss of vision in an eye	percent		42844.56
-2020-07-01	2021-06-30	Miscellaneous unspecified disabilities	percent		214222.98
-2021-07-01	2022-06-30	Neck	category	1	0
-2021-07-01	2022-06-30	Neck	category	2	21681.51
-2021-07-01	2022-06-30	Neck	category	3	43363
-2021-07-01	2022-06-30	Neck	category	4	54203.76
-2021-07-01	2022-06-30	Neck	category	5	75885.27
-2021-07-01	2022-06-30	Mid back	category	1	0
-2021-07-01	2022-06-30	Mid back	category	2	21681.51
-2021-07-01	2022-06-30	Mid back	category	3	43363.01
-2021-07-01	2022-06-30	Low back	category	1	0
-2021-07-01	2022-06-30	Low back	category	2	10840.74
-2021-07-01	2022-06-30	Low back	category	3	21681.51
-2021-07-01	2022-06-30	Low back	category	4	32522.25
-2021-07-01	2022-06-30	Low back	category	5	54203.76
-2021-07-01	2022-06-30	Low back	category	6	86726.04
-2021-07-01	2022-06-30	Low back	category	7	130089.03
-2021-07-01	2022-06-30	Low back	category	8	162611.31
-2021-07-01	2022-06-30	Mental health	category	1	0
-2021-07-01	2022-06-30	Mental health	category	2	21681.51
-2021-07-01	2022-06-30	Mental health	category	3	54203.76
-2021-07-01	2022-06-30	Mental health	category	4	97566.78
-2021-07-01	2022-06-30	Mental health	category	5	151770.54
-2021-07-01	2022-06-30	Leg - Above the Knee	percent		117080.22
-2021-07-01	2022-06-30	Leg - Below the knee joint	percent		104071.47
-2021-07-01	2022-06-30	Ankle	percent		91062.45
-2021-07-01	2022-06-30	Foot	percent		45531.27
-2021-07-01	2022-06-30	Arm - At or above shoulder	percent		130089.12
-2021-07-01	2022-06-30	Arm - From shoulder to elbow	percent		123584.64
-2021-07-01	2022-06-30	Arm - From elbow down	percent		117080.22
-2021-07-01	2022-06-30	Hand	percent		
-2021-07-01	2022-06-30	Hearing - Both ears	percent		104071.47
-2021-07-01	2022-06-30	Hearing - One ear	percent		17345.1
-2021-07-01	2022-06-30	Pelvis	category	1	0
-2021-07-01	2022-06-30	Pelvis	category	2	4366.29
-2021-07-01	2022-06-30	Pelvis	category	3	10840.74
-2021-07-01	2022-06-30	Pelvis	category	4	10840.75
-2021-07-01	2022-06-30	Pelvis	category	5	10840.75
-2021-07-01	2022-06-30	Pelvis	category	6	10840.74
-2021-07-01	2022-06-30	Pelvis	category	7	21681.51
-2021-07-01	2022-06-30	Pelvis	category	8	21681.51
-2021-07-01	2022-06-30	Pelvis	category	9	32522.25
-2021-07-01	2022-06-30	Heart	category	1	0
-2021-07-01	2022-06-30	Heart	category	2	21681.51
-2021-07-01	2022-06-30	Heart	category	3	43363.02
-2021-07-01	2022-06-30	Heart	category	4	75885.27
-2021-07-01	2022-06-30	Heart	category	5	108407.55
-2021-07-01	2022-06-30	Heart	category	6	140929.8
-2021-07-01	2022-06-30	Lungs	category	1	0
-2021-07-01	2022-06-30	Lungs	category	2	32522.26
-2021-07-01	2022-06-30	Lungs	category	3	54203.76
-2021-07-01	2022-06-30	Lungs	category	4	86726.04
-2021-07-01	2022-06-30	Lungs	category	5	140929.8
-2021-07-01	2022-06-30	Lungs	category	6	162611.31
-2021-07-01	2022-06-30	Loss of taste and smell	category	1	6504.45
-2021-07-01	2022-06-30	Loss of taste and smell	category	2	6504.45
-2021-07-01	2022-06-30	Speech	category	1	0
-2021-07-01	2022-06-30	Speech	category	2	10840.74
-2021-07-01	2022-06-30	Speech	category	3	21681.51
-2021-07-01	2022-06-30	Speech	category	4	43363.02
-2021-07-01	2022-06-30	Speech	category	5	65044.53
-2021-07-01	2022-06-30	Speech	category	6	75885.27
-2021-07-01	2022-06-30	Skin	category	1	0
-2021-07-01	2022-06-30	Skin	category	2	10840.74
-2021-07-01	2022-06-30	Skin	category	3	21681.51
-2021-07-01	2022-06-30	Skin	category	4	54203.76
-2021-07-01	2022-06-30	Skin	category	5	86726.04
-2021-07-01	2022-06-30	Skin	category	6	130089.03
-2021-07-01	2022-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	1	0
-2021-07-01	2022-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	2	10840.74
-2021-07-01	2022-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	3	21681.51
-2021-07-01	2022-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	4	75885.27
-2021-07-01	2022-06-30	Upper digestive tract, stomach, esophagus, or pancreas	category	5	130089.03
-2021-07-01	2022-06-30	Lower digestive tract	category	1	0
-2021-07-01	2022-06-30	Lower digestive tract	category	2	10840.74
-2021-07-01	2022-06-30	Lower digestive tract	category	3	32522.26
-2021-07-01	2022-06-30	Lower digestive tract	category	4	65044.52
-2021-07-01	2022-06-30	Anal function	category	1	0
-2021-07-01	2022-06-30	Anal function	category	2	10840.74
-2021-07-01	2022-06-30	Anal function	category	3	32522.25
-2021-07-01	2022-06-30	Anal function	category	4	54203.77
-2021-07-01	2022-06-30	Liver	category	1	0
-2021-07-01	2022-06-30	Liver	category	2	10840.74
-2021-07-01	2022-06-30	Liver	category	3	43363.02
-2021-07-01	2022-06-30	Liver	category	4	86726.03
-2021-07-01	2022-06-30	Liver	category	5	130089.03
-2021-07-01	2022-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	1	32522.25
-2021-07-01	2022-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	2	21681.51
-2021-07-01	2022-06-30	Spleen, loss of one kidney & surgical removal of bladder with urinary	category	3	43363.02
-2021-07-01	2022-06-30	Bladder function	category	1	0
-2021-07-01	2022-06-30	Bladder function	category	2	21681.51
-2021-07-01	2022-06-30	Bladder function	category	3	43363.02
-2021-07-01	2022-06-30	Bladder function	category	4	65044.53
-2021-07-01	2022-06-30	Bladder function	category	5	108407.55
-2021-07-01	2022-06-30	Anatomical or functional loss of testes	category	1	0
-2021-07-01	2022-06-30	Anatomical or functional loss of testes	category	2	10840.74
-2021-07-01	2022-06-30	Anatomical or functional loss of testes	category	3	21681.51
-2021-07-01	2022-06-30	Anatomical or functional loss of testes	category	4	54203.76
-2021-07-01	2022-06-30	Anatomical or functional loss of testes	category	5	75885.27
-2021-07-01	2022-06-30	Eye - Loss of an eye	percent		52035.54
-2021-07-01	2022-06-30	Eye - Loss of vision in an eye	percent		43362.99
-2021-07-01	2022-06-30	Miscellaneous unspecified disabilities	percent		216815.07
+7/1/09	6/30/10	Neck	category	1	0
+7/1/09	6/30/10	Neck	category	2	18138.63
+7/1/09	6/30/10	Neck	category	3	36277.23
+7/1/09	6/30/10	Neck	category	4	45346.56
+7/1/09	6/30/10	Neck	category	5	63485.16
+7/1/09	6/30/10	Mid back	category	1	0
+7/1/09	6/30/10	Mid back	category	2	18138.63
+7/1/09	6/30/10	Mid back	category	3	36277.23
+7/1/09	6/30/10	Low back	category	1	0
+7/1/09	6/30/10	Low back	category	2	9069.3
+7/1/09	6/30/10	Low back	category	3	18138.63
+7/1/09	6/30/10	Low back	category	4	27207.93
+7/1/09	6/30/10	Low back	category	5	45346.56
+7/1/09	6/30/10	Low back	category	6	72554.46
+7/1/09	6/30/10	Low back	category	7	108831.72
+7/1/09	6/30/10	Low back	category	8	136039.65
+7/1/09	6/30/10	Mental health	category	1	0
+7/1/09	6/30/10	Mental health	category	2	18138.63
+7/1/09	6/30/10	Mental health	category	3	45346.56
+7/1/09	6/30/10	Mental health	category	4	81623.79
+7/1/09	6/30/10	Mental health	category	5	129970.32
+7/1/09	6/30/10	Leg - Above the Knee	percent		108831.78
+7/1/09	6/30/10	Leg - Below the knee joint	percent		87065.49
+7/1/09	6/30/10	Ankle	percent		76182.24
+7/1/09	6/30/10	Foot	percent		38091.18
+7/1/09	6/30/10	Arm - At or above shoulder	percent		108831.78
+7/1/09	6/30/10	Arm - From shoulder to elbow	percent		103390.11
+7/1/09	6/30/10	Arm - From elbow down	percent		97948.53
+7/1/09	6/30/10	Hand	percent		58769.04
+7/1/09	6/30/10	Hearing - Both ears	percent		101148.18
+7/1/09	6/30/10	Hearing - One ear	percent		16857.9
+7/1/09	6/30/10	Pelvis	category	1	0
+7/1/09	6/30/10	Pelvis	category	2	3627.72
+7/1/09	6/30/10	Pelvis	category	3	9069.3
+7/1/09	6/30/10	Pelvis	category	4	9069.3
+7/1/09	6/30/10	Pelvis	category	5	9069.3
+7/1/09	6/30/10	Pelvis	category	6	9069.3
+7/1/09	6/30/10	Pelvis	category	7	18138.63
+7/1/09	6/30/10	Pelvis	category	8	18138.63
+7/1/09	6/30/10	Pelvis	category	9	27207.93
+7/1/09	6/30/10	Heart	category	1	0
+7/1/09	6/30/10	Heart	category	2	18138.63
+7/1/09	6/30/10	Heart	category	3	36277.23
+7/1/09	6/30/10	Heart	category	4	63485.16
+7/1/09	6/30/10	Heart	category	5	90693.09
+7/1/09	6/30/10	Heart	category	6	117901.02
+7/1/09	6/30/10	Lungs	category	1	0
+7/1/09	6/30/10	Lungs	category	2	27207.93
+7/1/09	6/30/10	Lungs	category	3	45346.56
+7/1/09	6/30/10	Lungs	category	4	72554.46
+7/1/09	6/30/10	Lungs	category	5	117901.02
+7/1/09	6/30/10	Lungs	category	6	136039.65
+7/1/09	6/30/10	Loss of taste and smell	category	1	5441.58
+7/1/09	6/30/10	Loss of taste and smell	category	2	5441.58
+7/1/09	6/30/10	Speech	category	1	0
+7/1/09	6/30/10	Speech	category	2	9069.3
+7/1/09	6/30/10	Speech	category	3	18138.63
+7/1/09	6/30/10	Speech	category	4	36277.23
+7/1/09	6/30/10	Speech	category	5	54415.86
+7/1/09	6/30/10	Speech	category	6	63485.16
+7/1/09	6/30/10	Skin	category	1	0
+7/1/09	6/30/10	Skin	category	2	9069.3
+7/1/09	6/30/10	Skin	category	3	18138.63
+7/1/09	6/30/10	Skin	category	4	45346.56
+7/1/09	6/30/10	Skin	category	5	72554.46
+7/1/09	6/30/10	Skin	category	6	108831.72
+7/1/09	6/30/10	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/09	6/30/10	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	9069.3
+7/1/09	6/30/10	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	18138.63
+7/1/09	6/30/10	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	63485.16
+7/1/09	6/30/10	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	108831.72
+7/1/09	6/30/10	Lower digestive tract	category	1	0
+7/1/09	6/30/10	Lower digestive tract	category	2	9069.3
+7/1/09	6/30/10	Lower digestive tract	category	3	27207.93
+7/1/09	6/30/10	Lower digestive tract	category	4	54415.86
+7/1/09	6/30/10	Anal function	category	1	0
+7/1/09	6/30/10	Anal function	category	2	9069.3
+7/1/09	6/30/10	Anal function	category	3	27207.93
+7/1/09	6/30/10	Anal function	category	4	45346.56
+7/1/09	6/30/10	Liver	category	1	0
+7/1/09	6/30/10	Liver	category	2	9069.3
+7/1/09	6/30/10	Liver	category	3	36277.23
+7/1/09	6/30/10	Liver	category	4	72554.46
+7/1/09	6/30/10	Liver	category	5	108831.72
+7/1/09	6/30/10	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	27207.93
+7/1/09	6/30/10	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	18138.63
+7/1/09	6/30/10	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	36277.23
+7/1/09	6/30/10	Bladder function	category	1	0
+7/1/09	6/30/10	Bladder function	category	2	18138.63
+7/1/09	6/30/10	Bladder function	category	3	36277.23
+7/1/09	6/30/10	Bladder function	category	4	54415.86
+7/1/09	6/30/10	Bladder function	category	5	90693.09
+7/1/09	6/30/10	Anatomical or functional loss of testes	category	1	0
+7/1/09	6/30/10	Anatomical or functional loss of testes	category	2	9069.3
+7/1/09	6/30/10	Anatomical or functional loss of testes	category	3	18138.63
+7/1/09	6/30/10	Anatomical or functional loss of testes	category	4	45346.56
+7/1/09	6/30/10	Anatomical or functional loss of testes	category	5	63485.16
+7/1/09	6/30/10	Eye - Loss of an eye	percent		43532.61
+7/1/09	6/30/10	Eye - Loss of vision in an eye	percent		36277.23
+7/1/09	6/30/10	Miscellaneous unspecified disabilities	percent		181396.18
+7/1/10	6/30/11	Neck	category	1	0
+7/1/10	6/30/11	Neck	category	2	18017.1
+7/1/10	6/30/11	Neck	category	3	36034.17
+7/1/10	6/30/11	Neck	category	4	45042.72
+7/1/10	6/30/11	Neck	category	5	63059.82
+7/1/10	6/30/11	Mid back	category	1	0
+7/1/10	6/30/11	Mid back	category	2	18017.1
+7/1/10	6/30/11	Mid back	category	3	36034.17
+7/1/10	6/30/11	Low back	category	1	0
+7/1/10	6/30/11	Low back	category	2	9008.55
+7/1/10	6/30/11	Low back	category	3	18017.1
+7/1/10	6/30/11	Low back	category	4	27025.62
+7/1/10	6/30/11	Low back	category	5	45042.72
+7/1/10	6/30/11	Low back	category	6	72068.34
+7/1/10	6/30/11	Low back	category	7	108102.54
+7/1/10	6/30/11	Low back	category	8	135128.16
+7/1/10	6/30/11	Mental health	category	1	0
+7/1/10	6/30/11	Mental health	category	2	18017.1
+7/1/10	6/30/11	Mental health	category	3	45042.72
+7/1/10	6/30/11	Mental health	category	4	81076.89
+7/1/10	6/30/11	Mental health	category	5	126119.61
+7/1/10	6/30/11	Leg - Above the Knee	percent		108102.6
+7/1/10	6/30/11	Leg - Below the knee joint	percent		86482.14
+7/1/10	6/30/11	Ankle	percent		75671.82
+7/1/10	6/30/11	Foot	percent		37835.97
+7/1/10	6/30/11	Arm - At or above shoulder	percent		108102.6
+7/1/10	6/30/11	Arm - From shoulder to elbow	percent		102697.41
+7/1/10	6/30/11	Arm - From elbow down	percent		97292.28
+7/1/10	6/30/11	Hand	percent		58375.29
+7/1/10	6/30/11	Hearing - Both ears	percent		86482.14
+7/1/10	6/30/11	Hearing - One ear	percent		14413.59
+7/1/10	6/30/11	Pelvis	category	1	0
+7/1/10	6/30/11	Pelvis	category	2	3603.42
+7/1/10	6/30/11	Pelvis	category	3	9008.55
+7/1/10	6/30/11	Pelvis	category	4	9008.55
+7/1/10	6/30/11	Pelvis	category	5	9008.55
+7/1/10	6/30/11	Pelvis	category	6	9008.55
+7/1/10	6/30/11	Pelvis	category	7	18017.1
+7/1/10	6/30/11	Pelvis	category	8	18017.1
+7/1/10	6/30/11	Pelvis	category	9	27025.62
+7/1/10	6/30/11	Heart	category	1	0
+7/1/10	6/30/11	Heart	category	2	18017.1
+7/1/10	6/30/11	Heart	category	3	36034.17
+7/1/10	6/30/11	Heart	category	4	63059.82
+7/1/10	6/30/11	Heart	category	5	90085.44
+7/1/10	6/30/11	Heart	category	6	117111.06
+7/1/10	6/30/11	Lungs	category	1	0
+7/1/10	6/30/11	Lungs	category	2	27025.62
+7/1/10	6/30/11	Lungs	category	3	45042.72
+7/1/10	6/30/11	Lungs	category	4	72068.34
+7/1/10	6/30/11	Lungs	category	5	117111.06
+7/1/10	6/30/11	Lungs	category	6	135128.16
+7/1/10	6/30/11	Loss of taste and smell	category	1	5405.13
+7/1/10	6/30/11	Loss of taste and smell	category	2	5405.13
+7/1/10	6/30/11	Speech	category	1	0
+7/1/10	6/30/11	Speech	category	2	9008.55
+7/1/10	6/30/11	Speech	category	3	18017.1
+7/1/10	6/30/11	Speech	category	4	36034.17
+7/1/10	6/30/11	Speech	category	5	54051.27
+7/1/10	6/30/11	Speech	category	6	63059.82
+7/1/10	6/30/11	Skin	category	1	0
+7/1/10	6/30/11	Skin	category	2	9008.55
+7/1/10	6/30/11	Skin	category	3	18017.1
+7/1/10	6/30/11	Skin	category	4	45042.72
+7/1/10	6/30/11	Skin	category	5	72068.34
+7/1/10	6/30/11	Skin	category	6	108102.54
+7/1/10	6/30/11	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/10	6/30/11	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	9008.55
+7/1/10	6/30/11	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	18017.1
+7/1/10	6/30/11	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	63059.82
+7/1/10	6/30/11	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	108102.54
+7/1/10	6/30/11	Lower digestive tract	category	1	0
+7/1/10	6/30/11	Lower digestive tract	category	2	9008.55
+7/1/10	6/30/11	Lower digestive tract	category	3	27025.62
+7/1/10	6/30/11	Lower digestive tract	category	4	54051.27
+7/1/10	6/30/11	Anal function	category	1	0
+7/1/10	6/30/11	Anal function	category	2	9008.55
+7/1/10	6/30/11	Anal function	category	3	27025.62
+7/1/10	6/30/11	Anal function	category	4	45042.72
+7/1/10	6/30/11	Liver	category	1	0
+7/1/10	6/30/11	Liver	category	2	9008.55
+7/1/10	6/30/11	Liver	category	3	36034.17
+7/1/10	6/30/11	Liver	category	4	72068.34
+7/1/10	6/30/11	Liver	category	5	108102.54
+7/1/10	6/30/11	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	27025.62
+7/1/10	6/30/11	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	18017.1
+7/1/10	6/30/11	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	36034.17
+7/1/10	6/30/11	Bladder function	category	1	0
+7/1/10	6/30/11	Bladder function	category	2	18017.1
+7/1/10	6/30/11	Bladder function	category	3	36034.17
+7/1/10	6/30/11	Bladder function	category	4	54051.27
+7/1/10	6/30/11	Bladder function	category	5	90085.44
+7/1/10	6/30/11	Anatomical or functional loss of testes	category	1	0
+7/1/10	6/30/11	Anatomical or functional loss of testes	category	2	9008.55
+7/1/10	6/30/11	Anatomical or functional loss of testes	category	3	18017.1
+7/1/10	6/30/11	Anatomical or functional loss of testes	category	4	45042.72
+7/1/10	6/30/11	Anatomical or functional loss of testes	category	5	63059.82
+7/1/10	6/30/11	Eye - Loss of an eye	percent		43240.95
+7/1/10	6/30/11	Eye - Loss of vision in an eye	percent		36034.17
+7/1/10	6/30/11	Miscellaneous unspecified disabilities	percent		180170.88
+7/1/11	6/30/12	Neck	category	1	0
+7/1/11	6/30/12	Neck	category	2	18390.03
+7/1/11	6/30/12	Neck	category	3	36780.09
+7/1/11	6/30/12	Neck	category	4	45975.12
+7/1/11	6/30/12	Neck	category	5	64365.15
+7/1/11	6/30/12	Mid back	category	1	0
+7/1/11	6/30/12	Mid back	category	2	18390.03
+7/1/11	6/30/12	Mid back	category	3	36780.09
+7/1/11	6/30/12	Low back	category	1	0
+7/1/11	6/30/12	Low back	category	2	9195.03
+7/1/11	6/30/12	Low back	category	3	18390.03
+7/1/11	6/30/12	Low back	category	4	27585.06
+7/1/11	6/30/12	Low back	category	5	45975.12
+7/1/11	6/30/12	Low back	category	6	73560.18
+7/1/11	6/30/12	Low back	category	7	110340.24
+7/1/11	6/30/12	Low back	category	8	137925.33
+7/1/11	6/30/12	Mental health	category	1	0
+7/1/11	6/30/12	Mental health	category	2	18390.03
+7/1/11	6/30/12	Mental health	category	3	45975.12
+7/1/11	6/30/12	Mental health	category	4	82755.18
+7/1/11	6/30/12	Mental health	category	5	128730.3
+7/1/11	6/30/12	Leg - Above the Knee	percent		110340.33
+7/1/11	6/30/12	Leg - Below the knee joint	percent		88272.33
+7/1/11	6/30/12	Ankle	percent		77238.23
+7/1/11	6/30/12	Foot	percent		38619.18
+7/1/11	6/30/12	Arm - At or above shoulder	percent		110340.33
+7/1/11	6/30/12	Arm - From shoulder to elbow	percent		104823.24
+7/1/11	6/30/12	Arm - From elbow down	percent		99306.24
+7/1/11	6/30/12	Hand	percent		59583.66
+7/1/11	6/30/12	Hearing - Both ears	percent		88272.33
+7/1/11	6/30/12	Hearing - One ear	percent		14711.94
+7/1/11	6/30/12	Pelvis	category	1	0
+7/1/11	6/30/12	Pelvis	category	2	3678
+7/1/11	6/30/12	Pelvis	category	3	9195.03
+7/1/11	6/30/12	Pelvis	category	4	9195.03
+7/1/11	6/30/12	Pelvis	category	5	9195.03
+7/1/11	6/30/12	Pelvis	category	6	9195.03
+7/1/11	6/30/12	Pelvis	category	7	18390.03
+7/1/11	6/30/12	Pelvis	category	8	18390.03
+7/1/11	6/30/12	Pelvis	category	9	27585.06
+7/1/11	6/30/12	Heart	category	1	0
+7/1/11	6/30/12	Heart	category	2	18390.03
+7/1/11	6/30/12	Heart	category	3	36780.09
+7/1/11	6/30/12	Heart	category	4	64365.15
+7/1/11	6/30/12	Heart	category	5	91950.21
+7/1/11	6/30/12	Heart	category	6	119535.27
+7/1/11	6/30/12	Lungs	category	2	27585.06
+7/1/11	6/30/12	Lungs	category	3	45975.12
+7/1/11	6/30/12	Lungs	category	4	73560.18
+7/1/11	6/30/12	Lungs	category	5	119535.27
+7/1/11	6/30/12	Lungs	category	6	137925.33
+7/1/11	6/30/12	Loss of taste and smell	category	1	5517
+7/1/11	6/30/12	Loss of taste and smell	category	2	5517
+7/1/11	6/30/12	Speech	category	1	0
+7/1/11	6/30/12	Speech	category	2	9195.03
+7/1/11	6/30/12	Speech	category	3	18390.03
+7/1/11	6/30/12	Speech	category	4	36780.09
+7/1/11	6/30/12	Speech	category	5	55170.12
+7/1/11	6/30/12	Speech	category	6	64365.15
+7/1/11	6/30/12	Skin	category	1	0
+7/1/11	6/30/12	Skin	category	2	9195.03
+7/1/11	6/30/12	Skin	category	3	18390.03
+7/1/11	6/30/12	Skin	category	4	45975.12
+7/1/11	6/30/12	Skin	category	5	73560.18
+7/1/11	6/30/12	Skin	category	6	110340.24
+7/1/11	6/30/12	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/11	6/30/12	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	9195.03
+7/1/11	6/30/12	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	18390.03
+7/1/11	6/30/12	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	64365.15
+7/1/11	6/30/12	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	110340.24
+7/1/11	6/30/12	Lower digestive tract	category	1	0
+7/1/11	6/30/12	Lower digestive tract	category	2	9195.03
+7/1/11	6/30/12	Lower digestive tract	category	3	27585.06
+7/1/11	6/30/12	Lower digestive tract	category	4	55170.12
+7/1/11	6/30/12	Anal function	category	1	0
+7/1/11	6/30/12	Anal function	category	2	9195.03
+7/1/11	6/30/12	Anal function	category	3	27585.06
+7/1/11	6/30/12	Anal function	category	4	45975.12
+7/1/11	6/30/12	Liver	category	1	0
+7/1/11	6/30/12	Liver	category	2	9195.03
+7/1/11	6/30/12	Liver	category	3	36780.09
+7/1/11	6/30/12	Liver	category	4	73560.18
+7/1/11	6/30/12	Liver	category	5	110340.24
+7/1/11	6/30/12	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	27585.06
+7/1/11	6/30/12	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	18390.03
+7/1/11	6/30/12	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	36780.09
+7/1/11	6/30/12	Bladder function	category	1	0
+7/1/11	6/30/12	Bladder function	category	2	18390.03
+7/1/11	6/30/12	Bladder function	category	3	36780.09
+7/1/11	6/30/12	Bladder function	category	4	55170.12
+7/1/11	6/30/12	Bladder function	category	5	91950.21
+7/1/11	6/30/12	Anatomical or functional loss of testes	category	1	0
+7/1/11	6/30/12	Anatomical or functional loss of testes	category	2	9195.03
+7/1/11	6/30/12	Anatomical or functional loss of testes	category	3	18390.03
+7/1/11	6/30/12	Anatomical or functional loss of testes	category	4	45975.12
+7/1/11	6/30/12	Anatomical or functional loss of testes	category	5	64365.15
+7/1/11	6/30/12	Eye - Loss of an eye	percent		44136.03
+7/1/11	6/30/12	Eye - Loss of vision in an eye	percent		36780.09
+7/1/11	6/30/12	Miscellaneous unspecified disabilities	percent		183900.42
+7/1/12	6/30/13	Neck	category	1	0
+7/1/12	6/30/13	Neck	category	2	19044.72
+7/1/12	6/30/13	Neck	category	3	38089.44
+7/1/12	6/30/13	Neck	category	4	47611.83
+7/1/12	6/30/13	Neck	category	5	66656.55
+7/1/12	6/30/13	Mid back	category	1	0
+7/1/12	6/30/13	Mid back	category	2	18390.03
+7/1/12	6/30/13	Mid back	category	3	38089.44
+7/1/12	6/30/13	Low back	category	1	0
+7/1/12	6/30/13	Low back	category	2	9522.36
+7/1/12	6/30/13	Low back	category	3	19044.72
+7/1/12	6/30/13	Low back	category	4	28567.08
+7/1/12	6/30/13	Low back	category	5	47611.83
+7/1/12	6/30/13	Low back	category	6	76178.91
+7/1/12	6/30/13	Low back	category	7	114268.35
+7/1/12	6/30/13	Low back	category	8	142835.46
+7/1/12	6/30/13	Mental health	category	1	0
+7/1/12	6/30/13	Mental health	category	2	19044.72
+7/1/12	6/30/13	Mental health	category	3	47611.83
+7/1/12	6/30/13	Mental health	category	4	85701.27
+7/1/12	6/30/13	Mental health	category	5	133313.07
+7/1/12	6/30/13	Leg - Above the Knee	percent		114268.44
+7/1/12	6/30/13	Leg - Below the knee joint	percent		91414.83
+7/1/12	6/30/13	Ankle	percent		79987.82
+7/1/12	6/30/13	Foot	percent		39994.02
+7/1/12	6/30/13	Arm - At or above shoulder	percent		114268.44
+7/1/12	6/30/13	Arm - From shoulder to elbow	percent		108554.94
+7/1/12	6/30/13	Arm - From elbow down	percent		102841.53
+7/1/12	6/30/13	Hand	percent		61704.84
+7/1/12	6/30/13	Hearing - Both ears	percent		91414.83
+7/1/12	6/30/13	Hearing - One ear	percent		15235.68
+7/1/12	6/30/13	Pelvis	category	1	0
+7/1/12	6/30/13	Pelvis	category	2	3808.95
+7/1/12	6/30/13	Pelvis	category	3	9522.36
+7/1/12	6/30/13	Pelvis	category	4	9522.36
+7/1/12	6/30/13	Pelvis	category	5	9522.36
+7/1/12	6/30/13	Pelvis	category	6	9522.36
+7/1/12	6/30/13	Pelvis	category	7	19044.72
+7/1/12	6/30/13	Pelvis	category	8	19044.72
+7/1/12	6/30/13	Pelvis	category	9	28567.08
+7/1/12	6/30/13	Heart	category	1	0
+7/1/12	6/30/13	Heart	category	2	19044.72
+7/1/12	6/30/13	Heart	category	3	38089.44
+7/1/12	6/30/13	Heart	category	4	66656.55
+7/1/12	6/30/13	Heart	category	5	95223.63
+7/1/12	6/30/13	Heart	category	6	123709.71
+7/1/12	6/30/13	Lungs	category	1	0
+7/1/12	6/30/13	Lungs	category	2	28567.08
+7/1/12	6/30/13	Lungs	category	3	47611.83
+7/1/12	6/30/13	Lungs	category	4	76178.91
+7/1/12	6/30/13	Lungs	category	5	123790.71
+7/1/12	6/30/13	Lungs	category	6	142835.46
+7/1/12	6/30/13	Loss of taste and smell	category	1	5713.41
+7/1/12	6/30/13	Loss of taste and smell	category	2	5713.41
+7/1/12	6/30/13	Speech	category	1	0
+7/1/12	6/30/13	Speech	category	2	9522.36
+7/1/12	6/30/13	Speech	category	3	19044.72
+7/1/12	6/30/13	Speech	category	4	38089.44
+7/1/12	6/30/13	Speech	category	5	57134.19
+7/1/12	6/30/13	Speech	category	6	66656.55
+7/1/12	6/30/13	Skin	category	1	0
+7/1/12	6/30/13	Skin	category	2	9522.36
+7/1/12	6/30/13	Skin	category	3	19044.72
+7/1/12	6/30/13	Skin	category	4	47611.83
+7/1/12	6/30/13	Skin	category	5	76178.91
+7/1/12	6/30/13	Skin	category	6	114268.35
+7/1/12	6/30/13	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/12	6/30/13	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	9522.36
+7/1/12	6/30/13	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	19044.72
+7/1/12	6/30/13	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	66656.55
+7/1/12	6/30/13	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	114268.35
+7/1/12	6/30/13	Lower digestive tract	category	2	9522.36
+7/1/12	6/30/13	Lower digestive tract	category	3	28567.08
+7/1/12	6/30/13	Lower digestive tract	category	4	57134.19
+7/1/12	6/30/13	Anal function	category	1	0
+7/1/12	6/30/13	Anal function	category	2	9522.36
+7/1/12	6/30/13	Anal function	category	3	28567.08
+7/1/12	6/30/13	Anal function	category	4	47611.83
+7/1/12	6/30/13	Liver	category	1	0
+7/1/12	6/30/13	Liver	category	2	9522.36
+7/1/12	6/30/13	Liver	category	3	38089.44
+7/1/12	6/30/13	Liver	category	4	76178.91
+7/1/12	6/30/13	Liver	category	5	114268.35
+7/1/12	6/30/13	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	28567.08
+7/1/12	6/30/13	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	19044.72
+7/1/12	6/30/13	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	38089.44
+7/1/12	6/30/13	Bladder function	category	1	0
+7/1/12	6/30/13	Bladder function	category	2	19044.72
+7/1/12	6/30/13	Bladder function	category	3	38089.44
+7/1/12	6/30/13	Bladder function	category	4	57134.19
+7/1/12	6/30/13	Bladder function	category	5	95.223.63
+7/1/12	6/30/13	Anatomical or functional loss of testes	category	1	0
+7/1/12	6/30/13	Anatomical or functional loss of testes	category	2	9522.36
+7/1/12	6/30/13	Anatomical or functional loss of testes	category	3	19044.72
+7/1/12	6/30/13	Anatomical or functional loss of testes	category	4	47611.83
+7/1/12	6/30/13	Anatomical or functional loss of testes	category	5	66656.55
+7/1/12	6/30/13	Eye - Loss of an eye	percent		45707.28
+7/1/12	6/30/13	Eye - Loss of vision in an eye	percent		38089.47
+7/1/12	6/30/13	Miscellaneous unspecified disabilities	percent		190447.26
+7/1/13	6/30/14	Neck	category	1	0
+7/1/13	6/30/14	Neck	category	2	19444.68
+7/1/13	6/30/14	Neck	category	3	38889.33
+7/1/13	6/30/14	Neck	category	4	48611.67
+7/1/13	6/30/14	Neck	category	5	68056.32
+7/1/13	6/30/14	Mid back	category	1	0
+7/1/13	6/30/14	Mid back	category	2	19444.68
+7/1/13	6/30/14	Mid back	category	3	38889.33
+7/1/13	6/30/14	Low back	category	1	0
+7/1/13	6/30/14	Low back	category	2	9722.34
+7/1/13	6/30/14	Low back	category	3	19444.68
+7/1/13	6/30/14	Low back	category	4	29166.99
+7/1/13	6/30/14	Low back	category	5	48611.67
+7/1/13	6/30/14	Low back	category	6	77778.66
+7/1/13	6/30/14	Low back	category	7	116667.99
+7/1/13	6/30/14	Low back	category	8	145834.98
+7/1/13	6/30/14	Mental health	category	1	0
+7/1/13	6/30/14	Mental health	category	2	19444.68
+7/1/13	6/30/14	Mental health	category	3	48611.67
+7/1/13	6/30/14	Mental health	category	4	87501
+7/1/13	6/30/14	Mental health	category	5	136112.67
+7/1/13	6/30/14	Leg - Above the Knee	percent		116668.08
+7/1/13	6/30/14	Leg - Below the knee joint	percent		93334.53
+7/1/13	6/30/14	Ankle	percent		81667.68
+7/1/13	6/30/14	Foot	percent		40833.9
+7/1/13	6/30/14	Arm - At or above shoulder	percent		116668.08
+7/1/13	6/30/14	Arm - From shoulder to elbow	percent		110834.58
+7/1/13	6/30/14	Arm - From elbow down	percent		105001.2
+7/1/13	6/30/14	Hand	percent		63000.63
+7/1/13	6/30/14	Hearing - Both ears	percent		93334.53
+7/1/13	6/30/14	Hearing - One ear	percent		15555.63
+7/1/13	6/30/14	Pelvis	category	1	0
+7/1/13	6/30/14	Pelvis	category	2	3888.93
+7/1/13	6/30/14	Pelvis	category	3	9722.34
+7/1/13	6/30/14	Pelvis	category	4	9722.34
+7/1/13	6/30/14	Pelvis	category	5	9722.34
+7/1/13	6/30/14	Pelvis	category	6	9722.34
+7/1/13	6/30/14	Pelvis	category	7	19444.68
+7/1/13	6/30/14	Pelvis	category	8	19444.68
+7/1/13	6/30/14	Pelvis	category	9	29166.98
+7/1/13	6/30/14	Heart	category	1	0
+7/1/13	6/30/14	Heart	category	2	19444.68
+7/1/13	6/30/14	Heart	category	3	38889.33
+7/1/13	6/30/14	Heart	category	4	68056.32
+7/1/13	6/30/14	Heart	category	5	97223.34
+7/1/13	6/30/14	Heart	category	6	126390.33
+7/1/13	6/30/14	Lungs	category	1	0
+7/1/13	6/30/14	Lungs	category	2	29166.98
+7/1/13	6/30/14	Lungs	category	3	48611.67
+7/1/13	6/30/14	Lungs	category	4	77778.66
+7/1/13	6/30/14	Lungs	category	5	126390.33
+7/1/13	6/30/14	Lungs	category	6	145834.98
+7/1/13	6/30/14	Loss of taste and smell	category	1	5833.41
+7/1/13	6/30/14	Loss of taste and smell	category	2	5833.41
+7/1/13	6/30/14	Speech	category	1	0
+7/1/13	6/30/14	Speech	category	2	9722.34
+7/1/13	6/30/14	Speech	category	3	19444.68
+7/1/13	6/30/14	Speech	category	4	38889.33
+7/1/13	6/30/14	Speech	category	5	58334.01
+7/1/13	6/30/14	Speech	category	6	68056.32
+7/1/13	6/30/14	Skin	category	1	0
+7/1/13	6/30/14	Skin	category	2	9722.34
+7/1/13	6/30/14	Skin	category	3	19444.68
+7/1/13	6/30/14	Skin	category	4	48611.67
+7/1/13	6/30/14	Skin	category	5	77778.66
+7/1/13	6/30/14	Skin	category	6	116667.99
+7/1/13	6/30/14	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/13	6/30/14	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	9722.34
+7/1/13	6/30/14	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	19444.68
+7/1/13	6/30/14	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	68056.32
+7/1/13	6/30/14	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	116667.99
+7/1/13	6/30/14	Lower digestive tract	category	1	0
+7/1/13	6/30/14	Lower digestive tract	category	2	9722.34
+7/1/13	6/30/14	Lower digestive tract	category	3	29166.99
+7/1/13	6/30/14	Lower digestive tract	category	4	58334.01
+7/1/13	6/30/14	Anal function	category	1	0
+7/1/13	6/30/14	Anal function	category	2	9722.34
+7/1/13	6/30/14	Anal function	category	3	29166.99
+7/1/13	6/30/14	Anal function	category	4	48611.67
+7/1/13	6/30/14	Liver	category	1	0
+7/1/13	6/30/14	Liver	category	2	9722.34
+7/1/13	6/30/14	Liver	category	3	38889.33
+7/1/13	6/30/14	Liver	category	4	77778.66
+7/1/13	6/30/14	Liver	category	5	116667.99
+7/1/13	6/30/14	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	29166.99
+7/1/13	6/30/14	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	19444.68
+7/1/13	6/30/14	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	38889.33
+7/1/13	6/30/14	Bladder function	category	1	0
+7/1/13	6/30/14	Bladder function	category	2	19444.68
+7/1/13	6/30/14	Bladder function	category	3	38889.33
+7/1/13	6/30/14	Bladder function	category	4	58334.01
+7/1/13	6/30/14	Bladder function	category	5	97223.34
+7/1/13	6/30/14	Anatomical or functional loss of testes	category	1	0
+7/1/13	6/30/14	Anatomical or functional loss of testes	category	2	9722.34
+7/1/13	6/30/14	Anatomical or functional loss of testes	category	3	19444.68
+7/1/13	6/30/14	Anatomical or functional loss of testes	category	4	48611.67
+7/1/13	6/30/14	Anatomical or functional loss of testes	category	5	68056.32
+7/1/13	6/30/14	Eye - Loss of an eye	percent		46667.13
+7/1/13	6/30/14	Eye - Loss of vision in an eye	percent		38889.36
+7/1/13	6/30/14	Miscellaneous unspecified disabilities	percent		194446.65
+7/1/14	6/30/15	Neck	category	1	0
+7/1/14	6/30/15	Neck	category	2	19711.05
+7/1/14	6/30/15	Neck	category	3	39422.1
+7/1/14	6/30/15	Neck	category	4	49277.64
+7/1/14	6/30/15	Neck	category	5	68988.69
+7/1/14	6/30/15	Mid back	category	1	0
+7/1/14	6/30/15	Mid back	category	2	19711.05
+7/1/14	6/30/15	Mid back	category	3	39422.1
+7/1/14	6/30/15	Low back	category	1	0
+7/1/14	6/30/15	Low back	category	2	9855.54
+7/1/14	6/30/15	Low back	category	3	19711.05
+7/1/14	6/30/15	Low back	category	4	29566.59
+7/1/14	6/30/15	Low back	category	5	49277.64
+7/1/14	6/30/15	Low back	category	6	78844.23
+7/1/14	6/30/15	Low back	category	7	118266.33
+7/1/14	6/30/15	Low back	category	8	147832.92
+7/1/14	6/30/15	Mental health	category	1	0
+7/1/14	6/30/15	Mental health	category	2	19711.05
+7/1/14	6/30/15	Mental health	category	3	49277.64
+7/1/14	6/30/15	Mental health	category	4	88699.74
+7/1/14	6/30/15	Mental health	category	5	137977.38
+7/1/14	6/30/15	Leg - Above the Knee	percent		118266.42
+7/1/14	6/30/15	Leg - Below the knee joint	percent		94613.22
+7/1/14	6/30/15	Ankle	percent		82786.53
+7/1/14	6/30/15	Foot	percent		41393.31
+7/1/14	6/30/15	Arm - At or above shoulder	percent		118266.42
+7/1/14	6/30/15	Arm - From shoulder to elbow	percent		112353
+7/1/14	6/30/15	Arm - From elbow down	percent		106439.73
+7/1/14	6/30/15	Hand	percent		63863.73
+7/1/14	6/30/15	Hearing - Both ears	percent		94613.22
+7/1/14	6/30/15	Hearing - One ear	percent		15768.75
+7/1/14	6/30/15	Pelvis	category	1	0
+7/1/14	6/30/15	Pelvis	category	2	3942.21
+7/1/14	6/30/15	Pelvis	category	3	9855.54
+7/1/14	6/30/15	Pelvis	category	4	9855.54
+7/1/14	6/30/15	Pelvis	category	5	9855.54
+7/1/14	6/30/15	Pelvis	category	6	9855.54
+7/1/14	6/30/15	Pelvis	category	7	19711.05
+7/1/14	6/30/15	Pelvis	category	8	19711.05
+7/1/14	6/30/15	Pelvis	category	9	29566.59
+7/1/14	6/30/15	Heart	category	1	0
+7/1/14	6/30/15	Heart	category	2	19711.05
+7/1/14	6/30/15	Heart	category	3	39422.1
+7/1/14	6/30/15	Heart	category	4	68988.69
+7/1/14	6/30/15	Heart	category	5	98555.28
+7/1/14	6/30/15	Heart	category	6	128121.87
+7/1/14	6/30/15	Lungs	category	2	29566.59
+7/1/14	6/30/15	Lungs	category	3	49277.64
+7/1/14	6/30/15	Lungs	category	4	78844.23
+7/1/14	6/30/15	Lungs	category	5	128121.87
+7/1/14	6/30/15	Lungs	category	6	147832.92
+7/1/14	6/30/15	Loss of taste and smell	category	1	5913.33
+7/1/14	6/30/15	Loss of taste and smell	category	2	5913.33
+7/1/14	6/30/15	Speech	category	1	0
+7/1/14	6/30/15	Speech	category	2	9855.54
+7/1/14	6/30/15	Speech	category	3	19711.05
+7/1/14	6/30/15	Speech	category	4	39422.1
+7/1/14	6/30/15	Speech	category	5	59133.18
+7/1/14	6/30/15	Speech	category	6	68988.69
+7/1/14	6/30/15	Skin	category	1	0
+7/1/14	6/30/15	Skin	category	2	9855.54
+7/1/14	6/30/15	Skin	category	3	19711.05
+7/1/14	6/30/15	Skin	category	4	49277.64
+7/1/14	6/30/15	Skin	category	5	78844.23
+7/1/14	6/30/15	Skin	category	6	118266.33
+7/1/14	6/30/15	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/14	6/30/15	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	9855.54
+7/1/14	6/30/15	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	19711.05
+7/1/14	6/30/15	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	68988.69
+7/1/14	6/30/15	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	118266.33
+7/1/14	6/30/15	Lower digestive tract	category	1	0
+7/1/14	6/30/15	Lower digestive tract	category	2	9855.54
+7/1/14	6/30/15	Lower digestive tract	category	3	29566.59
+7/1/14	6/30/15	Lower digestive tract	category	4	59133.18
+7/1/14	6/30/15	Anal function	category	1	0
+7/1/14	6/30/15	Anal function	category	2	9855.54
+7/1/14	6/30/15	Anal function	category	3	29566.59
+7/1/14	6/30/15	Anal function	category	4	49277.64
+7/1/14	6/30/15	Liver	category	1	0
+7/1/14	6/30/15	Liver	category	2	9855.54
+7/1/14	6/30/15	Liver	category	3	39422.1
+7/1/14	6/30/15	Liver	category	4	78844.23
+7/1/14	6/30/15	Liver	category	5	118266.33
+7/1/14	6/30/15	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	29566.59
+7/1/14	6/30/15	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	19711.05
+7/1/14	6/30/15	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	39422.1
+7/1/14	6/30/15	Bladder function	category	1	0
+7/1/14	6/30/15	Bladder function	category	2	19711.05
+7/1/14	6/30/15	Bladder function	category	3	39422.1
+7/1/14	6/30/15	Bladder function	category	4	59133.18
+7/1/14	6/30/15	Bladder function	category	5	98555.28
+7/1/14	6/30/15	Anatomical or functional loss of testes	category	1	0
+7/1/14	6/30/15	Anatomical or functional loss of testes	category	2	9855.54
+7/1/14	6/30/15	Anatomical or functional loss of testes	category	3	19711.05
+7/1/14	6/30/15	Anatomical or functional loss of testes	category	4	49277.64
+7/1/14	6/30/15	Anatomical or functional loss of testes	category	5	68988.69
+7/1/14	6/30/15	Eye - Loss of an eye	percent		47306.46
+7/1/14	6/30/15	Eye - Loss of vision in an eye	percent		39422.13
+7/1/14	6/30/15	Miscellaneous unspecified disabilities	percent		197110.56
+7/1/15	6/30/16	Neck	category	1	0
+7/1/15	6/30/16	Neck	category	2	20006.73
+7/1/15	6/30/16	Neck	category	3	40013.43
+7/1/15	6/30/16	Neck	category	4	50016.81
+7/1/15	6/30/16	Neck	category	5	70023.51
+7/1/15	6/30/16	Mid back	category	1	0
+7/1/15	6/30/16	Mid back	category	2	20006.73
+7/1/15	6/30/16	Mid back	category	3	40013.43
+7/1/15	6/30/16	Low back	category	1	0
+7/1/15	6/30/16	Low back	category	2	10003.35
+7/1/15	6/30/16	Low back	category	3	20006.73
+7/1/15	6/30/16	Low back	category	4	30010.08
+7/1/15	6/30/16	Low back	category	5	50016.81
+7/1/15	6/30/16	Low back	category	6	80026.89
+7/1/15	6/30/16	Low back	category	7	120040.32
+7/1/15	6/30/16	Low back	category	8	150050.4
+7/1/15	6/30/16	Mental health	category	1	0
+7/1/15	6/30/16	Mental health	category	2	20006.73
+7/1/15	6/30/16	Mental health	category	3	50016.81
+7/1/15	6/30/16	Mental health	category	4	90030.24
+7/1/15	6/30/16	Mental health	category	5	140047.05
+7/1/15	6/30/16	Leg - Above the Knee	percent		120040.41
+7/1/15	6/30/16	Leg - Below the knee joint	percent		96032.43
+7/1/15	6/30/16	Ankle	percent		84028.32
+7/1/15	6/30/16	Foot	percent		42014.22
+7/1/15	6/30/16	Arm - At or above shoulder	percent		120040.41
+7/1/15	6/30/16	Arm - From shoulder to elbow	percent		114038.31
+7/1/15	6/30/16	Arm - From elbow down	percent		108036.33
+7/1/15	6/30/16	Hand	percent		64821.69
+7/1/15	6/30/16	Hearing - Both ears	percent		96032.43
+7/1/15	6/30/16	Hearing - One ear	percent		16005.27
+7/1/15	6/30/16	Pelvis	category	1	0
+7/1/15	6/30/16	Pelvis	category	2	4001.34
+7/1/15	6/30/16	Pelvis	category	3	10003.35
+7/1/15	6/30/16	Pelvis	category	4	10003.35
+7/1/15	6/30/16	Pelvis	category	5	10003.35
+7/1/15	6/30/16	Pelvis	category	6	10003.35
+7/1/15	6/30/16	Pelvis	category	7	20006.73
+7/1/15	6/30/16	Pelvis	category	8	20006.73
+7/1/15	6/30/16	Pelvis	category	9	30010.08
+7/1/15	6/30/16	Heart	category	1	0
+7/1/15	6/30/16	Heart	category	2	20006.73
+7/1/15	6/30/16	Heart	category	3	40013.43
+7/1/15	6/30/16	Heart	category	4	70023.51
+7/1/15	6/30/16	Heart	category	5	100033.62
+7/1/15	6/30/16	Heart	category	6	130043.7
+7/1/15	6/30/16	Lungs	category	1	0
+7/1/15	6/30/16	Lungs	category	2	30010.08
+7/1/15	6/30/16	Lungs	category	3	50016.81
+7/1/15	6/30/16	Lungs	category	4	80026.89
+7/1/15	6/30/16	Lungs	category	5	130043.7
+7/1/15	6/30/16	Lungs	category	6	150050.4
+7/1/15	6/30/16	Loss of taste and smell	category	1	5833.41
+7/1/15	6/30/16	Loss of taste and smell	category	2	5833.41
+7/1/15	6/30/16	Speech	category	1	0
+7/1/15	6/30/16	Speech	category	2	10003.35
+7/1/15	6/30/16	Speech	category	3	20006.73
+7/1/15	6/30/16	Speech	category	4	40013.43
+7/1/15	6/30/16	Speech	category	5	60020.16
+7/1/15	6/30/16	Speech	category	6	70023.51
+7/1/15	6/30/16	Skin	category	1	0
+7/1/15	6/30/16	Skin	category	2	10003.35
+7/1/15	6/30/16	Skin	category	3	20006.73
+7/1/15	6/30/16	Skin	category	4	50016.81
+7/1/15	6/30/16	Skin	category	5	80026.89
+7/1/15	6/30/16	Skin	category	6	120040.32
+7/1/15	6/30/16	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/15	6/30/16	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	10003.35
+7/1/15	6/30/16	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	20006.73
+7/1/15	6/30/16	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	70023.51
+7/1/15	6/30/16	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	120040.32
+7/1/15	6/30/16	Lower digestive tract	category	1	0
+7/1/15	6/30/16	Lower digestive tract	category	2	10003.35
+7/1/15	6/30/16	Lower digestive tract	category	3	30010.08
+7/1/15	6/30/16	Lower digestive tract	category	4	60020.16
+7/1/15	6/30/16	Anal function	category	1	0
+7/1/15	6/30/16	Anal function	category	2	10003.35
+7/1/15	6/30/16	Anal function	category	3	30010.08
+7/1/15	6/30/16	Anal function	category	4	50026.81
+7/1/15	6/30/16	Liver	category	1	0
+7/1/15	6/30/16	Liver	category	2	10003.35
+7/1/15	6/30/16	Liver	category	3	40013.43
+7/1/15	6/30/16	Liver	category	4	80026.89
+7/1/15	6/30/16	Liver	category	5	120040.32
+7/1/15	6/30/16	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	30010.08
+7/1/15	6/30/16	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	20006.73
+7/1/15	6/30/16	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	40013.43
+7/1/15	6/30/16	Bladder function	category	1	0
+7/1/15	6/30/16	Bladder function	category	2	20006.73
+7/1/15	6/30/16	Bladder function	category	3	40013.43
+7/1/15	6/30/16	Bladder function	category	4	60020.16
+7/1/15	6/30/16	Bladder function	category	5	100033.62
+7/1/15	6/30/16	Anatomical or functional loss of testes	category	1	0
+7/1/15	6/30/16	Anatomical or functional loss of testes	category	2	10003.35
+7/1/15	6/30/16	Anatomical or functional loss of testes	category	3	20005.73
+7/1/15	6/30/16	Anatomical or functional loss of testes	category	4	50016.81
+7/1/15	6/30/16	Anatomical or functional loss of testes	category	5	70023.51
+7/1/15	6/30/16	Eye - Loss of an eye	percent		48016.05
+7/1/15	6/30/16	Eye - Loss of vision in an eye	percent		40013.46
+7/1/15	6/30/16	Miscellaneous unspecified disabilities	percent		200067.21
+7/1/16	6/30/17	Neck	category	1	0
+7/1/16	6/30/17	Neck	category	2	19924.68
+7/1/16	6/30/17	Neck	category	3	39849.39
+7/1/16	6/30/17	Neck	category	4	49811.73
+7/1/16	6/30/17	Neck	category	5	69736.41
+7/1/16	6/30/17	Mid back	category	1	0
+7/1/16	6/30/17	Mid back	category	2	19924.68
+7/1/16	6/30/17	Mid back	category	3	39849.39
+7/1/16	6/30/17	Low back	category	1	0
+7/1/16	6/30/17	Low back	category	2	9962.34
+7/1/16	6/30/17	Low back	category	3	19924.68
+7/1/16	6/30/17	Low back	category	4	29997.05
+7/1/16	6/30/17	Low back	category	5	48811.73
+7/1/16	6/30/17	Low back	category	6	79698.78
+7/1/16	6/30/17	Low back	category	7	119548.14
+7/1/16	6/30/17	Low back	category	8	149435.19
+7/1/16	6/30/17	Mental health	category	1	0
+7/1/16	6/30/17	Mental health	category	2	19924.68
+7/1/16	6/30/17	Mental health	category	3	49811.73
+7/1/16	6/30/17	Mental health	category	4	89661.12
+7/1/16	6/30/17	Mental health	category	5	139472.85
+7/1/16	6/30/17	Leg - Above the Knee	percent		119548.23
+7/1/16	6/30/17	Leg - Below the knee joint	percent		95638.71
+7/1/16	6/30/17	Ankle	percent		83683.8
+7/1/16	6/30/17	Foot	percent		41841.96
+7/1/16	6/30/17	Arm - At or above shoulder	percent		119548.23
+7/1/16	6/30/17	Arm - From shoulder to elbow	percent		113570.76
+7/1/16	6/30/17	Arm - From elbow down	percent		107593.38
+7/1/16	6/30/17	Hand	percent		64555.92
+7/1/16	6/30/17	Hearing - Both ears	percent		95638.71
+7/1/16	6/30/17	Hearing - One ear	percent		15939.66
+7/1/16	6/30/17	Pelvis	category	1	0
+7/1/16	6/30/17	Pelvis	category	2	3984.93
+7/1/16	6/30/17	Pelvis	category	3	9962.34
+7/1/16	6/30/17	Pelvis	category	4	9963.34
+7/1/16	6/30/17	Pelvis	category	5	9964.34
+7/1/16	6/30/17	Pelvis	category	6	9965.34
+7/1/16	6/30/17	Pelvis	category	7	19924.68
+7/1/16	6/30/17	Pelvis	category	8	19925.68
+7/1/16	6/30/17	Pelvis	category	9	29887.05
+7/1/16	6/30/17	Heart	category	1	0
+7/1/16	6/30/17	Heart	category	2	19924.68
+7/1/16	6/30/17	Heart	category	3	39848.39
+7/1/16	6/30/17	Heart	category	4	69736.41
+7/1/16	6/30/17	Heart	category	5	99623.46
+7/1/16	6/30/17	Heart	category	6	129510.51
+7/1/16	6/30/17	Lungs	category	1	0
+7/1/16	6/30/17	Lungs	category	2	29887.05
+7/1/16	6/30/17	Lungs	category	3	49811.73
+7/1/16	6/30/17	Lungs	category	4	79698.78
+7/1/16	6/30/17	Lungs	category	5	129510.51
+7/1/16	6/30/17	Lungs	category	6	149435.19
+7/1/16	6/30/17	Loss of taste and smell	category	1	5977.41
+7/1/16	6/30/17	Loss of taste and smell	category	2	5977.41
+7/1/16	6/30/17	Speech	category	1	0
+7/1/16	6/30/17	Speech	category	2	9962.34
+7/1/16	6/30/17	Speech	category	3	19924.68
+7/1/16	6/30/17	Speech	category	4	39849.39
+7/1/16	6/30/17	Speech	category	5	59774.07
+7/1/16	6/30/17	Speech	category	6	69736.41
+7/1/16	6/30/17	Skin	category	1	0
+7/1/16	6/30/17	Skin	category	2	9962.34
+7/1/16	6/30/17	Skin	category	3	19924.68
+7/1/16	6/30/17	Skin	category	4	49811.73
+7/1/16	6/30/17	Skin	category	5	79698.78
+7/1/16	6/30/17	Skin	category	6	119548.14
+7/1/16	6/30/17	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/16	6/30/17	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	9962.34
+7/1/16	6/30/17	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	19924.68
+7/1/16	6/30/17	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	69736.41
+7/1/16	6/30/17	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	119548.14
+7/1/16	6/30/17	Lower digestive tract	category	1	0
+7/1/16	6/30/17	Lower digestive tract	category	2	9962.34
+7/1/16	6/30/17	Lower digestive tract	category	3	29887.05
+7/1/16	6/30/17	Lower digestive tract	category	4	59774.07
+7/1/16	6/30/17	Anal function	category	1	0
+7/1/16	6/30/17	Anal function	category	2	9962.34
+7/1/16	6/30/17	Anal function	category	3	29887.05
+7/1/16	6/30/17	Anal function	category	4	49811.73
+7/1/16	6/30/17	Liver	category	1	0
+7/1/16	6/30/17	Liver	category	2	9962.34
+7/1/16	6/30/17	Liver	category	3	39849.39
+7/1/16	6/30/17	Liver	category	4	79698.78
+7/1/16	6/30/17	Liver	category	5	119548.14
+7/1/16	6/30/17	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	29887.05
+7/1/16	6/30/17	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	19924.68
+7/1/16	6/30/17	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	39849.39
+7/1/16	6/30/17	Bladder function	category	1	0
+7/1/16	6/30/17	Bladder function	category	2	19924.68
+7/1/16	6/30/17	Bladder function	category	3	39849.39
+7/1/16	6/30/17	Bladder function	category	4	59774.07
+7/1/16	6/30/17	Bladder function	category	5	99623.46
+7/1/16	6/30/17	Anatomical or functional loss of testes	category	1	0
+7/1/16	6/30/17	Anatomical or functional loss of testes	category	2	9962.34
+7/1/16	6/30/17	Anatomical or functional loss of testes	category	3	19924.68
+7/1/16	6/30/17	Anatomical or functional loss of testes	category	4	49811.73
+7/1/16	6/30/17	Anatomical or functional loss of testes	category	5	69736.41
+7/1/16	6/30/17	Eye - Loss of an eye	percent		47819.19
+7/1/16	6/30/17	Eye - Loss of vision in an eye	percent		39849.39
+7/1/16	6/30/17	Miscellaneous unspecified disabilities	percent		199246.92
+7/1/17	6/30/18	Neck	category	1	0
+7/1/17	6/30/18	Neck	category	2	20119.95
+7/1/17	6/30/18	Neck	category	3	40239.9
+7/1/17	6/30/18	Neck	category	4	50299.89
+7/1/17	6/30/18	Neck	category	5	70419.84
+7/1/17	6/30/18	Mid back	category	1	0
+7/1/17	6/30/18	Mid back	category	2	20119.95
+7/1/17	6/30/18	Mid back	category	3	40239.9
+7/1/17	6/30/18	Low back	category	1	0
+7/1/17	6/30/18	Low back	category	2	10059.99
+7/1/17	6/30/18	Low back	category	3	20119.95
+7/1/17	6/30/18	Low back	category	4	30179.94
+7/1/17	6/30/18	Low back	category	5	50299.89
+7/1/17	6/30/18	Low back	category	6	80479.8
+7/1/17	6/30/18	Low back	category	7	120719.73
+7/1/17	6/30/18	Low back	category	8	150899.64
+7/1/17	6/30/18	Mental health	category	1	0
+7/1/17	6/30/18	Mental health	category	2	20119.95
+7/1/17	6/30/18	Mental health	category	3	50299.89
+7/1/17	6/30/18	Mental health	category	4	90539.79
+7/1/17	6/30/18	Mental health	category	5	140839.68
+7/1/17	6/30/18	Leg - Above the Knee	percent		120719.79
+7/1/17	6/30/18	Leg - Below the knee joint	percent		96575.97
+7/1/17	6/30/18	Ankle	percent		84503.91
+7/1/17	6/30/18	Foot	percent		42252
+7/1/17	6/30/18	Arm - At or above shoulder	percent		120719.79
+7/1/17	6/30/18	Arm - From shoulder to elbow	percent		114683.76
+7/1/17	6/30/18	Arm - From elbow down	percent		108647.79
+7/1/17	6/30/18	Hand	percent		65188.56
+7/1/17	6/30/18	Hearing - Both ears	percent		96575.97
+7/1/17	6/30/18	Hearing - One ear	percent		16095.87
+7/1/17	6/30/18	Pelvis	category	1	0
+7/1/17	6/30/18	Pelvis	category	2	4023.99
+7/1/17	6/30/18	Pelvis	category	3	10059.99
+7/1/17	6/30/18	Pelvis	category	4	10059.99
+7/1/17	6/30/18	Pelvis	category	5	10059.99
+7/1/17	6/30/18	Pelvis	category	6	10059.99
+7/1/17	6/30/18	Pelvis	category	7	20119.95
+7/1/17	6/30/18	Pelvis	category	8	20119.95
+7/1/17	6/30/18	Pelvis	category	9	30179.94
+7/1/17	6/30/18	Heart	category	1	0
+7/1/17	6/30/18	Heart	category	2	20119.95
+7/1/17	6/30/18	Heart	category	3	40239.9
+7/1/17	6/30/18	Heart	category	4	70419.84
+7/1/17	6/30/18	Heart	category	5	100599.78
+7/1/17	6/30/18	Heart	category	6	130779.69
+7/1/17	6/30/18	Lungs	category	1	0
+7/1/17	6/30/18	Lungs	category	2	30179.94
+7/1/17	6/30/18	Lungs	category	3	50299.89
+7/1/17	6/30/18	Lungs	category	4	80479.8
+7/1/17	6/30/18	Lungs	category	5	130779.69
+7/1/17	6/30/18	Lungs	category	6	150899.64
+7/1/17	6/30/18	Loss of taste and smell	category	1	6036
+7/1/17	6/30/18	Loss of taste and smell	category	2	6036
+7/1/17	6/30/18	Speech	category	1	0
+7/1/17	6/30/18	Speech	category	2	10059.99
+7/1/17	6/30/18	Speech	category	3	20119.95
+7/1/17	6/30/18	Speech	category	4	40239.9
+7/1/17	6/30/18	Speech	category	5	60359.85
+7/1/17	6/30/18	Speech	category	6	70419.84
+7/1/17	6/30/18	Skin	category	1	0
+7/1/17	6/30/18	Skin	category	2	10059.99
+7/1/17	6/30/18	Skin	category	3	20119.95
+7/1/17	6/30/18	Skin	category	4	50299.89
+7/1/17	6/30/18	Skin	category	5	80479.8
+7/1/17	6/30/18	Skin	category	6	120719.73
+7/1/17	6/30/18	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/17	6/30/18	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	10059.99
+7/1/17	6/30/18	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	20119.95
+7/1/17	6/30/18	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	70419.84
+7/1/17	6/30/18	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	120719.73
+7/1/17	6/30/18	Lower digestive tract	category	1	0
+7/1/17	6/30/18	Lower digestive tract	category	2	10059.99
+7/1/17	6/30/18	Lower digestive tract	category	3	30179.94
+7/1/17	6/30/18	Lower digestive tract	category	4	60359.85
+7/1/17	6/30/18	Anal function	category	1	0
+7/1/17	6/30/18	Anal function	category	2	10059.99
+7/1/17	6/30/18	Anal function	category	3	30179.94
+7/1/17	6/30/18	Anal function	category	4	50299.89
+7/1/17	6/30/18	Liver	category	1	0
+7/1/17	6/30/18	Liver	category	2	10059.99
+7/1/17	6/30/18	Liver	category	3	40239.9
+7/1/17	6/30/18	Liver	category	4	80479.8
+7/1/17	6/30/18	Liver	category	5	120719.73
+7/1/17	6/30/18	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	30179.94
+7/1/17	6/30/18	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	20119.95
+7/1/17	6/30/18	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	40239.9
+7/1/17	6/30/18	Bladder function	category	1	0
+7/1/17	6/30/18	Bladder function	category	2	20119.95
+7/1/17	6/30/18	Bladder function	category	3	40239.9
+7/1/17	6/30/18	Bladder function	category	4	60359.85
+7/1/17	6/30/18	Bladder function	category	5	100599.78
+7/1/17	6/30/18	Anatomical or functional loss of testes	category	1	0
+7/1/17	6/30/18	Anatomical or functional loss of testes	category	2	10059.99
+7/1/17	6/30/18	Anatomical or functional loss of testes	category	3	20119.95
+7/1/17	6/30/18	Anatomical or functional loss of testes	category	4	50299.89
+7/1/17	6/30/18	Anatomical or functional loss of testes	category	5	70419.84
+7/1/17	6/30/18	Eye - Loss of an eye	percent		48287.82
+7/1/17	6/30/18	Eye - Loss of vision in an eye	percent		40239.9
+7/1/17	6/30/18	Miscellaneous unspecified disabilities	percent		201199.53
+7/1/18	6/30/19	Neck	category	1	0
+7/1/18	6/30/19	Neck	category	2	20548.51
+7/1/18	6/30/19	Neck	category	3	41097.02
+7/1/18	6/30/19	Neck	category	4	51371.27
+7/1/18	6/30/19	Neck	category	5	71919.78
+7/1/18	6/30/19	Mid back	category	1	0
+7/1/18	6/30/19	Mid back	category	2	20548.51
+7/1/18	6/30/19	Mid back	category	3	41097.02
+7/1/18	6/30/19	Low back	category	1	0
+7/1/18	6/30/19	Low back	category	2	10274.25
+7/1/18	6/30/19	Low back	category	3	20548.51
+7/1/18	6/30/19	Low back	category	4	30822.76
+7/1/18	6/30/19	Low back	category	5	51371.27
+7/1/18	6/30/19	Low back	category	6	82194.04
+7/1/18	6/30/19	Low back	category	7	123291.05
+7/1/18	6/30/19	Low back	category	8	154113.82
+7/1/18	6/30/19	Mental health	category	1	0
+7/1/18	6/30/19	Mental health	category	2	20548.51
+7/1/18	6/30/19	Mental health	category	3	51371.27
+7/1/18	6/30/19	Mental health	category	4	92468.29
+7/1/18	6/30/19	Mental health	category	5	143839.56
+7/1/18	6/30/19	Leg - Above the Knee	percent		123291.12
+7/1/18	6/30/19	Leg - Below the knee joint	percent		98633.04
+7/1/18	6/30/19	Ankle	percent		86303.85
+7/1/18	6/30/19	Foot	percent		43151.97
+7/1/18	6/30/19	Arm - At or above shoulder	percent		123291.12
+7/1/18	6/30/19	Arm - From shoulder to elbow	percent		117126.51
+7/1/18	6/30/19	Arm - From elbow down	percent		110961.99
+7/1/18	6/30/19	Hand	percent		66577.08
+7/1/18	6/30/19	Hearing - Both ears	percent		98633.04
+7/1/18	6/30/19	Hearing - One ear	percent		16438.71
+7/1/18	6/30/19	Pelvis	category	1	0
+7/1/18	6/30/19	Pelvis	category	2	4109.7
+7/1/18	6/30/19	Pelvis	category	3	10274.25
+7/1/18	6/30/19	Pelvis	category	4	10274.25
+7/1/18	6/30/19	Pelvis	category	5	10274.25
+7/1/18	6/30/19	Pelvis	category	6	10274.25
+7/1/18	6/30/19	Pelvis	category	7	20548.51
+7/1/18	6/30/19	Pelvis	category	8	20548.51
+7/1/18	6/30/19	Pelvis	category	9	30822.76
+7/1/18	6/30/19	Heart	category	1	0
+7/1/18	6/30/19	Heart	category	2	20548.51
+7/1/18	6/30/19	Heart	category	3	41097.02
+7/1/18	6/30/19	Heart	category	4	71919.78
+7/1/18	6/30/19	Heart	category	5	102742.55
+7/1/18	6/30/19	Heart	category	6	133565.31
+7/1/18	6/30/19	Lungs	category	1	0
+7/1/18	6/30/19	Lungs	category	2	30822.76
+7/1/18	6/30/19	Lungs	category	3	51371.27
+7/1/18	6/30/19	Lungs	category	4	82194.04
+7/1/18	6/30/19	Lungs	category	5	133565.31
+7/1/18	6/30/19	Lungs	category	6	154113.82
+7/1/18	6/30/19	Loss of taste and smell	category	1	6164.55
+7/1/18	6/30/19	Loss of taste and smell	category	2	6164.55
+7/1/18	6/30/19	Speech	category	1	0
+7/1/18	6/30/19	Speech	category	2	10274.25
+7/1/18	6/30/19	Speech	category	3	20548.51
+7/1/18	6/30/19	Speech	category	4	41097.02
+7/1/18	6/30/19	Speech	category	5	61645.53
+7/1/18	6/30/19	Speech	category	6	71919.78
+7/1/18	6/30/19	Skin	category	1	0
+7/1/18	6/30/19	Skin	category	2	10274.25
+7/1/18	6/30/19	Skin	category	3	20548.51
+7/1/18	6/30/19	Skin	category	4	51371.27
+7/1/18	6/30/19	Skin	category	5	82194.04
+7/1/18	6/30/19	Skin	category	6	123291.05
+7/1/18	6/30/19	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/18	6/30/19	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	10274.25
+7/1/18	6/30/19	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	20548.51
+7/1/18	6/30/19	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	71919.78
+7/1/18	6/30/19	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	123291.05
+7/1/18	6/30/19	Lower digestive tract	category	1	0
+7/1/18	6/30/19	Lower digestive tract	category	2	10274.25
+7/1/18	6/30/19	Lower digestive tract	category	3	30822.76
+7/1/18	6/30/19	Lower digestive tract	category	4	61645.53
+7/1/18	6/30/19	Anal function	category	1	0
+7/1/18	6/30/19	Anal function	category	2	10274.25
+7/1/18	6/30/19	Anal function	category	3	30822.76
+7/1/18	6/30/19	Anal function	category	4	51371.27
+7/1/18	6/30/19	Liver	category	1	0
+7/1/18	6/30/19	Liver	category	2	10274.25
+7/1/18	6/30/19	Liver	category	3	41097.02
+7/1/18	6/30/19	Liver	category	4	82194.04
+7/1/18	6/30/19	Liver	category	5	123291.05
+7/1/18	6/30/19	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	30822.76
+7/1/18	6/30/19	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	20548.51
+7/1/18	6/30/19	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	41097.02
+7/1/18	6/30/19	Bladder function	category	1	0
+7/1/18	6/30/19	Bladder function	category	2	20548.51
+7/1/18	6/30/19	Bladder function	category	3	41097.02
+7/1/18	6/30/19	Bladder function	category	4	61645.53
+7/1/18	6/30/19	Bladder function	category	5	102742.55
+7/1/18	6/30/19	Anatomical or functional loss of testes	category	1	0
+7/1/18	6/30/19	Anatomical or functional loss of testes	category	2	10274.25
+7/1/18	6/30/19	Anatomical or functional loss of testes	category	3	20548.51
+7/1/18	6/30/19	Anatomical or functional loss of testes	category	4	51371.27
+7/1/18	6/30/19	Anatomical or functional loss of testes	category	5	71919.78
+7/1/18	6/30/19	Eye - Loss of an eye	percent		49316.34
+7/1/18	6/30/19	Eye - Loss of vision in an eye	percent		41097
+7/1/18	6/30/19	Miscellaneous unspecified disabilities	percent		205485.09
+7/1/19	6/30/20	Neck	category	1	0
+7/1/19	6/30/20	Neck	category	2	21072.5
+7/1/19	6/30/20	Neck	category	3	42144.99
+7/1/19	6/30/20	Neck	category	4	52681.24
+7/1/19	6/30/20	Neck	category	5	73753.73
+7/1/19	6/30/20	Mid back	category	1	0
+7/1/19	6/30/20	Mid back	category	2	21072.5
+7/1/19	6/30/20	Mid back	category	3	42144.99
+7/1/19	6/30/20	Low back	category	1	0
+7/1/19	6/30/20	Low back	category	2	10536.25
+7/1/19	6/30/20	Low back	category	3	21072.5
+7/1/19	6/30/20	Low back	category	4	31608.74
+7/1/19	6/30/20	Low back	category	5	52681.24
+7/1/19	6/30/20	Low back	category	6	84289.98
+7/1/19	6/30/20	Low back	category	7	126434.97
+7/1/19	6/30/20	Low back	category	8	158043.71
+7/1/19	6/30/20	Mental health	category	1	0
+7/1/19	6/30/20	Mental health	category	2	21072.5
+7/1/19	6/30/20	Mental health	category	3	52681.24
+7/1/19	6/30/20	Mental health	category	4	94826.23
+7/1/19	6/30/20	Mental health	category	5	147507.47
+7/1/19	6/30/20	Leg - Above the Knee	percent		126435.03
+7/1/19	6/30/20	Leg - Below the knee joint	percent		101148.18
+7/1/19	6/30/20	Ankle	percent		88504.59
+7/1/19	6/30/20	Foot	percent		44252.34
+7/1/19	6/30/20	Arm - At or above shoulder	percent		126435.03
+7/1/19	6/30/20	Arm - From shoulder to elbow	percent		120113.25
+7/1/19	6/30/20	Arm - From elbow down	percent		113791.53
+7/1/19	6/30/20	Hand	percent		68274.81
+7/1/19	6/30/20	Hearing - Both ears	percent		98633.04
+7/1/19	6/30/20	Hearing - One ear	percent		16438.71
+7/1/19	6/30/20	Pelvis	category	1	0
+7/1/19	6/30/20	Pelvis	category	2	4214.5
+7/1/19	6/30/20	Pelvis	category	3	10536.25
+7/1/19	6/30/20	Pelvis	category	4	10536.25
+7/1/19	6/30/20	Pelvis	category	5	10536.25
+7/1/19	6/30/20	Pelvis	category	6	10536.25
+7/1/19	6/30/20	Pelvis	category	7	21072.5
+7/1/19	6/30/20	Pelvis	category	8	21072.5
+7/1/19	6/30/20	Pelvis	category	9	31608.74
+7/1/19	6/30/20	Heart	category	1	0
+7/1/19	6/30/20	Heart	category	2	21072.5
+7/1/19	6/30/20	Heart	category	3	42144.99
+7/1/19	6/30/20	Heart	category	4	73753.73
+7/1/19	6/30/20	Heart	category	5	105362.48
+7/1/19	6/30/20	Heart	category	6	136971.22
+7/1/19	6/30/20	Lungs	category	1	0
+7/1/19	6/30/20	Lungs	category	2	31608.74
+7/1/19	6/30/20	Lungs	category	3	52681.24
+7/1/19	6/30/20	Lungs	category	4	84289.98
+7/1/19	6/30/20	Lungs	category	5	136971.22
+7/1/19	6/30/20	Lungs	category	6	158043.71
+7/1/19	6/30/20	Loss of taste and smell	category	1	6321.75
+7/1/19	6/30/20	Loss of taste and smell	category	2	6321.75
+7/1/19	6/30/20	Speech	category	1	0
+7/1/19	6/30/20	Speech	category	2	10536.25
+7/1/19	6/30/20	Speech	category	3	21072.5
+7/1/19	6/30/20	Speech	category	4	42144.99
+7/1/19	6/30/20	Speech	category	5	63217.49
+7/1/19	6/30/20	Speech	category	6	73753.73
+7/1/19	6/30/20	Skin	category	1	0
+7/1/19	6/30/20	Skin	category	2	10536.25
+7/1/19	6/30/20	Skin	category	3	21072.5
+7/1/19	6/30/20	Skin	category	4	52681.24
+7/1/19	6/30/20	Skin	category	5	84289.98
+7/1/19	6/30/20	Skin	category	6	126434.97
+7/1/19	6/30/20	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/19	6/30/20	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	10536.25
+7/1/19	6/30/20	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	21072.5
+7/1/19	6/30/20	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	73753.73
+7/1/19	6/30/20	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	126434.97
+7/1/19	6/30/20	Lower digestive tract	category	1	0
+7/1/19	6/30/20	Lower digestive tract	category	2	10536.25
+7/1/19	6/30/20	Lower digestive tract	category	3	31608.74
+7/1/19	6/30/20	Lower digestive tract	category	4	63217.49
+7/1/19	6/30/20	Anal function	category	1	0
+7/1/19	6/30/20	Anal function	category	2	10274.25
+7/1/19	6/30/20	Anal function	category	3	30822.76
+7/1/19	6/30/20	Anal function	category	4	51371.27
+7/1/19	6/30/20	Liver	category	1	0
+7/1/19	6/30/20	Liver	category	2	10536.25
+7/1/19	6/30/20	Liver	category	3	42144.99
+7/1/19	6/30/20	Liver	category	4	84289.98
+7/1/19	6/30/20	Liver	category	5	126434.97
+7/1/19	6/30/20	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	31608.74
+7/1/19	6/30/20	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	21072.5
+7/1/19	6/30/20	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	42144.99
+7/1/19	6/30/20	Bladder function	category	1	0
+7/1/19	6/30/20	Bladder function	category	2	21072.5
+7/1/19	6/30/20	Bladder function	category	3	42144.99
+7/1/19	6/30/20	Bladder function	category	4	63217.49
+7/1/19	6/30/20	Bladder function	category	5	105362.48
+7/1/19	6/30/20	Anatomical or functional loss of testes	category	1	0
+7/1/19	6/30/20	Anatomical or functional loss of testes	category	2	10536.25
+7/1/19	6/30/20	Anatomical or functional loss of testes	category	3	21072.5
+7/1/19	6/30/20	Anatomical or functional loss of testes	category	4	52681.24
+7/1/19	6/30/20	Anatomical or functional loss of testes	category	5	73753.73
+7/1/19	6/30/20	Eye - Loss of an eye	percent		50573.91
+7/1/19	6/30/20	Eye - Loss of vision in an eye	percent		42144.96
+7/1/19	6/30/20	Miscellaneous unspecified disabilities	percent		210724.95
+7/1/20	6/30/21	Neck	category	1	0
+7/1/20	6/30/21	Neck	category	2	21422.3
+7/1/20	6/30/21	Neck	category	3	42844.6
+7/1/20	6/30/21	Neck	category	4	53555.75
+7/1/20	6/30/21	Neck	category	5	74978.04
+7/1/20	6/30/21	Mid back	category	1	0
+7/1/20	6/30/21	Mid back	category	2	21422.3
+7/1/20	6/30/21	Mid back	category	3	42844.6
+7/1/20	6/30/21	Low back	category	1	0
+7/1/20	6/30/21	Low back	category	2	10711.15
+7/1/20	6/30/21	Low back	category	3	21422.3
+7/1/20	6/30/21	Low back	category	4	32133.45
+7/1/20	6/30/21	Low back	category	5	53555.75
+7/1/20	6/30/21	Low back	category	6	85689.19
+7/1/20	6/30/21	Low back	category	7	128533.79
+7/1/20	6/30/21	Low back	category	8	160667.23
+7/1/20	6/30/21	Mental health	category	1	0
+7/1/20	6/30/21	Mental health	category	2	21422.3
+7/1/20	6/30/21	Mental health	category	3	53555.75
+7/1/20	6/30/21	Mental health	category	4	96400.34
+7/1/20	6/30/21	Mental health	category	5	149956.09
+7/1/20	6/30/21	Leg - Above the Knee	percent		115680.48
+7/1/20	6/30/21	Leg - Below the knee joint	percent		102827.25
+7/1/20	6/30/21	Ankle	percent		89973.78
+7/1/20	6/30/21	Foot	percent		44986.92
+7/1/20	6/30/21	Arm - At or above shoulder	percent		128533.86
+7/1/20	6/30/21	Arm - From shoulder to elbow	percent		122107.14
+7/1/20	6/30/21	Arm - From elbow down	percent		115680.48
+7/1/20	6/30/21	Hand	percent		
+7/1/20	6/30/21	Hearing - Both ears	percent		102827.25
+7/1/20	6/30/21	Hearing - One ear	percent		17137.74
+7/1/20	6/30/21	Pelvis	category	1	0
+7/1/20	6/30/21	Pelvis	category	2	4284.46
+7/1/20	6/30/21	Pelvis	category	3	10711.15
+7/1/20	6/30/21	Pelvis	category	4	10711.15
+7/1/20	6/30/21	Pelvis	category	5	10711.15
+7/1/20	6/30/21	Pelvis	category	6	10711.15
+7/1/20	6/30/21	Pelvis	category	7	21422.3
+7/1/20	6/30/21	Pelvis	category	8	21422.3
+7/1/20	6/30/21	Pelvis	category	9	32133.45
+7/1/20	6/30/21	Heart	category	1	0
+7/1/20	6/30/21	Heart	category	2	21422.3
+7/1/20	6/30/21	Heart	category	3	42844.6
+7/1/20	6/30/21	Heart	category	4	74978.04
+7/1/20	6/30/21	Heart	category	5	107111.49
+7/1/20	6/30/21	Heart	category	6	139244.94
+7/1/20	6/30/21	Lungs	category	1	0
+7/1/20	6/30/21	Lungs	category	2	32133.45
+7/1/20	6/30/21	Lungs	category	3	53555.75
+7/1/20	6/30/21	Lungs	category	4	85689.19
+7/1/20	6/30/21	Lungs	category	5	139244.94
+7/1/20	6/30/21	Lungs	category	6	160667.23
+7/1/20	6/30/21	Loss of taste and smell	category	1	6426.69
+7/1/20	6/30/21	Loss of taste and smell	category	2	6426.69
+7/1/20	6/30/21	Speech	category	1	0
+7/1/20	6/30/21	Speech	category	2	10711.15
+7/1/20	6/30/21	Speech	category	3	21422.3
+7/1/20	6/30/21	Speech	category	4	42844.6
+7/1/20	6/30/21	Speech	category	5	64266.89
+7/1/20	6/30/21	Speech	category	6	74978.04
+7/1/20	6/30/21	Skin	category	1	0
+7/1/20	6/30/21	Skin	category	2	10711.15
+7/1/20	6/30/21	Skin	category	3	21422.3
+7/1/20	6/30/21	Skin	category	4	53555.75
+7/1/20	6/30/21	Skin	category	5	85689.19
+7/1/20	6/30/21	Skin	category	6	128533.79
+7/1/20	6/30/21	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/20	6/30/21	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	10711.15
+7/1/20	6/30/21	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	21422.3
+7/1/20	6/30/21	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	74978.04
+7/1/20	6/30/21	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	128533.79
+7/1/20	6/30/21	Lower digestive tract	category	1	0
+7/1/20	6/30/21	Lower digestive tract	category	2	10711.15
+7/1/20	6/30/21	Lower digestive tract	category	3	32133.45
+7/1/20	6/30/21	Lower digestive tract	category	4	64266.89
+7/1/20	6/30/21	Anal function	category	1	0
+7/1/20	6/30/21	Anal function	category	2	10711.15
+7/1/20	6/30/21	Anal function	category	3	32133.45
+7/1/20	6/30/21	Anal function	category	4	53555.75
+7/1/20	6/30/21	Liver	category	1	0
+7/1/20	6/30/21	Liver	category	2	10711.15
+7/1/20	6/30/21	Liver	category	3	42844.6
+7/1/20	6/30/21	Liver	category	4	85689.19
+7/1/20	6/30/21	Liver	category	5	128533.79
+7/1/20	6/30/21	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	32133.45
+7/1/20	6/30/21	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	21422.3
+7/1/20	6/30/21	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	42844.6
+7/1/20	6/30/21	Bladder function	category	1	0
+7/1/20	6/30/21	Bladder function	category	2	21422.3
+7/1/20	6/30/21	Bladder function	category	3	42844.6
+7/1/20	6/30/21	Bladder function	category	4	64266.89
+7/1/20	6/30/21	Bladder function	category	5	107111.49
+7/1/20	6/30/21	Anatomical or functional loss of testes	category	1	0
+7/1/20	6/30/21	Anatomical or functional loss of testes	category	2	10711.15
+7/1/20	6/30/21	Anatomical or functional loss of testes	category	3	21422.3
+7/1/20	6/30/21	Anatomical or functional loss of testes	category	4	53555.75
+7/1/20	6/30/21	Anatomical or functional loss of testes	category	5	74978.04
+7/1/20	6/30/21	Eye - Loss of an eye	percent		51413.43
+7/1/20	6/30/21	Eye - Loss of vision in an eye	percent		42844.56
+7/1/20	6/30/21	Miscellaneous unspecified disabilities	percent		214222.98
+7/1/21	6/30/22	Neck	category	1	0
+7/1/21	6/30/22	Neck	category	2	21681.51
+7/1/21	6/30/22	Neck	category	3	43363
+7/1/21	6/30/22	Neck	category	4	54203.76
+7/1/21	6/30/22	Neck	category	5	75885.27
+7/1/21	6/30/22	Mid back	category	1	0
+7/1/21	6/30/22	Mid back	category	2	21681.51
+7/1/21	6/30/22	Mid back	category	3	43363.01
+7/1/21	6/30/22	Low back	category	1	0
+7/1/21	6/30/22	Low back	category	2	10840.74
+7/1/21	6/30/22	Low back	category	3	21681.51
+7/1/21	6/30/22	Low back	category	4	32522.25
+7/1/21	6/30/22	Low back	category	5	54203.76
+7/1/21	6/30/22	Low back	category	6	86726.04
+7/1/21	6/30/22	Low back	category	7	130089.03
+7/1/21	6/30/22	Low back	category	8	162611.31
+7/1/21	6/30/22	Mental health	category	1	0
+7/1/21	6/30/22	Mental health	category	2	21681.51
+7/1/21	6/30/22	Mental health	category	3	54203.76
+7/1/21	6/30/22	Mental health	category	4	97566.78
+7/1/21	6/30/22	Mental health	category	5	151770.54
+7/1/21	6/30/22	Leg - Above the Knee	percent		117080.22
+7/1/21	6/30/22	Leg - Below the knee joint	percent		104071.47
+7/1/21	6/30/22	Ankle	percent		91062.45
+7/1/21	6/30/22	Foot	percent		45531.27
+7/1/21	6/30/22	Arm - At or above shoulder	percent		130089.12
+7/1/21	6/30/22	Arm - From shoulder to elbow	percent		123584.64
+7/1/21	6/30/22	Arm - From elbow down	percent		117080.22
+7/1/21	6/30/22	Hand	percent		
+7/1/21	6/30/22	Hearing - Both ears	percent		104071.47
+7/1/21	6/30/22	Hearing - One ear	percent		17345.1
+7/1/21	6/30/22	Pelvis	category	1	0
+7/1/21	6/30/22	Pelvis	category	2	4366.29
+7/1/21	6/30/22	Pelvis	category	3	10840.74
+7/1/21	6/30/22	Pelvis	category	4	10840.75
+7/1/21	6/30/22	Pelvis	category	5	10840.75
+7/1/21	6/30/22	Pelvis	category	6	10840.74
+7/1/21	6/30/22	Pelvis	category	7	21681.51
+7/1/21	6/30/22	Pelvis	category	8	21681.51
+7/1/21	6/30/22	Pelvis	category	9	32522.25
+7/1/21	6/30/22	Heart	category	1	0
+7/1/21	6/30/22	Heart	category	2	21681.51
+7/1/21	6/30/22	Heart	category	3	43363.02
+7/1/21	6/30/22	Heart	category	4	75885.27
+7/1/21	6/30/22	Heart	category	5	108407.55
+7/1/21	6/30/22	Heart	category	6	140929.8
+7/1/21	6/30/22	Lungs	category	1	0
+7/1/21	6/30/22	Lungs	category	2	32522.26
+7/1/21	6/30/22	Lungs	category	3	54203.76
+7/1/21	6/30/22	Lungs	category	4	86726.04
+7/1/21	6/30/22	Lungs	category	5	140929.8
+7/1/21	6/30/22	Lungs	category	6	162611.31
+7/1/21	6/30/22	Loss of taste and smell	category	1	6504.45
+7/1/21	6/30/22	Loss of taste and smell	category	2	6504.45
+7/1/21	6/30/22	Speech	category	1	0
+7/1/21	6/30/22	Speech	category	2	10840.74
+7/1/21	6/30/22	Speech	category	3	21681.51
+7/1/21	6/30/22	Speech	category	4	43363.02
+7/1/21	6/30/22	Speech	category	5	65044.53
+7/1/21	6/30/22	Speech	category	6	75885.27
+7/1/21	6/30/22	Skin	category	1	0
+7/1/21	6/30/22	Skin	category	2	10840.74
+7/1/21	6/30/22	Skin	category	3	21681.51
+7/1/21	6/30/22	Skin	category	4	54203.76
+7/1/21	6/30/22	Skin	category	5	86726.04
+7/1/21	6/30/22	Skin	category	6	130089.03
+7/1/21	6/30/22	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0
+7/1/21	6/30/22	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	10840.74
+7/1/21	6/30/22	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	21681.51
+7/1/21	6/30/22	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	75885.27
+7/1/21	6/30/22	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	130089.03
+7/1/21	6/30/22	Lower digestive tract	category	1	0
+7/1/21	6/30/22	Lower digestive tract	category	2	10840.74
+7/1/21	6/30/22	Lower digestive tract	category	3	32522.26
+7/1/21	6/30/22	Lower digestive tract	category	4	65044.52
+7/1/21	6/30/22	Anal function	category	1	0
+7/1/21	6/30/22	Anal function	category	2	10840.74
+7/1/21	6/30/22	Anal function	category	3	32522.25
+7/1/21	6/30/22	Anal function	category	4	54203.77
+7/1/21	6/30/22	Liver	category	1	0
+7/1/21	6/30/22	Liver	category	2	10840.74
+7/1/21	6/30/22	Liver	category	3	43363.02
+7/1/21	6/30/22	Liver	category	4	86726.03
+7/1/21	6/30/22	Liver	category	5	130089.03
+7/1/21	6/30/22	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	32522.25
+7/1/21	6/30/22	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	21681.51
+7/1/21	6/30/22	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	43363.02
+7/1/21	6/30/22	Bladder function	category	1	0
+7/1/21	6/30/22	Bladder function	category	2	21681.51
+7/1/21	6/30/22	Bladder function	category	3	43363.02
+7/1/21	6/30/22	Bladder function	category	4	65044.53
+7/1/21	6/30/22	Bladder function	category	5	108407.55
+7/1/21	6/30/22	Anatomical or functional loss of testes	category	1	0
+7/1/21	6/30/22	Anatomical or functional loss of testes	category	2	10840.74
+7/1/21	6/30/22	Anatomical or functional loss of testes	category	3	21681.51
+7/1/21	6/30/22	Anatomical or functional loss of testes	category	4	54203.76
+7/1/21	6/30/22	Anatomical or functional loss of testes	category	5	75885.27
+7/1/21	6/30/22	Eye - Loss of an eye	percent		52035.54
+7/1/21	6/30/22	Eye - Loss of vision in an eye	percent		43362.99
+7/1/21	6/30/22	Miscellaneous unspecified disabilities	percent		216815.07
+7/1/22	6/30/23	Neck	category	1	0
+7/1/22	6/30/23	Neck	category	2	"22,821.96"
+7/1/22	6/30/23	Neck	category	3	" 45,643.92 "
+7/1/22	6/30/23	Neck	category	4	"57,054.90"
+7/1/22	6/30/23	Neck	category	5	"79,876.83"
+7/1/22	6/30/23	Mid back	category	1	0.00
+7/1/22	6/30/23	Mid back	category	2	"22,821.96"
+7/1/22	6/30/23	Mid back	category	3	"45,643.92"
+7/1/22	6/30/23	Low back	category	1	0.00
+7/1/22	6/30/23	Low back	category	2	"11,410.98"
+7/1/22	6/30/23	Low back	category	3	"22,821.96"
+7/1/22	6/30/23	Low back	category	4	"34,232.94"
+7/1/22	6/30/23	Low back	category	5	"57,054.90"
+7/1/22	6/30/23	Low back	category	6	"91,287.81"
+7/1/22	6/30/23	Low back	category	7	"136,931.73"
+7/1/22	6/30/23	Low back	category	8	"171,164.67"
+7/1/22	6/30/23	Mental health	category	1	0.00
+7/1/22	6/30/23	Mental health	category	2	"22,821.96"
+7/1/22	6/30/23	Mental health	category	3	"57,054.90"
+7/1/22	6/30/23	Mental health	category	4	"102,698.79"
+7/1/22	6/30/23	Mental health	category	5	"159,753.69"
+7/1/22	6/30/23	Leg - Above the Knee	percent		"123,238.65"
+7/1/22	6/30/23	Leg - Below the knee joint	percent		"109,545.63"
+7/1/22	6/30/23	Ankle	percent		"95,852.34"
+7/1/22	6/30/23	Foot	percent		"47,926.20"
+7/1/22	6/30/23	Arm - At or above shoulder	percent		"136,931.82"
+7/1/22	6/30/23	Arm - From shoulder to elbow	percent		"130,085.19"
+7/1/22	6/30/23	Arm - From elbow down	percent		"123,238.65"
+7/1/22	6/30/23	Hand	percent		"73,943.07"
+7/1/22	6/30/23	Hearing - Both ears	percent		"109,545.63"
+7/1/22	6/30/23	Hearing - One ear	percent		"18,257.46"
+7/1/22	6/30/23	Pelvis	category	1	0.00
+7/1/22	6/30/23	Pelvis	category	2	"4,564.38"
+7/1/22	6/30/23	Pelvis	category	3	"11,410.98"
+7/1/22	6/30/23	Pelvis	category	4	"11,410.98"
+7/1/22	6/30/23	Pelvis	category	5	"11,410.98"
+7/1/22	6/30/23	Pelvis	category	6	"11,410.98"
+7/1/22	6/30/23	Pelvis	category	7	"22,821.96"
+7/1/22	6/30/23	Pelvis	category	8	"22,821.96"
+7/1/22	6/30/23	Pelvis	category	9	"34,232.94"
+7/1/22	6/30/23	Heart	category	1	0.00
+7/1/22	6/30/23	Heart	category	2	"22,821.96"
+7/1/22	6/30/23	Heart	category	3	"45,643.92"
+7/1/22	6/30/23	Heart	category	4	"79,876.83"
+7/1/22	6/30/23	Heart	category	5	"114,109.77"
+7/1/22	6/30/23	Heart	category	6	"148,342.71"
+7/1/22	6/30/23	Lungs	category	1	0.00
+7/1/22	6/30/23	Lungs	category	2	"34,232.94"
+7/1/22	6/30/23	Lungs	category	3	"57,054.90"
+7/1/22	6/30/23	Lungs	category	4	"91,287.81"
+7/1/22	6/30/23	Lungs	category	5	"148,342.71"
+7/1/22	6/30/23	Lungs	category	6	"171,164.67"
+7/1/22	6/30/23	Loss of taste and smell	category	1	"6,845.60"
+7/1/22	6/30/23	Loss of taste and smell	category	2	"6,845.60"
+7/1/22	6/30/23	Speech	category	1	0.00
+7/1/22	6/30/23	Speech	category	2	"11,410.98"
+7/1/22	6/30/23	Speech	category	3	"22,821.96"
+7/1/22	6/30/23	Speech	category	4	"45,643.92"
+7/1/22	6/30/23	Speech	category	5	"68,465.85"
+7/1/22	6/30/23	Speech	category	6	"79,876.83"
+7/1/22	6/30/23	Skin	category	1	0.00
+7/1/22	6/30/23	Skin	category	2	"11,410.98"
+7/1/22	6/30/23	Skin	category	3	"22,821.96"
+7/1/22	6/30/23	Skin	category	4	"57,054.90"
+7/1/22	6/30/23	Skin	category	5	"91,287.81"
+7/1/22	6/30/23	Skin	category	6	"136,931.73"
+7/1/22	6/30/23	"Upper digestive tract, stomach, esophagus, or pancreas"	category	1	0.00
+7/1/22	6/30/23	"Upper digestive tract, stomach, esophagus, or pancreas"	category	2	"11,410.98"
+7/1/22	6/30/23	"Upper digestive tract, stomach, esophagus, or pancreas"	category	3	"22,821.96"
+7/1/22	6/30/23	"Upper digestive tract, stomach, esophagus, or pancreas"	category	4	"79,876.83"
+7/1/22	6/30/23	"Upper digestive tract, stomach, esophagus, or pancreas"	category	5	"136,931.73"
+7/1/22	6/30/23	Lower digestive tract	category	1	0.00
+7/1/22	6/30/23	Lower digestive tract	category	2	"11,410.98"
+7/1/22	6/30/23	Lower digestive tract	category	3	"34,232.94"
+7/1/22	6/30/23	Lower digestive tract	category	4	"68,465.85"
+7/1/22	6/30/23	Anal function	category	1	0.00
+7/1/22	6/30/23	Anal function	category	2	"11,410.98"
+7/1/22	6/30/23	Anal function	category	3	"34,232.94"
+7/1/22	6/30/23	Anal function	category	4	"57,054.90"
+7/1/22	6/30/23	Liver	category	1	0.00
+7/1/22	6/30/23	Liver	category	2	"11,410.98"
+7/1/22	6/30/23	Liver	category	3	"45,643.92"
+7/1/22	6/30/23	Liver	category	4	"91,287.81"
+7/1/22	6/30/23	Liver	category	5	"136,931.73"
+7/1/22	6/30/23	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	1	"34,232.94"
+7/1/22	6/30/23	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	2	"22,821.96"
+7/1/22	6/30/23	"Spleen, loss of one kidney & surgical removal of bladder with urinary"	category	3	"45,643.92"
+7/1/22	6/30/23	Bladder function	category	1	0.00
+7/1/22	6/30/23	Bladder function	category	2	"22,821.96"
+7/1/22	6/30/23	Bladder function	category	3	"45,643.92"
+7/1/22	6/30/23	Bladder function	category	4	"68,465.85"
+7/1/22	6/30/23	Bladder function	category	5	"114,109.77"
+7/1/22	6/30/23	Anatomical or functional loss of testes	category	1	0.00
+7/1/22	6/30/23	Anatomical or functional loss of testes	category	2	"11,410.98"
+7/1/22	6/30/23	Anatomical or functional loss of testes	category	3	"22,821.96"
+7/1/22	6/30/23	Anatomical or functional loss of testes	category	4	"57,054.90"
+7/1/22	6/30/23	Anatomical or functional loss of testes	category	5	"79,876.83"
+7/1/22	6/30/23	Eye - Loss of an eye	percent		"54,772.62"
+7/1/22	6/30/23	Eye - Loss of vision in an eye	percent		"45,643.89"
+7/1/22	6/30/23	Miscellaneous unspecified disabilities	percent		"228,219.54"
