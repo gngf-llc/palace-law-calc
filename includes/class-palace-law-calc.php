@@ -266,6 +266,8 @@ class Palace_Law_Calc {
 
         $table = $wpdb->prefix."plc_calc_data";
 		$wpdb->query("DROP TABLE IF EXISTS `$table`;");
+
+	// User default charset
         $query = "CREATE TABLE $table (
             begin_date DATE,
             end_date DATE,
@@ -273,12 +275,19 @@ class Palace_Law_Calc {
             rating_type VARCHAR(8),
             category TINYINT(1),
             amount DECIMAL(10,2)
-        ) ENGINE=MyISAM DEFAULT CHARSET=utf8;";
+        ) DEFAULT CHARSET=utf8;";
 
         $wpdb->query($query);
 
-        //load csv file
-        $lines = file(plugins_url('/injury_data.tsv', __FILE__ ));
+        //load tsv file from path.
+	$path = plugin_dir_path( __FILE__ ) . 'injury_data.tsv';
+        $lines = file($path);
+
+	if ( ! $lines ) {
+		self::log_error('Injury data could not be loaded.');
+		throw new Exception("Error loading Injury data.", 1);
+	}
+
         $columns = array_shift($lines);
         $columns = explode("\t",rtrim($columns));
         foreach($lines as $line_num => $line)
